@@ -1,0 +1,9 @@
+{
+  "checkpoint": "checkpoints/joint_full.pt",
+  "sha256": "8104c4661f31d45122e19bb117e298b62e92fceb8bf4da101586557415ced560",
+  "step": 1500,
+  "predicted_cells": 1024,
+  "nodes": 25790,
+  "weights_unchanged": true,
+  "sampling": "original evaluation rng_for; corrected DistributionModel; CPU float32"
+}

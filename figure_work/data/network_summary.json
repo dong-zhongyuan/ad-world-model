@@ -1,0 +1,43 @@
+{
+  "status": "network_complete",
+  "repair_version": "matched_signed_mean_filter_before_top15_all_members",
+  "checkpoint": "checkpoints/joint_full.pt",
+  "checkpoint_sha256": "8104c4661f31d45122e19bb117e298b62e92fceb8bf4da101586557415ced560",
+  "n_edges": 119856,
+  "n_orthogroup_edges": 90882,
+  "n_graph_edges": 78028,
+  "n_candidates": 2274,
+  "n_ambiguous_member_candidates": 379,
+  "n_blood_nodes": 6798,
+  "hub_cutoff_score": 7.718729099462089e-05,
+  "n_hub50_candidates": 1450,
+  "watched_targets": [
+    {
+      "gene": "BIN1",
+      "in_v3_network": true,
+      "hub_top50": true,
+      "rank": 152,
+      "top_percent": 2.2215683389730763
+    },
+    {
+      "gene": "GRN",
+      "in_v3_network": true,
+      "hub_top50": true,
+      "rank": 1143,
+      "top_percent": 16.801530086803
+    }
+  ],
+  "stop_docking_md_targets": [],
+  "MR_status": "pending_new_candidate_family",
+  "hashes": {
+    "validated_edges_reverse.csv": "b271caa79d17209fe13024914fcf942a7982d8b5b527e213e392e20432477c6b",
+    "candidate_coverage.csv": "9cfe273c7be20d9e99e94f46064361351176459aafdd920afca0629f8fd9aeb9",
+    "hub/candidate_hub_ranks.csv": "2f6918e534e4e3c793623501e874ab707bcbf869e62b357f678b0af249d274ef",
+    "hub/blood_hub_ranks.csv": "59e7c87cb8ea1daab5d0a8cc0bdc63553566174d8a2efa9ad361ce6b6fd2272d"
+  },
+  "mapping_source_sha256": "a270f0ddc8549eee83b20091648262581da5a820a9bddd997e8122f891f119b9",
+  "finalization_code_sha256": "888363255145b69fe5448a9446d1a6eaf4cf798b3e6f4430eb720f26818f99fc",
+  "member_mapping": "All human members and all model OG memberships retained; nonself member pairs share each OG edge mass equally",
+  "selection": "matched abs(mean_cell_delta) empirical rank<=.05 and valid shared-OG member pairs before top15",
+  "n_genes_with_multiple_model_nodes": 16
+}

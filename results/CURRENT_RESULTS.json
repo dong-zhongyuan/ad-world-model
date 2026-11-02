@@ -1,0 +1,6 @@
+{
+  "recommended_checkpoint": "checkpoints/joint_full.pt",
+  "recommended_checkpoint_actual_step": 1500,
+  "network_results": "results/network_v3_repair",
+  "mr_results": "results/mr/union_primary"
+}

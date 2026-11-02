@@ -1,0 +1,75 @@
+{
+  "n_exposure": 3217,
+  "n_outcome": 8321,
+  "n_shared": 3176,
+  "n_aligned": 3122,
+  "ambiguous_exposure_keys": 0,
+  "ambiguous_outcome_keys": 0,
+  "exclusions": {
+    "palindrome_ambiguous_frequency": 54
+  },
+  "status": "complete",
+  "sdY_estimated": 0.9856678724301144,
+  "sdY_method": "coloc::sdY.est(SE^2,EAF,N)",
+  "PP_H3": 0.000596093953353766,
+  "PP_H4": 0.9994039060077953,
+  "top_shared_variant": "rs6733839",
+  "top_shared_position": 127135234,
+  "top_variant_conditional_PP_H4": 0.9999999999942588,
+  "sensitivity": [
+    {
+      "p12": 1e-06,
+      "primary": false,
+      "PP_H0": 4.3418448866539874e-92,
+      "PP_H1": 1.783711956951003e-84,
+      "PP_H2": 3.8629768986959983e-10,
+      "PP_H3": 0.005929130661044075,
+      "PP_H4": 0.9940708689526668
+    },
+    {
+      "p12": 1e-05,
+      "primary": true,
+      "PP_H0": 4.365138215521559e-93,
+      "PP_H1": 1.793281296783016e-85,
+      "PP_H2": 3.883701174587508e-11,
+      "PP_H3": 0.000596093953353766,
+      "PP_H4": 0.9994039060077953
+    },
+    {
+      "p12": 0.0001,
+      "primary": false,
+      "PP_H0": 4.367481301950144e-94,
+      "PP_H1": 1.7942438809811947e-86,
+      "PP_H2": 3.88578583882162e-12,
+      "PP_H3": 5.964139202330044e-05,
+      "PP_H4": 0.9999403586040951
+    }
+  ],
+  "scale_sensitivity": [
+    {
+      "sdY_multiplier": 0.5,
+      "PP_H0": 8.99983460700158e-93,
+      "PP_H1": 1.7435355855523154e-85,
+      "PP_H2": 8.007230586656026e-11,
+      "PP_H3": 0.0005517904609379219,
+      "PP_H4": 0.9994482094590001
+    },
+    {
+      "sdY_multiplier": 2.0,
+      "PP_H0": 5.987279380021493e-93,
+      "PP_H1": 1.810359841756101e-85,
+      "PP_H2": 5.326934180019939e-11,
+      "PP_H3": 0.0006113040924872169,
+      "PP_H4": 0.9993886958542343
+    }
+  ],
+  "gene": "BIN1",
+  "assay": "GCST90090757",
+  "exposure_source": "AGES",
+  "outcome": "Bellenguez_stageI",
+  "primary": "True",
+  "exposure_sha256": "eebe2b40fcbec1f9767abb08097cff01fc29c66c9bec26f3dc47325c0f34eda3",
+  "outcome_sha256": "bd11341b9e7c95639fb43ada5d12fc41e443a1e9bbe5d9856051758ab54e3f9f",
+  "method": "single-causal-variant ABF; unfiltered full regional statistics",
+  "interpretation": "Shared-signal evidence, not tissue mediation or efficacy"
+}

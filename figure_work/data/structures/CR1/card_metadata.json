@@ -1,0 +1,41 @@
+{
+  "rank": 5,
+  "target": "CR1",
+  "screening_name": "CR1",
+  "group": "intersection",
+  "uniprot": "P17927",
+  "chembl_id": "CHEMBL1308",
+  "name": "FOMEPIZOLE",
+  "score_max_pocket_z": 7.114034175872803,
+  "best_state_id": "CHEMBL1308_s001",
+  "best_state_smiles": "Cc1cn[nH]c1",
+  "states_scored": 2,
+  "best_pocket": "CR1_AF-P17927-F1_pocket23",
+  "best_pocket_mean_cosine": 0.5514398217201233,
+  "folds_in_top_1_percent": 4,
+  "median_fold_rank_percent": 0.674793208532869,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 63.73249999999999,
+  "pocket_fraction_pLDDT_ge70": 0.0833333333333333,
+  "vina_score": -3.196,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 2.9293584621892896,
+  "selected_residues": [
+    [
+      "A",
+      1095
+    ],
+    [
+      "A",
+      1105
+    ],
+    [
+      "A",
+      1106
+    ],
+    [
+      "A",
+      1103
+    ]
+  ]
+}

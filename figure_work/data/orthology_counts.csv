@@ -1,0 +1,5 @@
+source,target,count,group
+1 mouse gene,1 human gene,18784,Orthology features
+1 mouse gene,>1 human genes,1397,Orthology features
+1 mouse gene,No human gene,2394,Orthology features
+No mouse gene,1 human gene,3215,Orthology features

@@ -1,0 +1,13 @@
+{
+  "species": "joint",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {
+    "stochastic": false,
+    "beta_kl": 0
+  },
+  "name": "joint_deterministic",
+  "description": "Deterministic encoding, no VAE sampling/KL"
+}

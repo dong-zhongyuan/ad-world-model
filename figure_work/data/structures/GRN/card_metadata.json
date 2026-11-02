@@ -1,0 +1,41 @@
+{
+  "rank": 3,
+  "target": "GRN",
+  "screening_name": "GRN",
+  "group": "intersection",
+  "uniprot": "P28799",
+  "chembl_id": "CHEMBL666",
+  "name": "FOSCARNET",
+  "score_max_pocket_z": 6.258462429046631,
+  "best_state_id": "CHEMBL666_s000",
+  "best_state_smiles": "O=C([O-])P(=O)(O)O",
+  "states_scored": 1,
+  "best_pocket": "GRN_AF-P28799-F1_pocket8",
+  "best_pocket_mean_cosine": 0.421692281961441,
+  "folds_in_top_1_percent": 3,
+  "median_fold_rank_percent": 2.39442751414889,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 92.512,
+  "pocket_fraction_pLDDT_ge70": 1.0,
+  "vina_score": -3.818,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 2.8064123004291437,
+  "selected_residues": [
+    [
+      "A",
+      399
+    ],
+    [
+      "A",
+      411
+    ],
+    [
+      "A",
+      398
+    ],
+    [
+      "A",
+      413
+    ]
+  ]
+}

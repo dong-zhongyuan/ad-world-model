@@ -1,0 +1,21 @@
+{
+  "library": "GO_Biological_Process_2023",
+  "library_sha256": "e9721c404d0b6b17a3bd59924f410b88689836c094e503becfbad5b170a09632",
+  "source_url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=GO_Biological_Process_2023",
+  "unit": "orthogroup; each GO set maps to unique tested OGs",
+  "family": 253162,
+  "queries": 60,
+  "correction": "BH over all tested target-route-GO hypotheses",
+  "significant": 17,
+  "background": "Actual cached target indices and shared-OG/member-level nonself eligibility, per source and route",
+  "display_terms": [
+    "Cytoplasmic Translation (GO:0002181)",
+    "Peptide Biosynthetic Process (GO:0043043)",
+    "Macromolecule Biosynthetic Process (GO:0009059)",
+    "Translation (GO:0006412)",
+    "Gene Expression (GO:0010467)",
+    "Regulation Of Dendritic Cell Differentiation (GO:2001198)",
+    "Positive Regulation Of Leukocyte Degranulation (GO:0043302)",
+    "Microglial Cell Activation (GO:0001774)"
+  ]
+}

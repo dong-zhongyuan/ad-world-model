@@ -1,0 +1,41 @@
+{
+  "rank": 1,
+  "target": "BST2",
+  "screening_name": "BST2",
+  "group": "union_only",
+  "uniprot": "Q10589",
+  "chembl_id": "CHEMBL931",
+  "name": "HALOTHANE",
+  "score_max_pocket_z": 4.882030963897705,
+  "best_state_id": "CHEMBL931_s001",
+  "best_state_smiles": "FC(F)(F)[C@H](Cl)Br",
+  "states_scored": 2,
+  "best_pocket": "BST2_AF-Q10589-F1_pocket10",
+  "best_pocket_mean_cosine": 0.4921816289424896,
+  "folds_in_top_1_percent": 4,
+  "median_fold_rank_percent": 0.5877231171092729,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 98.37714285714286,
+  "pocket_fraction_pLDDT_ge70": 1.0,
+  "vina_score": -2.803,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 3.0469975385615293,
+  "selected_residues": [
+    [
+      "A",
+      119
+    ],
+    [
+      "A",
+      123
+    ],
+    [
+      "A",
+      126
+    ],
+    [
+      "A",
+      122
+    ]
+  ]
+}

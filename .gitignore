@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.venv/
+.env
+checkpoints/
+runs/
+work/
+figure_work/build/
+figure_work/references/
+*.tmp
+Rplots.pdf

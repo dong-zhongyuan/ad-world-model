@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "targets": 10,
+  "intersection_targets": 5,
+  "union_only_targets": 5,
+  "parents_per_target": 2297,
+  "states_per_target": 10323,
+  "pockets": 323,
+  "raw_matrix_shape": [
+    6,
+    323,
+    10323
+  ],
+  "all_six_models": true,
+  "max_independent_float64_product_difference": 4.94688720209524e-07,
+  "all_target_tables_have_every_parent": true,
+  "earlier_raw_files_preserved_as_superseded": true,
+  "source_identity_verified": true,
+  "actual_encoder_row_identity_verified": true,
+  "raw_scores_sha256": "7a8c20e8612dcf892491e344bc0d05ee65b84930c230817286bb0f977d87248c",
+  "candidate_scores_are_virtual_screening_rankings": true,
+  "additional_score_inclusion_gate": null
+}

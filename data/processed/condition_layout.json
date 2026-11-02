@@ -1,0 +1,38 @@
+{
+  "species": [
+    "mouse",
+    "human"
+  ],
+  "disease": [
+    "CTRL",
+    "AD"
+  ],
+  "brain": [
+    "Micro",
+    "Oligo",
+    "Astro",
+    "OPC",
+    "Neuron",
+    "Endo",
+    "Pericyte",
+    "B",
+    "MDM",
+    "T",
+    "Unresolved"
+  ],
+  "blood": [
+    "HSPC",
+    "MyeloidP",
+    "Mono",
+    "B",
+    "T",
+    "CD4T",
+    "CD8T",
+    "NK",
+    "DC",
+    "Mega",
+    "Ery",
+    "Prolif",
+    "Unresolved"
+  ]
+}

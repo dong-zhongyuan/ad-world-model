@@ -1,0 +1,11 @@
+{
+  "species": "joint",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {},
+  "mouse_label_swap": true,
+  "name": "joint_mouse_labels_swapped",
+  "description": "Break mouse disease alignment; not presented as a valid model"
+}

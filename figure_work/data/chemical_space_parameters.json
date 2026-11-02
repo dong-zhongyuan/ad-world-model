@@ -1,0 +1,12 @@
+{
+  "rdkit_version": "2024.03.2",
+  "parents": 2297,
+  "fingerprint": "Morgan radius2 2048bits chirality",
+  "distance": "1-Tanimoto",
+  "projection": "classical multidimensional scaling; two largest positive eigenvectors",
+  "eigenvalues": [
+    25.636959681595453,
+    33.41056363438758
+  ],
+  "normalization": "salt stripping, RDKit cleanup, uncharging for chemical display only; DrugCLIP ranks unchanged"
+}

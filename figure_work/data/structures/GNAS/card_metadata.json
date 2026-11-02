@@ -1,0 +1,41 @@
+{
+  "rank": 5,
+  "target": "GNAS",
+  "screening_name": "NESP55",
+  "group": "union_only",
+  "uniprot": "O95467",
+  "chembl_id": "CHEMBL1324",
+  "name": "TOLCAPONE",
+  "score_max_pocket_z": 4.389899730682373,
+  "best_state_id": "CHEMBL1324_s002",
+  "best_state_smiles": "Cc1ccc(C(=O)c2cc([O-])c(O)c([N+](=O)[O-])c2)cc1",
+  "states_scored": 4,
+  "best_pocket": "GNAS_AF-O95467-F1_pocket5",
+  "best_pocket_mean_cosine": 0.6239418387413025,
+  "folds_in_top_1_percent": 2,
+  "median_fold_rank_percent": 1.436656508489334,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 72.08461538461538,
+  "pocket_fraction_pLDDT_ge70": 0.5384615384615384,
+  "vina_score": -5.454,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 2.7303285516582085,
+  "selected_residues": [
+    [
+      "A",
+      152
+    ],
+    [
+      "A",
+      150
+    ],
+    [
+      "A",
+      169
+    ],
+    [
+      "A",
+      157
+    ]
+  ]
+}

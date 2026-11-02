@@ -1,0 +1,7 @@
+combo,count,og_edges,source,target,group
+B_Micro,54.19484637996847,17627,B,Micro,Blood to brain
+CD4T_Micro,35.26405418820263,15187,CD4T,Micro,Blood to brain
+CD8T_Micro,45.202298275737576,12385,CD8T,Micro,Blood to brain
+Mono_Micro,45.731873743548256,15626,Mono,Micro,Blood to brain
+Mono_Oligo,43.38726858951941,15900,Mono,Oligo,Blood to brain
+NK_Micro,54.12574046693298,14157,NK,Micro,Blood to brain

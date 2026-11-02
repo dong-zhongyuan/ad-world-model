@@ -1,0 +1,12 @@
+{
+  "species": "joint",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {
+    "protein_encoder_grad": false
+  },
+  "name": "joint_head_detached",
+  "description": "Readout only: no protein gradient into shared encoder"
+}

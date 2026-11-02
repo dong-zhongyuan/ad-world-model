@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "arrays": 12,
+  "bytes": 15027405,
+  "source_bytes": 32706048,
+  "row_order": "canonical_source_verified_against_actual_loader",
+  "sha256": "f8b265560e1c995000257d23c267c96e5015fe89933831cc41dbe7bd708f3105",
+  "lossless": true
+}

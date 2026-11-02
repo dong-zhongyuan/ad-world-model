@@ -1,0 +1,2174 @@
+{
+  "target": "CR1",
+  "candidate_id": "CHEMBL1308",
+  "cid": "CHEMBL1308",
+  "pose_seed": 42,
+  "receptor_path": "inputs/ten_targets/structures/CR1/CR1_mature.pdb",
+  "receptor": [
+    {
+      "atom": "N",
+      "res": "ASN",
+      "resi": 1074,
+      "chain": "A",
+      "xyz": [
+        23.584,
+        43.177,
+        -32.073
+      ],
+      "element": "N",
+      "plddt": 66.19
+    },
+    {
+      "atom": "CA",
+      "res": "ASN",
+      "resi": 1074,
+      "chain": "A",
+      "xyz": [
+        24.161,
+        42.36,
+        -33.153
+      ],
+      "element": "C",
+      "plddt": 66.19
+    },
+    {
+      "atom": "C",
+      "res": "ASN",
+      "resi": 1074,
+      "chain": "A",
+      "xyz": [
+        23.364,
+        41.093,
+        -33.541
+      ],
+      "element": "C",
+      "plddt": 66.19
+    },
+    {
+      "atom": "CB",
+      "res": "ASN",
+      "resi": 1074,
+      "chain": "A",
+      "xyz": [
+        25.653,
+        42.079,
+        -32.879
+      ],
+      "element": "C",
+      "plddt": 66.19
+    },
+    {
+      "atom": "O",
+      "res": "ASN",
+      "resi": 1074,
+      "chain": "A",
+      "xyz": [
+        23.937,
+        40.187,
+        -34.149
+      ],
+      "element": "O",
+      "plddt": 66.19
+    },
+    {
+      "atom": "CG",
+      "res": "ASN",
+      "resi": 1074,
+      "chain": "A",
+      "xyz": [
+        26.459,
+        43.342,
+        -32.675
+      ],
+      "element": "C",
+      "plddt": 66.19
+    },
+    {
+      "atom": "ND2",
+      "res": "ASN",
+      "resi": 1074,
+      "chain": "A",
+      "xyz": [
+        27.241,
+        43.409,
+        -31.624
+      ],
+      "element": "N",
+      "plddt": 66.19
+    },
+    {
+      "atom": "OD1",
+      "res": "ASN",
+      "resi": 1074,
+      "chain": "A",
+      "xyz": [
+        26.379,
+        44.286,
+        -33.443
+      ],
+      "element": "O",
+      "plddt": 66.19
+    },
+    {
+      "atom": "N",
+      "res": "GLY",
+      "resi": 1075,
+      "chain": "A",
+      "xyz": [
+        22.056,
+        41.037,
+        -33.27
+      ],
+      "element": "N",
+      "plddt": 73.56
+    },
+    {
+      "atom": "CA",
+      "res": "GLY",
+      "resi": 1075,
+      "chain": "A",
+      "xyz": [
+        21.181,
+        39.943,
+        -33.7
+      ],
+      "element": "C",
+      "plddt": 73.56
+    },
+    {
+      "atom": "C",
+      "res": "GLY",
+      "resi": 1075,
+      "chain": "A",
+      "xyz": [
+        19.724,
+        40.363,
+        -33.904
+      ],
+      "element": "C",
+      "plddt": 73.56
+    },
+    {
+      "atom": "O",
+      "res": "GLY",
+      "resi": 1075,
+      "chain": "A",
+      "xyz": [
+        19.354,
+        41.509,
+        -33.653
+      ],
+      "element": "O",
+      "plddt": 73.56
+    },
+    {
+      "atom": "N",
+      "res": "ASP",
+      "resi": 1076,
+      "chain": "A",
+      "xyz": [
+        18.901,
+        39.428,
+        -34.371
+      ],
+      "element": "N",
+      "plddt": 80.31
+    },
+    {
+      "atom": "CA",
+      "res": "ASP",
+      "resi": 1076,
+      "chain": "A",
+      "xyz": [
+        17.448,
+        39.564,
+        -34.515
+      ],
+      "element": "C",
+      "plddt": 80.31
+    },
+    {
+      "atom": "C",
+      "res": "ASP",
+      "resi": 1076,
+      "chain": "A",
+      "xyz": [
+        16.734,
+        38.261,
+        -34.111
+      ],
+      "element": "C",
+      "plddt": 80.31
+    },
+    {
+      "atom": "CB",
+      "res": "ASP",
+      "resi": 1076,
+      "chain": "A",
+      "xyz": [
+        17.067,
+        40.045,
+        -35.935
+      ],
+      "element": "C",
+      "plddt": 80.31
+    },
+    {
+      "atom": "O",
+      "res": "ASP",
+      "resi": 1076,
+      "chain": "A",
+      "xyz": [
+        17.376,
+        37.252,
+        -33.808
+      ],
+      "element": "O",
+      "plddt": 80.31
+    },
+    {
+      "atom": "CG",
+      "res": "ASP",
+      "resi": 1076,
+      "chain": "A",
+      "xyz": [
+        17.155,
+        38.987,
+        -37.043
+      ],
+      "element": "C",
+      "plddt": 80.31
+    },
+    {
+      "atom": "OD1",
+      "res": "ASP",
+      "resi": 1076,
+      "chain": "A",
+      "xyz": [
+        18.061,
+        38.134,
+        -37.021
+      ],
+      "element": "O",
+      "plddt": 80.31
+    },
+    {
+      "atom": "OD2",
+      "res": "ASP",
+      "resi": 1076,
+      "chain": "A",
+      "xyz": [
+        16.314,
+        38.99,
+        -37.975
+      ],
+      "element": "O",
+      "plddt": 80.31
+    },
+    {
+      "atom": "N",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        16.3,
+        33.531,
+        -31.326
+      ],
+      "element": "N",
+      "plddt": 79.94
+    },
+    {
+      "atom": "CA",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        17.286,
+        34.549,
+        -31.68
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "C",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        18.412,
+        34.001,
+        -32.562
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "CB",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        17.855,
+        35.171,
+        -30.404
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "O",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        18.769,
+        32.823,
+        -32.513
+      ],
+      "element": "O",
+      "plddt": 79.94
+    },
+    {
+      "atom": "CG",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        16.855,
+        36.013,
+        -29.638
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "CD1",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        16.752,
+        37.393,
+        -29.902
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "CD2",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        16.028,
+        35.417,
+        -28.668
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "CE1",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        15.847,
+        38.185,
+        -29.17
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "CE2",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        15.111,
+        36.205,
+        -27.951
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "OH",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        14.173,
+        38.348,
+        -27.457
+      ],
+      "element": "O",
+      "plddt": 79.94
+    },
+    {
+      "atom": "CZ",
+      "res": "TYR",
+      "resi": 1093,
+      "chain": "A",
+      "xyz": [
+        15.026,
+        37.59,
+        -28.188
+      ],
+      "element": "C",
+      "plddt": 79.94
+    },
+    {
+      "atom": "N",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        19.013,
+        34.886,
+        -33.361
+      ],
+      "element": "N",
+      "plddt": 77.5
+    },
+    {
+      "atom": "CA",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        20.203,
+        34.613,
+        -34.177
+      ],
+      "element": "C",
+      "plddt": 77.5
+    },
+    {
+      "atom": "C",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        21.084,
+        35.859,
+        -34.276
+      ],
+      "element": "C",
+      "plddt": 77.5
+    },
+    {
+      "atom": "CB",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        19.778,
+        34.098,
+        -35.566
+      ],
+      "element": "C",
+      "plddt": 77.5
+    },
+    {
+      "atom": "O",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        20.593,
+        36.981,
+        -34.203
+      ],
+      "element": "O",
+      "plddt": 77.5
+    },
+    {
+      "atom": "CG",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        18.975,
+        35.153,
+        -36.339
+      ],
+      "element": "C",
+      "plddt": 77.5
+    },
+    {
+      "atom": "CD",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        18.557,
+        34.7,
+        -37.737
+      ],
+      "element": "C",
+      "plddt": 77.5
+    },
+    {
+      "atom": "NE",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        17.861,
+        35.824,
+        -38.37
+      ],
+      "element": "N",
+      "plddt": 77.5
+    },
+    {
+      "atom": "NH1",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        17.949,
+        35.26,
+        -40.583
+      ],
+      "element": "N",
+      "plddt": 77.5
+    },
+    {
+      "atom": "NH2",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        17.17,
+        37.264,
+        -39.952
+      ],
+      "element": "N",
+      "plddt": 77.5
+    },
+    {
+      "atom": "CZ",
+      "res": "ARG",
+      "resi": 1094,
+      "chain": "A",
+      "xyz": [
+        17.663,
+        36.108,
+        -39.633
+      ],
+      "element": "C",
+      "plddt": 77.5
+    },
+    {
+      "atom": "N",
+      "res": "CYS",
+      "resi": 1095,
+      "chain": "A",
+      "xyz": [
+        22.379,
+        35.662,
+        -34.502
+      ],
+      "element": "N",
+      "plddt": 79.06
+    },
+    {
+      "atom": "CA",
+      "res": "CYS",
+      "resi": 1095,
+      "chain": "A",
+      "xyz": [
+        23.321,
+        36.765,
+        -34.69
+      ],
+      "element": "C",
+      "plddt": 79.06
+    },
+    {
+      "atom": "C",
+      "res": "CYS",
+      "resi": 1095,
+      "chain": "A",
+      "xyz": [
+        23.468,
+        37.18,
+        -36.159
+      ],
+      "element": "C",
+      "plddt": 79.06
+    },
+    {
+      "atom": "CB",
+      "res": "CYS",
+      "resi": 1095,
+      "chain": "A",
+      "xyz": [
+        24.673,
+        36.42,
+        -34.067
+      ],
+      "element": "C",
+      "plddt": 79.06
+    },
+    {
+      "atom": "O",
+      "res": "CYS",
+      "resi": 1095,
+      "chain": "A",
+      "xyz": [
+        23.413,
+        36.353,
+        -37.073
+      ],
+      "element": "O",
+      "plddt": 79.06
+    },
+    {
+      "atom": "SG",
+      "res": "CYS",
+      "resi": 1095,
+      "chain": "A",
+      "xyz": [
+        24.575,
+        36.01,
+        -32.31
+      ],
+      "element": "S",
+      "plddt": 79.06
+    },
+    {
+      "atom": "N",
+      "res": "ASN",
+      "resi": 1096,
+      "chain": "A",
+      "xyz": [
+        23.729,
+        38.469,
+        -36.37
+      ],
+      "element": "N",
+      "plddt": 73.12
+    },
+    {
+      "atom": "CA",
+      "res": "ASN",
+      "resi": 1096,
+      "chain": "A",
+      "xyz": [
+        23.951,
+        39.067,
+        -37.68
+      ],
+      "element": "C",
+      "plddt": 73.12
+    },
+    {
+      "atom": "C",
+      "res": "ASN",
+      "resi": 1096,
+      "chain": "A",
+      "xyz": [
+        25.247,
+        38.538,
+        -38.319
+      ],
+      "element": "C",
+      "plddt": 73.12
+    },
+    {
+      "atom": "CB",
+      "res": "ASN",
+      "resi": 1096,
+      "chain": "A",
+      "xyz": [
+        23.944,
+        40.602,
+        -37.538
+      ],
+      "element": "C",
+      "plddt": 73.12
+    },
+    {
+      "atom": "O",
+      "res": "ASN",
+      "resi": 1096,
+      "chain": "A",
+      "xyz": [
+        26.312,
+        38.499,
+        -37.698
+      ],
+      "element": "O",
+      "plddt": 73.12
+    },
+    {
+      "atom": "CG",
+      "res": "ASN",
+      "resi": 1096,
+      "chain": "A",
+      "xyz": [
+        22.569,
+        41.155,
+        -37.197
+      ],
+      "element": "C",
+      "plddt": 73.12
+    },
+    {
+      "atom": "ND2",
+      "res": "ASN",
+      "resi": 1096,
+      "chain": "A",
+      "xyz": [
+        22.49,
+        42.298,
+        -36.558
+      ],
+      "element": "N",
+      "plddt": 73.12
+    },
+    {
+      "atom": "OD1",
+      "res": "ASN",
+      "resi": 1096,
+      "chain": "A",
+      "xyz": [
+        21.547,
+        40.588,
+        -37.529
+      ],
+      "element": "O",
+      "plddt": 73.12
+    },
+    {
+      "atom": "N",
+      "res": "LEU",
+      "resi": 1097,
+      "chain": "A",
+      "xyz": [
+        25.163,
+        38.148,
+        -39.592
+      ],
+      "element": "N",
+      "plddt": 63.09
+    },
+    {
+      "atom": "CA",
+      "res": "LEU",
+      "resi": 1097,
+      "chain": "A",
+      "xyz": [
+        26.303,
+        37.671,
+        -40.379
+      ],
+      "element": "C",
+      "plddt": 63.09
+    },
+    {
+      "atom": "C",
+      "res": "LEU",
+      "resi": 1097,
+      "chain": "A",
+      "xyz": [
+        27.072,
+        38.85,
+        -40.993
+      ],
+      "element": "C",
+      "plddt": 63.09
+    },
+    {
+      "atom": "CB",
+      "res": "LEU",
+      "resi": 1097,
+      "chain": "A",
+      "xyz": [
+        25.808,
+        36.683,
+        -41.453
+      ],
+      "element": "C",
+      "plddt": 63.09
+    },
+    {
+      "atom": "O",
+      "res": "LEU",
+      "resi": 1097,
+      "chain": "A",
+      "xyz": [
+        26.475,
+        39.811,
+        -41.475
+      ],
+      "element": "O",
+      "plddt": 63.09
+    },
+    {
+      "atom": "CG",
+      "res": "LEU",
+      "resi": 1097,
+      "chain": "A",
+      "xyz": [
+        25.313,
+        35.341,
+        -40.876
+      ],
+      "element": "C",
+      "plddt": 63.09
+    },
+    {
+      "atom": "CD1",
+      "res": "LEU",
+      "resi": 1097,
+      "chain": "A",
+      "xyz": [
+        24.463,
+        34.599,
+        -41.907
+      ],
+      "element": "C",
+      "plddt": 63.09
+    },
+    {
+      "atom": "CD2",
+      "res": "LEU",
+      "resi": 1097,
+      "chain": "A",
+      "xyz": [
+        26.483,
+        34.431,
+        -40.494
+      ],
+      "element": "C",
+      "plddt": 63.09
+    },
+    {
+      "atom": "N",
+      "res": "GLY",
+      "resi": 1098,
+      "chain": "A",
+      "xyz": [
+        28.403,
+        38.759,
+        -41.021
+      ],
+      "element": "N",
+      "plddt": 60.31
+    },
+    {
+      "atom": "CA",
+      "res": "GLY",
+      "resi": 1098,
+      "chain": "A",
+      "xyz": [
+        29.255,
+        39.759,
+        -41.67
+      ],
+      "element": "C",
+      "plddt": 60.31
+    },
+    {
+      "atom": "C",
+      "res": "GLY",
+      "resi": 1098,
+      "chain": "A",
+      "xyz": [
+        29.172,
+        39.702,
+        -43.199
+      ],
+      "element": "C",
+      "plddt": 60.31
+    },
+    {
+      "atom": "O",
+      "res": "GLY",
+      "resi": 1098,
+      "chain": "A",
+      "xyz": [
+        28.76,
+        38.693,
+        -43.774
+      ],
+      "element": "O",
+      "plddt": 60.31
+    },
+    {
+      "atom": "N",
+      "res": "GLY",
+      "resi": 1101,
+      "chain": "A",
+      "xyz": [
+        28.879,
+        36.463,
+        -45.559
+      ],
+      "element": "N",
+      "plddt": 48.06
+    },
+    {
+      "atom": "CA",
+      "res": "GLY",
+      "resi": 1101,
+      "chain": "A",
+      "xyz": [
+        28.273,
+        35.278,
+        -44.932
+      ],
+      "element": "C",
+      "plddt": 48.06
+    },
+    {
+      "atom": "C",
+      "res": "GLY",
+      "resi": 1101,
+      "chain": "A",
+      "xyz": [
+        29.121,
+        34.615,
+        -43.837
+      ],
+      "element": "C",
+      "plddt": 48.06
+    },
+    {
+      "atom": "O",
+      "res": "GLY",
+      "resi": 1101,
+      "chain": "A",
+      "xyz": [
+        28.778,
+        33.532,
+        -43.371
+      ],
+      "element": "O",
+      "plddt": 48.06
+    },
+    {
+      "atom": "N",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        30.223,
+        35.24,
+        -43.396
+      ],
+      "element": "N",
+      "plddt": 50.84
+    },
+    {
+      "atom": "CA",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        30.991,
+        34.763,
+        -42.235
+      ],
+      "element": "C",
+      "plddt": 50.84
+    },
+    {
+      "atom": "C",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        30.253,
+        35.098,
+        -40.938
+      ],
+      "element": "C",
+      "plddt": 50.84
+    },
+    {
+      "atom": "CB",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        32.421,
+        35.337,
+        -42.212
+      ],
+      "element": "C",
+      "plddt": 50.84
+    },
+    {
+      "atom": "O",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        29.821,
+        36.236,
+        -40.754
+      ],
+      "element": "O",
+      "plddt": 50.84
+    },
+    {
+      "atom": "CG",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        33.379,
+        34.57,
+        -43.138
+      ],
+      "element": "C",
+      "plddt": 50.84
+    },
+    {
+      "atom": "CD",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        34.827,
+        35.055,
+        -42.953
+      ],
+      "element": "C",
+      "plddt": 50.84
+    },
+    {
+      "atom": "NE",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        35.792,
+        34.188,
+        -43.662
+      ],
+      "element": "N",
+      "plddt": 50.84
+    },
+    {
+      "atom": "NH1",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        37.722,
+        35.239,
+        -42.982
+      ],
+      "element": "N",
+      "plddt": 50.84
+    },
+    {
+      "atom": "NH2",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        37.854,
+        33.404,
+        -44.238
+      ],
+      "element": "N",
+      "plddt": 50.84
+    },
+    {
+      "atom": "CZ",
+      "res": "ARG",
+      "resi": 1102,
+      "chain": "A",
+      "xyz": [
+        37.112,
+        34.283,
+        -43.625
+      ],
+      "element": "C",
+      "plddt": 50.84
+    },
+    {
+      "atom": "N",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        30.194,
+        34.135,
+        -40.013
+      ],
+      "element": "N",
+      "plddt": 50.34
+    },
+    {
+      "atom": "CA",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        29.893,
+        34.405,
+        -38.601
+      ],
+      "element": "C",
+      "plddt": 50.34
+    },
+    {
+      "atom": "C",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        30.969,
+        35.343,
+        -38.042
+      ],
+      "element": "C",
+      "plddt": 50.34
+    },
+    {
+      "atom": "CB",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        29.831,
+        33.096,
+        -37.791
+      ],
+      "element": "C",
+      "plddt": 50.34
+    },
+    {
+      "atom": "O",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        32.156,
+        35.05,
+        -38.164
+      ],
+      "element": "O",
+      "plddt": 50.34
+    },
+    {
+      "atom": "CG",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        28.635,
+        32.194,
+        -38.154
+      ],
+      "element": "C",
+      "plddt": 50.34
+    },
+    {
+      "atom": "CD",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        28.612,
+        30.965,
+        -37.228
+      ],
+      "element": "C",
+      "plddt": 50.34
+    },
+    {
+      "atom": "CE",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        27.374,
+        30.081,
+        -37.449
+      ],
+      "element": "C",
+      "plddt": 50.34
+    },
+    {
+      "atom": "NZ",
+      "res": "LYS",
+      "resi": 1103,
+      "chain": "A",
+      "xyz": [
+        27.316,
+        28.993,
+        -36.434
+      ],
+      "element": "N",
+      "plddt": 50.34
+    },
+    {
+      "atom": "N",
+      "res": "VAL",
+      "resi": 1104,
+      "chain": "A",
+      "xyz": [
+        30.541,
+        36.481,
+        -37.497
+      ],
+      "element": "N",
+      "plddt": 61.19
+    },
+    {
+      "atom": "CA",
+      "res": "VAL",
+      "resi": 1104,
+      "chain": "A",
+      "xyz": [
+        31.397,
+        37.462,
+        -36.796
+      ],
+      "element": "C",
+      "plddt": 61.19
+    },
+    {
+      "atom": "C",
+      "res": "VAL",
+      "resi": 1104,
+      "chain": "A",
+      "xyz": [
+        31.133,
+        37.421,
+        -35.29
+      ],
+      "element": "C",
+      "plddt": 61.19
+    },
+    {
+      "atom": "CB",
+      "res": "VAL",
+      "resi": 1104,
+      "chain": "A",
+      "xyz": [
+        31.167,
+        38.882,
+        -37.359
+      ],
+      "element": "C",
+      "plddt": 61.19
+    },
+    {
+      "atom": "O",
+      "res": "VAL",
+      "resi": 1104,
+      "chain": "A",
+      "xyz": [
+        32.051,
+        37.616,
+        -34.498
+      ],
+      "element": "O",
+      "plddt": 61.19
+    },
+    {
+      "atom": "CG1",
+      "res": "VAL",
+      "resi": 1104,
+      "chain": "A",
+      "xyz": [
+        31.948,
+        39.966,
+        -36.606
+      ],
+      "element": "C",
+      "plddt": 61.19
+    },
+    {
+      "atom": "CG2",
+      "res": "VAL",
+      "resi": 1104,
+      "chain": "A",
+      "xyz": [
+        31.594,
+        38.953,
+        -38.832
+      ],
+      "element": "C",
+      "plddt": 61.19
+    },
+    {
+      "atom": "N",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        29.891,
+        37.113,
+        -34.919
+      ],
+      "element": "N",
+      "plddt": 65.38
+    },
+    {
+      "atom": "CA",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        29.426,
+        36.952,
+        -33.551
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "C",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        28.908,
+        35.526,
+        -33.351
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "CB",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        28.316,
+        37.972,
+        -33.267
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "O",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        28.333,
+        34.94,
+        -34.277
+      ],
+      "element": "O",
+      "plddt": 65.38
+    },
+    {
+      "atom": "CG",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        28.637,
+        39.398,
+        -33.672
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "CD1",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        29.361,
+        40.228,
+        -32.799
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "CD2",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        28.221,
+        39.893,
+        -34.925
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "CE1",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        29.673,
+        41.545,
+        -33.179
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "CE2",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        28.539,
+        41.208,
+        -35.307
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "CZ",
+      "res": "PHE",
+      "resi": 1105,
+      "chain": "A",
+      "xyz": [
+        29.266,
+        42.035,
+        -34.432
+      ],
+      "element": "C",
+      "plddt": 65.38
+    },
+    {
+      "atom": "N",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        29.074,
+        34.996,
+        -32.145
+      ],
+      "element": "N",
+      "plddt": 63.78
+    },
+    {
+      "atom": "CA",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        28.445,
+        33.752,
+        -31.699
+      ],
+      "element": "C",
+      "plddt": 63.78
+    },
+    {
+      "atom": "C",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        27.354,
+        34.061,
+        -30.67
+      ],
+      "element": "C",
+      "plddt": 63.78
+    },
+    {
+      "atom": "CB",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        29.496,
+        32.746,
+        -31.197
+      ],
+      "element": "C",
+      "plddt": 63.78
+    },
+    {
+      "atom": "O",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        27.468,
+        35.019,
+        -29.904
+      ],
+      "element": "O",
+      "plddt": 63.78
+    },
+    {
+      "atom": "CG",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        30.45,
+        32.368,
+        -32.343
+      ],
+      "element": "C",
+      "plddt": 63.78
+    },
+    {
+      "atom": "CD",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        31.321,
+        31.145,
+        -32.036
+      ],
+      "element": "C",
+      "plddt": 63.78
+    },
+    {
+      "atom": "OE1",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        31.22,
+        30.178,
+        -32.831
+      ],
+      "element": "O",
+      "plddt": 63.78
+    },
+    {
+      "atom": "OE2",
+      "res": "GLU",
+      "resi": 1106,
+      "chain": "A",
+      "xyz": [
+        32.121,
+        31.218,
+        -31.078
+      ],
+      "element": "O",
+      "plddt": 63.78
+    },
+    {
+      "atom": "N",
+      "res": "LEU",
+      "resi": 1107,
+      "chain": "A",
+      "xyz": [
+        26.272,
+        33.278,
+        -30.705
+      ],
+      "element": "N",
+      "plddt": 74.56
+    },
+    {
+      "atom": "CA",
+      "res": "LEU",
+      "resi": 1107,
+      "chain": "A",
+      "xyz": [
+        25.132,
+        33.418,
+        -29.803
+      ],
+      "element": "C",
+      "plddt": 74.56
+    },
+    {
+      "atom": "C",
+      "res": "LEU",
+      "resi": 1107,
+      "chain": "A",
+      "xyz": [
+        25.454,
+        32.697,
+        -28.488
+      ],
+      "element": "C",
+      "plddt": 74.56
+    },
+    {
+      "atom": "CB",
+      "res": "LEU",
+      "resi": 1107,
+      "chain": "A",
+      "xyz": [
+        23.878,
+        32.831,
+        -30.483
+      ],
+      "element": "C",
+      "plddt": 74.56
+    },
+    {
+      "atom": "O",
+      "res": "LEU",
+      "resi": 1107,
+      "chain": "A",
+      "xyz": [
+        25.796,
+        31.515,
+        -28.514
+      ],
+      "element": "O",
+      "plddt": 74.56
+    },
+    {
+      "atom": "CG",
+      "res": "LEU",
+      "resi": 1107,
+      "chain": "A",
+      "xyz": [
+        22.561,
+        33.199,
+        -29.773
+      ],
+      "element": "C",
+      "plddt": 74.56
+    },
+    {
+      "atom": "CD1",
+      "res": "LEU",
+      "resi": 1107,
+      "chain": "A",
+      "xyz": [
+        22.103,
+        34.61,
+        -30.149
+      ],
+      "element": "C",
+      "plddt": 74.56
+    },
+    {
+      "atom": "CD2",
+      "res": "LEU",
+      "resi": 1107,
+      "chain": "A",
+      "xyz": [
+        21.455,
+        32.231,
+        -30.182
+      ],
+      "element": "C",
+      "plddt": 74.56
+    },
+    {
+      "atom": "N",
+      "res": "VAL",
+      "resi": 1108,
+      "chain": "A",
+      "xyz": [
+        25.347,
+        33.401,
+        -27.364
+      ],
+      "element": "N",
+      "plddt": 57.47
+    },
+    {
+      "atom": "CA",
+      "res": "VAL",
+      "resi": 1108,
+      "chain": "A",
+      "xyz": [
+        25.637,
+        32.889,
+        -26.019
+      ],
+      "element": "C",
+      "plddt": 57.47
+    },
+    {
+      "atom": "C",
+      "res": "VAL",
+      "resi": 1108,
+      "chain": "A",
+      "xyz": [
+        24.407,
+        33.087,
+        -25.133
+      ],
+      "element": "C",
+      "plddt": 57.47
+    },
+    {
+      "atom": "CB",
+      "res": "VAL",
+      "resi": 1108,
+      "chain": "A",
+      "xyz": [
+        26.884,
+        33.576,
+        -25.426
+      ],
+      "element": "C",
+      "plddt": 57.47
+    },
+    {
+      "atom": "O",
+      "res": "VAL",
+      "resi": 1108,
+      "chain": "A",
+      "xyz": [
+        23.891,
+        34.2,
+        -25.025
+      ],
+      "element": "O",
+      "plddt": 57.47
+    },
+    {
+      "atom": "CG1",
+      "res": "VAL",
+      "resi": 1108,
+      "chain": "A",
+      "xyz": [
+        27.24,
+        33.003,
+        -24.048
+      ],
+      "element": "C",
+      "plddt": 57.47
+    },
+    {
+      "atom": "CG2",
+      "res": "VAL",
+      "resi": 1108,
+      "chain": "A",
+      "xyz": [
+        28.113,
+        33.401,
+        -26.333
+      ],
+      "element": "C",
+      "plddt": 57.47
+    },
+    {
+      "atom": "N",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        22.994,
+        36.751,
+        -25.969
+      ],
+      "element": "N",
+      "plddt": 71.69
+    },
+    {
+      "atom": "CA",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        23.915,
+        37.796,
+        -26.432
+      ],
+      "element": "C",
+      "plddt": 71.69
+    },
+    {
+      "atom": "C",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        24.751,
+        37.351,
+        -27.64
+      ],
+      "element": "C",
+      "plddt": 71.69
+    },
+    {
+      "atom": "CB",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        24.816,
+        38.248,
+        -25.274
+      ],
+      "element": "C",
+      "plddt": 71.69
+    },
+    {
+      "atom": "O",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        25.187,
+        36.206,
+        -27.717
+      ],
+      "element": "O",
+      "plddt": 71.69
+    },
+    {
+      "atom": "CG",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        24.016,
+        38.855,
+        -24.107
+      ],
+      "element": "C",
+      "plddt": 71.69
+    },
+    {
+      "atom": "CD",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        24.901,
+        39.454,
+        -23.018
+      ],
+      "element": "C",
+      "plddt": 71.69
+    },
+    {
+      "atom": "NE2",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        24.317,
+        39.957,
+        -21.954
+      ],
+      "element": "N",
+      "plddt": 71.69
+    },
+    {
+      "atom": "OE1",
+      "res": "GLN",
+      "resi": 1131,
+      "chain": "A",
+      "xyz": [
+        26.117,
+        39.506,
+        -23.102
+      ],
+      "element": "O",
+      "plddt": 71.69
+    },
+    {
+      "atom": "N",
+      "res": "CYS",
+      "resi": 1132,
+      "chain": "A",
+      "xyz": [
+        25.027,
+        38.273,
+        -28.568
+      ],
+      "element": "N",
+      "plddt": 75.25
+    },
+    {
+      "atom": "CA",
+      "res": "CYS",
+      "resi": 1132,
+      "chain": "A",
+      "xyz": [
+        25.885,
+        38.036,
+        -29.734
+      ],
+      "element": "C",
+      "plddt": 75.25
+    },
+    {
+      "atom": "C",
+      "res": "CYS",
+      "resi": 1132,
+      "chain": "A",
+      "xyz": [
+        27.294,
+        38.605,
+        -29.508
+      ],
+      "element": "C",
+      "plddt": 75.25
+    },
+    {
+      "atom": "CB",
+      "res": "CYS",
+      "resi": 1132,
+      "chain": "A",
+      "xyz": [
+        25.205,
+        38.622,
+        -30.972
+      ],
+      "element": "C",
+      "plddt": 75.25
+    },
+    {
+      "atom": "O",
+      "res": "CYS",
+      "resi": 1132,
+      "chain": "A",
+      "xyz": [
+        27.514,
+        39.814,
+        -29.626
+      ],
+      "element": "O",
+      "plddt": 75.25
+    },
+    {
+      "atom": "SG",
+      "res": "CYS",
+      "resi": 1132,
+      "chain": "A",
+      "xyz": [
+        23.754,
+        37.684,
+        -31.493
+      ],
+      "element": "S",
+      "plddt": 75.25
+    },
+    {
+      "atom": "N",
+      "res": "ILE",
+      "resi": 1133,
+      "chain": "A",
+      "xyz": [
+        28.251,
+        37.73,
+        -29.184
+      ],
+      "element": "N",
+      "plddt": 66.31
+    },
+    {
+      "atom": "CA",
+      "res": "ILE",
+      "resi": 1133,
+      "chain": "A",
+      "xyz": [
+        29.571,
+        38.09,
+        -28.636
+      ],
+      "element": "C",
+      "plddt": 66.31
+    },
+    {
+      "atom": "C",
+      "res": "ILE",
+      "resi": 1133,
+      "chain": "A",
+      "xyz": [
+        30.698,
+        37.761,
+        -29.634
+      ],
+      "element": "C",
+      "plddt": 66.31
+    },
+    {
+      "atom": "CB",
+      "res": "ILE",
+      "resi": 1133,
+      "chain": "A",
+      "xyz": [
+        29.794,
+        37.443,
+        -27.239
+      ],
+      "element": "C",
+      "plddt": 66.31
+    },
+    {
+      "atom": "O",
+      "res": "ILE",
+      "resi": 1133,
+      "chain": "A",
+      "xyz": [
+        30.571,
+        36.859,
+        -30.461
+      ],
+      "element": "O",
+      "plddt": 66.31
+    },
+    {
+      "atom": "CG1",
+      "res": "ILE",
+      "resi": 1133,
+      "chain": "A",
+      "xyz": [
+        28.488,
+        37.396,
+        -26.399
+      ],
+      "element": "C",
+      "plddt": 66.31
+    },
+    {
+      "atom": "CG2",
+      "res": "ILE",
+      "resi": 1133,
+      "chain": "A",
+      "xyz": [
+        30.903,
+        38.204,
+        -26.48
+      ],
+      "element": "C",
+      "plddt": 66.31
+    },
+    {
+      "atom": "CD1",
+      "res": "ILE",
+      "resi": 1133,
+      "chain": "A",
+      "xyz": [
+        28.644,
+        36.939,
+        -24.944
+      ],
+      "element": "C",
+      "plddt": 66.31
+    }
+  ],
+  "ligand": [
+    {
+      "serial": 1,
+      "element": "C",
+      "xyz": [
+        26.597,
+        31.926,
+        -34.223
+      ]
+    },
+    {
+      "serial": 2,
+      "element": "C",
+      "xyz": [
+        25.537,
+        32.544,
+        -35.047
+      ]
+    },
+    {
+      "serial": 3,
+      "element": "C",
+      "xyz": [
+        24.14,
+        32.484,
+        -34.843
+      ]
+    },
+    {
+      "serial": 4,
+      "element": "N",
+      "xyz": [
+        23.454,
+        33.153,
+        -35.773
+      ]
+    },
+    {
+      "serial": 5,
+      "element": "N",
+      "xyz": [
+        24.409,
+        33.643,
+        -36.578
+      ]
+    },
+    {
+      "serial": 6,
+      "element": "C",
+      "xyz": [
+        25.672,
+        33.307,
+        -36.188
+      ]
+    }
+  ],
+  "ligand_bonds": [
+    {
+      "a": 1,
+      "b": 2,
+      "order": 1.0
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "order": 1.5
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "order": 1.5
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "order": 1.5
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "order": 1.5
+    },
+    {
+      "a": 6,
+      "b": 2,
+      "order": 1.5
+    }
+  ],
+  "selected_residues": [
+    [
+      "A",
+      1095
+    ],
+    [
+      "A",
+      1105
+    ],
+    [
+      "A",
+      1106
+    ],
+    [
+      "A",
+      1103
+    ]
+  ],
+  "model_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "source_hashes": {
+    "receptor": "b0d49ed2df6df466509ae9c0293487e91261d198abb3936c17bac946ed81931a",
+    "poses": "a0a32dfa1a1dfd9e293765d1820f3901453c329ad34c7289b1b6f394e08ba47c"
+  }
+}

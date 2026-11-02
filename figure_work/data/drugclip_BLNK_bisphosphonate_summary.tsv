@@ -1,0 +1,5 @@
+name	chembl_id	BLNK_rank	folds_top1percent_of6	other_nine_targets_best_rank	other_nine_targets_worst_rank	BLNK_pocket	pocket_mean_pLDDT	evidence
+PAMIDRONIC ACID	CHEMBL834	1	6	58	970	BLNK_AF-Q8WV28-F1_pocket6	93.881	computational screen; original rank, no new inclusion threshold
+ETIDRONIC ACID	CHEMBL871	5	6	21	952	BLNK_AF-Q8WV28-F1_pocket6	93.881	computational screen; original rank, no new inclusion threshold
+ALENDRONIC ACID	CHEMBL870	8	6	160	1525	BLNK_AF-Q8WV28-F1_pocket6	93.881	computational screen; original rank, no new inclusion threshold
+ZOLEDRONIC ACID ANHYDROUS	CHEMBL924	9	5	250	2000	BLNK_AF-Q8WV28-F1_pocket6	93.881	computational screen; original rank, no new inclusion threshold

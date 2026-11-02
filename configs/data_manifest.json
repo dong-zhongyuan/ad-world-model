@@ -1,0 +1,209 @@
+{
+  "status": "prepared_full_scope",
+  "n_nodes": 25790,
+  "n_proteins": 224,
+  "required_legacy_rows_preserved": true,
+  "sources": [
+    {
+      "dataset": "human_blood",
+      "source": "v2:human_blood",
+      "cells": 36830,
+      "assay": "human_pbmc_GSE181279",
+      "available_nodes": 19066
+    },
+    {
+      "dataset": "human_brain",
+      "source": "v2:human_brain",
+      "cells": 11884,
+      "assay": "human_cortex_GSE138852",
+      "available_nodes": 10760
+    },
+    {
+      "dataset": "mouse_blood",
+      "source": "v2:mouse_blood_bm12",
+      "cells": 26035,
+      "assay": "mouse_BM12",
+      "available_nodes": 19363
+    },
+    {
+      "dataset": "mouse_blood",
+      "source": "v2:mouse_blood_bm34",
+      "cells": 39140,
+      "assay": "mouse_BM34",
+      "available_nodes": 19358
+    },
+    {
+      "dataset": "mouse_brain",
+      "source": "v2:mouse_brain",
+      "cells": 5000,
+      "assay": "mouse_Brain1",
+      "available_nodes": 17985
+    },
+    {
+      "dataset": "mouse_brain",
+      "source": "raw_Brain1_extension",
+      "cells": 36179,
+      "assay": "mouse_Brain1",
+      "available_nodes": 17985
+    },
+    {
+      "dataset": "human_brain",
+      "source": "GSE157827_all_celltypes",
+      "cells": 166734,
+      "assay": "human_cortex_GSE157827",
+      "available_nodes": 18287
+    },
+    {
+      "dataset": "cite",
+      "source": "GSE164378_P1_P8",
+      "cells": 153387,
+      "assay": "human_CITE_GSE164378",
+      "available_nodes": 18287
+    }
+  ],
+  "condition_layout": {
+    "species": [
+      "mouse",
+      "human"
+    ],
+    "disease": [
+      "CTRL",
+      "AD"
+    ],
+    "brain": [
+      "Micro",
+      "Oligo",
+      "Astro",
+      "OPC",
+      "Neuron",
+      "Endo",
+      "Pericyte",
+      "B",
+      "MDM",
+      "T",
+      "Unresolved"
+    ],
+    "blood": [
+      "HSPC",
+      "MyeloidP",
+      "Mono",
+      "B",
+      "T",
+      "CD4T",
+      "CD8T",
+      "NK",
+      "DC",
+      "Mega",
+      "Ery",
+      "Prolif",
+      "Unresolved"
+    ]
+  },
+  "legacy_config": {
+    "latent_dim": 64,
+    "esm_dim": 640,
+    "enc_hidden": 256,
+    "enc_depth": 2,
+    "ode_hidden": 128,
+    "ode_depth": 2,
+    "ode_time_freq": 4,
+    "ode_n_steps": 4,
+    "dec_z_hidden": 256,
+    "dec_z_depth": 2,
+    "epochs": 200,
+    "steps_per_epoch": 200,
+    "batch_size": 1024,
+    "lr": 0.0002,
+    "beta_kl": 0.01,
+    "beta_cos": 1.0,
+    "beta_mse": 2.0,
+    "beta_recon": 0.1,
+    "zero_weight": 20.0,
+    "center_genes": true,
+    "beta_drift": 0.01,
+    "beta_rev": 1.0,
+    "separate_rev_drift": true,
+    "paired_by_genotype": true,
+    "use_ct_cond": true,
+    "cond_dim": 20,
+    "ct_brain_labels": [
+      "Micro",
+      "Oligo",
+      "Astro",
+      "OPC",
+      "Neuron",
+      "Endo",
+      "Pericyte"
+    ],
+    "ct_blood_labels": [
+      "HSPC",
+      "MyeloidP",
+      "Mono",
+      "B",
+      "T",
+      "CD4T",
+      "CD8T",
+      "NK",
+      "DC",
+      "Mega",
+      "Ery"
+    ],
+    "compartment_pair": true,
+    "myeloid_compartment": [
+      "MyeloidP",
+      "Mono",
+      "HSPC",
+      "pDC"
+    ],
+    "micro_labels": [
+      "Micro",
+      "mg"
+    ],
+    "output_dir": "results/step1_world_model_v5_2_member",
+    "model_dir": "models/world_model_v5_2_joint_member",
+    "seed": 42
+  },
+  "esm_nonzero_nodes": 12206,
+  "esm_note": "Original missing-sequence vectors retained as unavailable, not imputed with random sequences. All nodes remain inputs/outputs and are available to learned-projection controls.",
+  "annotation_note": "Original labels retained as legacy computational annotations, not asserted biological ground truth. Mouse Brain1 was myeloid-sorted; non-myeloid labels remain explicitly unvalidated.",
+  "frozen_holdouts": "GSE157827 previous 4 val/4 test preserved; all 21 donors retained; CITE P1-4/P5/P6-8",
+  "statistical_scope": "Unpaired population prediction, no invented donor or animal pairs",
+  "data_files": {
+    "genes.csv": "fdf51a2553af82f2cffddf58d2212595e7b94d116d82c84ad2f5136acfcaaeb0",
+    "preprocessing.npz": "e698911b05833fdd7bcd235d8874108fc0128dbfb6e400ff14a33787615cadf1",
+    "sequence_coverage.csv": "0ce78ca926879c76b9ea328268e7a2f201d238b34fae569ceb42e4c6df589d80",
+    "condition_layout.json": "882bad30bdaa10ddbad5e7f3fc087229d936a09af3a2acdef2d27785eea7eafd",
+    "protein_annotations.csv": "e2d33ffd1d0aef314bf6061390fb996c99f531f93d983de0068dc37f0408a7ad",
+    "sample_manifest.csv": "c8808d7e531ce8202fa63366f3365d0a388670e42ada1c9f8e88973bb91f4c29",
+    "assays.json": "2f5323e1c8ef432695bddce925c40618cb82080cf6b9fca588800ef30f76366e",
+    "assay_masks.npy": "9cb4e6e0109a4a483edd310ce9d4ddcfbe4aeb1f37211a601173d490cbe256b0",
+    "esm.npy": "56b4541dd9ce71a618fa2832f004f8c5967ebe19a9099b0d976bfe006215692d",
+    "cite/data.npy": "ef4e20fd079b9076260623a9a8be31f842caa328c3eaa338d2c6228b6b2cbad3",
+    "cite/obs.csv": "414242ba8d50953ee663a1c33a80977196d87cd09da4c04519027623b34f26f7",
+    "cite/indptr.npy": "d113a544d8eed3ea73269ee655e4b0b607c7f5249eb749c2172e8255d5fe618b",
+    "cite/Y.npy": "845c81674b00280610b5fe4e48115ee27c3fb9d269786563c45fc26d77b6491e",
+    "cite/shape.json": "c0473ea5c543dfd9e9fc4124c8386f07cc62425d3402580f2a3edad0216c3975",
+    "cite/proteins.json": "2619c981162cd709e9067041e309d810700d918b09f3a798ad17ddc081a7fb00",
+    "cite/indices.npy": "7dc4703e16d361d22467a506a9048239dd571c3f1ae2b0fff0f85d1e82fbf609",
+    "mouse_brain/data.npy": "8af6770078b7e58b4750d5531252f3793c6a1e7973cd90901ecaecbb6cb713e7",
+    "mouse_brain/obs.csv": "240e2341a2bb6941111cb314317ea5a5a843e725186e8479305d6033ba159b5b",
+    "mouse_brain/indptr.npy": "39108db1f3133c8e08fcd616472ffb34a4e5da54f4df9229e46782cb8eecce33",
+    "mouse_brain/shape.json": "8c5aeae78fdc6f8d7bf613eb19b590b064b2acae9f0fb00215dc9619332eeacb",
+    "mouse_brain/indices.npy": "3b31cefc05cbb9b3813af20873903cc4dfca62f06160d017d99c5ca28cc96269",
+    "human_blood/data.npy": "d792fd232983a88e18c54f94a91d1f8230acca07562dc4cf1f241f3588e1beaf",
+    "human_blood/obs.csv": "9fb1e1c57fc66bd919f5f0fde4c18cab0db4c7312f0f22af780d5ee68f5e9971",
+    "human_blood/indptr.npy": "dbd64b5310ac12578a678e1c0aac0c0284a49d433dcb45789f2cd8bee2993011",
+    "human_blood/shape.json": "983b5dd182b604a6f0545cc38c5252a0690a00ad8d29cb4a8a382de3cb8f6c61",
+    "human_blood/indices.npy": "4de2617a411099c33255f00b929a2adf05b06206da77317aa3ab7b3c33e19a95",
+    "human_brain/data.npy": "4d3a3fa9c08044bbef9479ebaa7c0657e2e9d4f4ce7eb59e0b7f0ce6e27bda56",
+    "human_brain/obs.csv": "8454a2c3563cfbd01be00a17e5e2692c9fa779bd47aca43d134dce9810d8d6ec",
+    "human_brain/indptr.npy": "0d2fff3345f7d6688421f10269ddaac623ecaf091b18b0eee78cc9a27309d450",
+    "human_brain/shape.json": "7c0b676a9cf5033145f6ed0ebca321e0d79af848710c0de8170d79f86a4d8899",
+    "human_brain/indices.npy": "01a04d19fb175bdb70799ff0d30090210f882ea9d189861a9a893913031dfa76",
+    "mouse_blood/data.npy": "bd750134c06f911b44743c638c6a948cafa7d21525bedc6577e0ece899b78d12",
+    "mouse_blood/obs.csv": "d033bc7277ab57d36441bf972267a79b204563f8565b3303ceffcf4ca3efd72e",
+    "mouse_blood/indptr.npy": "58d1aadfc32e3f2c791255ee5a80c240e2d8a71aaffab05ec57b8f4d983802f5",
+    "mouse_blood/shape.json": "d5f1cf60b1df1e9b042aebf8512f570406d6222d588fbe08d797a6ab5b786f04",
+    "mouse_blood/indices.npy": "8914520d5286b322cdc7254330e8e0af647ee6bb5b0e25382e1474f133957bf2"
+  }
+}

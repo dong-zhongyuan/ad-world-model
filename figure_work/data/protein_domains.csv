@@ -1,0 +1,63 @@
+target,type,description,start,end
+BIN1,Domain,BAR,29,276
+BIN1,Domain,SH3,520,593
+BIN1,Region,Interaction with BIN2,2,122
+BIN1,Region,Disordered,280,354
+BIN1,Region,Clathrin-binding,378,421
+BIN1,Region,Disordered,400,488
+GRN,Signal,,1,17
+BLNK,Domain,SH2,346,453
+BLNK,Region,Disordered,36,301
+CR1,Signal,,1,41
+CR1,Transmembrane,Helical,1972,1996
+CR1,Domain,Sushi 1,42,101
+CR1,Domain,Sushi 2,102,163
+CR1,Domain,Sushi 3,164,234
+CR1,Domain,Sushi 4,236,295
+CR1,Domain,Sushi 5,295,355
+CR1,Domain,Sushi 6,356,418
+CR1,Domain,Sushi 7,419,489
+CR1,Domain,Sushi 8,491,551
+CR1,Domain,Sushi 9,552,613
+CR1,Domain,Sushi 10,614,684
+CR1,Domain,Sushi 11,686,745
+CR1,Domain,Sushi 12,745,805
+CR1,Domain,Sushi 13,806,868
+CR1,Domain,Sushi 14,869,939
+CR1,Domain,Sushi 15,941,1001
+CR1,Domain,Sushi 16,1002,1063
+CR1,Domain,Sushi 17,1064,1134
+CR1,Domain,Sushi 18,1136,1195
+CR1,Domain,Sushi 19,1195,1255
+CR1,Domain,Sushi 20,1256,1318
+CR1,Domain,Sushi 21,1319,1389
+CR1,Domain,Sushi 22,1394,1454
+CR1,Domain,Sushi 23,1455,1516
+CR1,Domain,Sushi 24,1517,1587
+CR1,Domain,Sushi 25,1589,1648
+CR1,Domain,Sushi 26,1648,1708
+CR1,Domain,Sushi 27,1709,1771
+CR1,Domain,Sushi 28,1772,1842
+CR1,Domain,Sushi 29,1846,1906
+CR1,Domain,Sushi 30,1907,1967
+CR1,Region,Disordered,2017,2039
+PILRB,Signal,,1,19
+PILRB,Transmembrane,Helical,192,212
+PILRB,Domain,Ig-like V-type,21,143
+CD55,Signal,,1,34
+CD55,Domain,Sushi 1,35,96
+CD55,Domain,Sushi 2,96,160
+CD55,Domain,Sushi 3,161,222
+CD55,Domain,Sushi 4,223,285
+CD55,Region,Disordered,277,354
+ACP5,Signal,,1,21
+ACP5,Region,Inhibitory loop,162,179
+BST2,Transmembrane,Helical; Signal-anchor for type II membrane protein,21,48
+GNAS,Signal,,1,46
+GNAS,Region,Disordered,70,245
+ST13,Repeat,TPR 1,114,147
+ST13,Repeat,TPR 2,148,181
+ST13,Repeat,TPR 3,182,215
+ST13,Domain,STI1,319,358
+ST13,Region,Disordered,38,97
+ST13,Region,Disordered,256,300

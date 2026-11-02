@@ -1,0 +1,41 @@
+{
+  "rank": 1,
+  "target": "BLNK",
+  "screening_name": "BLNK",
+  "group": "intersection",
+  "uniprot": "Q8WV28",
+  "chembl_id": "CHEMBL834",
+  "name": "PAMIDRONIC ACID",
+  "score_max_pocket_z": 8.131742477416992,
+  "best_state_id": "CHEMBL834_s005",
+  "best_state_smiles": "[NH3+]CCC(O)(P(=O)([O-])[O-])P(=O)([O-])[O-]",
+  "states_scored": 6,
+  "best_pocket": "BLNK_AF-Q8WV28-F1_pocket6",
+  "best_pocket_mean_cosine": 0.6535057425498962,
+  "folds_in_top_1_percent": 6,
+  "median_fold_rank_percent": 0.174140182847192,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 93.881,
+  "pocket_fraction_pLDDT_ge70": 1.0,
+  "vina_score": -5.273,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 2.8052226293112636,
+  "selected_residues": [
+    [
+      "A",
+      409
+    ],
+    [
+      "A",
+      411
+    ],
+    [
+      "A",
+      416
+    ],
+    [
+      "A",
+      417
+    ]
+  ]
+}

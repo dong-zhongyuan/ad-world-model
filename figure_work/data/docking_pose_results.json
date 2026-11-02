@@ -1,0 +1,982 @@
+[
+  {
+    "target": "BIN1",
+    "receptor": "BIN1_AF-O00499-F1_pocket21",
+    "state_id": "CHEMBL1308_s000",
+    "chembl_id": "CHEMBL1308",
+    "name": "FOMEPIZOLE",
+    "seed": 42,
+    "input_fingerprint": "82d2f8b16c08cf077b24be3f7020086100283027b0237b9bb9097bf8d0644c10",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -3.233,
+    "energies_kcal_mol": [
+      [
+        -3.233,
+        -3.233,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.029,
+        -3.029,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.958,
+        -2.958,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.91,
+        -2.91,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.9,
+        -2.9,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.858,
+        -2.858,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.85,
+        -2.85,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.848,
+        -2.848,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.802,
+        -2.802,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.797,
+        -2.797,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "poses": "docking/figure_shortlist/BIN1_AF-O00499-F1_pocket21__CHEMBL1308_s000__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/BIN1_AF-O00499-F1_pocket21__CHEMBL1308_s000__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      -10.78600025177002,
+      -5.459500074386597,
+      16.703499794006348
+    ],
+    "box_size_A": [
+      29.280000686645508,
+      31.146999835968018,
+      26.136999130249023
+    ],
+    "seconds": 8.128220315091312
+  },
+  {
+    "target": "GRN",
+    "receptor": "GRN_AF-P28799-F1_pocket8",
+    "state_id": "CHEMBL666_s000",
+    "chembl_id": "CHEMBL666",
+    "name": "FOSCARNET",
+    "seed": 42,
+    "input_fingerprint": "cf82dbf3b9a97f352598c3f2ca9ae3543a28cdcaee0845bb187b252de6e5fa3c",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -3.818,
+    "energies_kcal_mol": [
+      [
+        -3.818,
+        -4.264,
+        0.0,
+        0.446,
+        0.0
+      ],
+      [
+        -3.78,
+        -4.222,
+        0.0,
+        0.442,
+        0.0
+      ],
+      [
+        -3.775,
+        -4.216,
+        0.0,
+        0.441,
+        0.0
+      ],
+      [
+        -3.634,
+        -4.058,
+        0.0,
+        0.425,
+        0.0
+      ],
+      [
+        -3.624,
+        -4.048,
+        0.0,
+        0.424,
+        0.0
+      ],
+      [
+        -3.588,
+        -4.007,
+        0.0,
+        0.419,
+        0.0
+      ],
+      [
+        -3.424,
+        -3.824,
+        0.0,
+        0.4,
+        0.0
+      ],
+      [
+        -3.372,
+        -3.766,
+        0.0,
+        0.394,
+        0.0
+      ],
+      [
+        -3.353,
+        -3.745,
+        0.0,
+        0.392,
+        0.0
+      ],
+      [
+        -3.344,
+        -3.735,
+        0.0,
+        0.391,
+        0.0
+      ]
+    ],
+    "poses": "docking/figure_shortlist/GRN_AF-P28799-F1_pocket8__CHEMBL666_s000__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/GRN_AF-P28799-F1_pocket8__CHEMBL666_s000__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      -1.43149995803833,
+      -23.099000453948975,
+      33.46649932861328
+    ],
+    "box_size_A": [
+      28.512999534606934,
+      26.28600025177002,
+      25.14099884033203
+    ],
+    "seconds": 18.53068779502064
+  },
+  {
+    "target": "BLNK",
+    "receptor": "BLNK_AF-Q8WV28-F1_pocket6",
+    "state_id": "CHEMBL834_s005",
+    "chembl_id": "CHEMBL834",
+    "name": "PAMIDRONIC ACID",
+    "seed": 42,
+    "input_fingerprint": "5b1c6055c16f7a939dbd5e8fd6be98ba9b6cd1309aff1258f95f4548f49271da",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -5.273,
+    "energies_kcal_mol": [
+      [
+        -5.273,
+        -6.197,
+        -1.216,
+        0.925,
+        -1.216
+      ],
+      [
+        -5.116,
+        -5.949,
+        -1.279,
+        0.897,
+        -1.216
+      ],
+      [
+        -4.829,
+        -5.625,
+        -1.266,
+        0.847,
+        -1.216
+      ],
+      [
+        -4.788,
+        -5.727,
+        -1.117,
+        0.84,
+        -1.216
+      ],
+      [
+        -4.776,
+        -5.66,
+        -1.17,
+        0.838,
+        -1.216
+      ],
+      [
+        -4.686,
+        -5.448,
+        -1.275,
+        0.822,
+        -1.216
+      ],
+      [
+        -4.68,
+        -5.457,
+        -1.26,
+        0.821,
+        -1.216
+      ],
+      [
+        -4.672,
+        -5.548,
+        -1.159,
+        0.819,
+        -1.216
+      ],
+      [
+        -4.641,
+        -5.419,
+        -1.252,
+        0.814,
+        -1.216
+      ],
+      [
+        -4.617,
+        -5.908,
+        -0.735,
+        0.81,
+        -1.216
+      ]
+    ],
+    "poses": "docking/figure_shortlist/BLNK_AF-Q8WV28-F1_pocket6__CHEMBL834_s005__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/BLNK_AF-Q8WV28-F1_pocket6__CHEMBL834_s005__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      0.39100003242492676,
+      5.482000112533569,
+      12.019000053405762
+    ],
+    "box_size_A": [
+      27.2979998588562,
+      28.598000049591064,
+      28.802000045776367
+    ],
+    "seconds": 60.3752210251987
+  },
+  {
+    "target": "CR1",
+    "receptor": "CR1_AF-P17927-F1_pocket23",
+    "state_id": "CHEMBL1308_s001",
+    "chembl_id": "CHEMBL1308",
+    "name": "FOMEPIZOLE",
+    "seed": 42,
+    "input_fingerprint": "4b922016b01841a717ebceb4962de438067a68b7d19aecf85dea91df48e666aa",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -3.196,
+    "energies_kcal_mol": [
+      [
+        -3.196,
+        -3.196,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.161,
+        -3.161,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.092,
+        -3.092,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.982,
+        -2.982,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.954,
+        -2.954,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.78,
+        -2.78,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.695,
+        -2.695,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.689,
+        -2.689,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.638,
+        -2.638,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.638,
+        -2.638,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "poses": "docking/figure_shortlist/CR1_AF-P17927-F1_pocket23__CHEMBL1308_s001__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/CR1_AF-P17927-F1_pocket23__CHEMBL1308_s001__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      31.449999809265137,
+      35.63000011444092,
+      -27.87150001525879
+    ],
+    "box_size_A": [
+      31.989999771118164,
+      25.75200080871582,
+      26.87099838256836
+    ],
+    "seconds": 8.168305981904268
+  },
+  {
+    "target": "PILRB",
+    "receptor": "PILRB_AF-Q9UKJ0-F1_pocket1",
+    "state_id": "CHEMBL354077_s000",
+    "chembl_id": "CHEMBL354077",
+    "name": "AMIFAMPRIDINE",
+    "seed": 42,
+    "input_fingerprint": "48e3ef29776743f854a1aa1fe26adb7ef2ceb05fd0137d159bbfe9791f2fae41",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -3.576,
+    "energies_kcal_mol": [
+      [
+        -3.576,
+        -3.785,
+        0.0,
+        0.209,
+        0.0
+      ],
+      [
+        -3.572,
+        -3.78,
+        0.0,
+        0.209,
+        0.0
+      ],
+      [
+        -3.416,
+        -3.616,
+        0.0,
+        0.2,
+        0.0
+      ],
+      [
+        -3.413,
+        -3.613,
+        0.0,
+        0.2,
+        0.0
+      ],
+      [
+        -3.34,
+        -3.535,
+        0.0,
+        0.195,
+        0.0
+      ],
+      [
+        -3.276,
+        -3.467,
+        0.0,
+        0.191,
+        0.0
+      ],
+      [
+        -3.26,
+        -3.45,
+        0.0,
+        0.191,
+        0.0
+      ],
+      [
+        -3.226,
+        -3.414,
+        0.0,
+        0.189,
+        0.0
+      ],
+      [
+        -3.221,
+        -3.409,
+        0.0,
+        0.188,
+        0.0
+      ],
+      [
+        -3.202,
+        -3.389,
+        0.0,
+        0.187,
+        0.0
+      ]
+    ],
+    "poses": "docking/figure_shortlist/PILRB_AF-Q9UKJ0-F1_pocket1__CHEMBL354077_s000__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/PILRB_AF-Q9UKJ0-F1_pocket1__CHEMBL354077_s000__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      12.905499696731567,
+      4.1275001764297485,
+      -3.170999765396118
+    ],
+    "box_size_A": [
+      22.294999599456787,
+      23.4590003490448,
+      32.901999950408936
+    ],
+    "seconds": 17.586625887081027
+  },
+  {
+    "target": "CD55",
+    "receptor": "CD55_AF-P08174-F1_pocket8",
+    "state_id": "CHEMBL185_s002",
+    "chembl_id": "CHEMBL185",
+    "name": "FLUOROURACIL",
+    "seed": 42,
+    "input_fingerprint": "85d7777210b2fd45fc98b173ae1f33e44e4e14947d3530bc51c2b80a8c1c560d",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -4.352,
+    "energies_kcal_mol": [
+      [
+        -4.352,
+        -4.352,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -4.17,
+        -4.17,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -4.113,
+        -4.113,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.917,
+        -3.917,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.899,
+        -3.899,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.879,
+        -3.879,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.852,
+        -3.852,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.828,
+        -3.828,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.778,
+        -3.778,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -3.761,
+        -3.761,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "poses": "docking/figure_shortlist/CD55_AF-P08174-F1_pocket8__CHEMBL185_s002__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/CD55_AF-P08174-F1_pocket8__CHEMBL185_s002__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      -19.404500007629395,
+      -1.4014999866485596,
+      10.049499794840813
+    ],
+    "box_size_A": [
+      26.864999771118164,
+      29.578999996185303,
+      32.714999586343765
+    ],
+    "seconds": 10.703384364023805
+  },
+  {
+    "target": "ACP5",
+    "receptor": "ACP5_AF-P13686-F1_pocket8",
+    "state_id": "CHEMBL284348_s000",
+    "chembl_id": "CHEMBL284348",
+    "name": "DALFAMPRIDINE",
+    "seed": 42,
+    "input_fingerprint": "138c48c2580e8c7d15b78629780bcf731c0b5544c5eb034e631b3ae4449a1c01",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -3.41,
+    "energies_kcal_mol": [
+      [
+        -3.41,
+        -3.509,
+        0.0,
+        0.1,
+        0.0
+      ],
+      [
+        -3.409,
+        -3.508,
+        0.0,
+        0.1,
+        0.0
+      ],
+      [
+        -3.374,
+        -3.472,
+        0.0,
+        0.099,
+        0.0
+      ],
+      [
+        -3.364,
+        -3.462,
+        0.0,
+        0.098,
+        0.0
+      ],
+      [
+        -3.188,
+        -3.281,
+        0.0,
+        0.093,
+        0.0
+      ],
+      [
+        -3.183,
+        -3.276,
+        0.0,
+        0.093,
+        0.0
+      ],
+      [
+        -3.176,
+        -3.269,
+        0.0,
+        0.093,
+        0.0
+      ],
+      [
+        -3.166,
+        -3.259,
+        0.0,
+        0.093,
+        0.0
+      ],
+      [
+        -3.085,
+        -3.175,
+        0.0,
+        0.09,
+        0.0
+      ],
+      [
+        -2.984,
+        -3.072,
+        0.0,
+        0.087,
+        0.0
+      ]
+    ],
+    "poses": "docking/figure_shortlist/ACP5_AF-P13686-F1_pocket8__CHEMBL284348_s000__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/ACP5_AF-P13686-F1_pocket8__CHEMBL284348_s000__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      11.77649998664856,
+      -7.993500232696533,
+      -8.294999971985817
+    ],
+    "box_size_A": [
+      23.884999752044678,
+      26.11900043487549,
+      29.55599996447563
+    ],
+    "seconds": 12.07099965494126
+  },
+  {
+    "target": "BST2",
+    "receptor": "BST2_AF-Q10589-F1_pocket10",
+    "state_id": "CHEMBL931_s001",
+    "chembl_id": "CHEMBL931",
+    "name": "HALOTHANE",
+    "seed": 42,
+    "input_fingerprint": "4676a65afb41ce1fe890639ffe830da9d484ba125c407db9305b98898764df55",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -2.803,
+    "energies_kcal_mol": [
+      [
+        -2.803,
+        -2.966,
+        0.0,
+        0.164,
+        0.0
+      ],
+      [
+        -2.758,
+        -2.919,
+        0.0,
+        0.161,
+        0.0
+      ],
+      [
+        -2.689,
+        -2.847,
+        0.0,
+        0.157,
+        0.0
+      ],
+      [
+        -2.65,
+        -2.805,
+        0.0,
+        0.155,
+        0.0
+      ],
+      [
+        -2.621,
+        -2.774,
+        0.0,
+        0.153,
+        0.0
+      ],
+      [
+        -2.583,
+        -2.734,
+        0.0,
+        0.151,
+        0.0
+      ],
+      [
+        -2.577,
+        -2.728,
+        0.0,
+        0.151,
+        0.0
+      ],
+      [
+        -2.542,
+        -2.691,
+        0.0,
+        0.149,
+        0.0
+      ],
+      [
+        -2.538,
+        -2.686,
+        0.0,
+        0.148,
+        0.0
+      ],
+      [
+        -2.516,
+        -2.663,
+        0.0,
+        0.147,
+        0.0
+      ]
+    ],
+    "poses": "docking/figure_shortlist/BST2_AF-Q10589-F1_pocket10__CHEMBL931_s001__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/BST2_AF-Q10589-F1_pocket10__CHEMBL931_s001__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      34.92049980163574,
+      8.260500073432922,
+      -37.49650001525879
+    ],
+    "box_size_A": [
+      25.78499984741211,
+      22.88100028038025,
+      27.674999237060547
+    ],
+    "seconds": 10.443270523101091
+  },
+  {
+    "target": "GNAS",
+    "receptor": "GNAS_AF-O95467-F1_pocket5",
+    "state_id": "CHEMBL1324_s002",
+    "chembl_id": "CHEMBL1324",
+    "name": "TOLCAPONE",
+    "seed": 42,
+    "input_fingerprint": "3f60b8fa00cfccc2140e6c26e778da56b53b1c9310a36ba92a8caa72b5a1dd41",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -5.454,
+    "energies_kcal_mol": [
+      [
+        -5.454,
+        -6.569,
+        -0.828,
+        1.116,
+        -0.828
+      ],
+      [
+        -5.357,
+        -6.537,
+        -0.744,
+        1.096,
+        -0.828
+      ],
+      [
+        -5.251,
+        -6.38,
+        -0.774,
+        1.074,
+        -0.828
+      ],
+      [
+        -5.147,
+        -6.357,
+        -0.672,
+        1.053,
+        -0.828
+      ],
+      [
+        -5.132,
+        -6.171,
+        -0.839,
+        1.05,
+        -0.828
+      ],
+      [
+        -5.077,
+        -6.07,
+        -0.874,
+        1.039,
+        -0.828
+      ],
+      [
+        -4.979,
+        -6.019,
+        -0.807,
+        1.019,
+        -0.828
+      ],
+      [
+        -4.959,
+        -5.94,
+        -0.861,
+        1.015,
+        -0.828
+      ],
+      [
+        -4.938,
+        -5.981,
+        -0.796,
+        1.01,
+        -0.828
+      ],
+      [
+        -4.932,
+        -5.935,
+        -0.834,
+        1.009,
+        -0.828
+      ]
+    ],
+    "poses": "docking/figure_shortlist/GNAS_AF-O95467-F1_pocket5__CHEMBL1324_s002__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/GNAS_AF-O95467-F1_pocket5__CHEMBL1324_s002__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      0.01399993896484375,
+      23.312000274658203,
+      -23.377999782562256
+    ],
+    "box_size_A": [
+      41.332000732421875,
+      26.0,
+      28.24400043487549
+    ],
+    "seconds": 71.41155732702464
+  },
+  {
+    "target": "ST13",
+    "receptor": "ST13_AF-P50502-F1_pocket19",
+    "state_id": "CHEMBL455917_s000",
+    "chembl_id": "CHEMBL455917",
+    "name": "CHLORAL HYDRATE",
+    "seed": 42,
+    "input_fingerprint": "3af7bf038f297ccedd9b758c3afb84c58d4a072aa4bc49af8656be66d1a44fc3",
+    "exhaustiveness": 32,
+    "status": "complete",
+    "top_score_kcal_mol": -3.309,
+    "energies_kcal_mol": [
+      [
+        -3.309,
+        -3.695,
+        0.0,
+        0.387,
+        0.0
+      ],
+      [
+        -3.298,
+        -3.683,
+        0.0,
+        0.386,
+        0.0
+      ],
+      [
+        -3.271,
+        -3.653,
+        0.0,
+        0.382,
+        0.0
+      ],
+      [
+        -3.174,
+        -3.545,
+        0.0,
+        0.371,
+        0.0
+      ],
+      [
+        -3.165,
+        -3.535,
+        0.0,
+        0.37,
+        0.0
+      ],
+      [
+        -3.162,
+        -3.532,
+        0.0,
+        0.37,
+        0.0
+      ],
+      [
+        -3.083,
+        -3.443,
+        0.0,
+        0.36,
+        0.0
+      ],
+      [
+        -3.079,
+        -3.439,
+        0.0,
+        0.36,
+        0.0
+      ],
+      [
+        -3.029,
+        -3.383,
+        0.0,
+        0.354,
+        0.0
+      ],
+      [
+        -3.026,
+        -3.38,
+        0.0,
+        0.354,
+        0.0
+      ]
+    ],
+    "poses": "docking/figure_shortlist/ST13_AF-P50502-F1_pocket19__CHEMBL455917_s000__seed42.pdbqt",
+    "sdf": "docking/figure_shortlist/ST13_AF-P50502-F1_pocket19__CHEMBL455917_s000__seed42.sdf",
+    "pose_identity_verified": true,
+    "box_center_A": [
+      -18.400999546051025,
+      -19.63100004196167,
+      33.79699993133545
+    ],
+    "box_size_A": [
+      27.929999351501465,
+      27.618000984191895,
+      28.32000160217285
+    ],
+    "seconds": 17.85940140672028
+  }
+]

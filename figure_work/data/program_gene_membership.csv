@@ -1,0 +1,41 @@
+program,term,gene,route,target
+P1,Cytoplasmic Translation (GO:0002181),RPL18A,B_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPL30,B_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPL34,B_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPL39,B_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPS14,B_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPS15A,B_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPS27,B_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPS3A,B_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPL10,CD4T_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPL18A,CD4T_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPL30,CD4T_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPL34,CD4T_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPL39,CD4T_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPS15A,CD4T_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPS27,CD4T_Micro,ST13
+P1,Cytoplasmic Translation (GO:0002181),RPS3A,CD4T_Micro,ST13
+P2,Regulation Of Dendritic Cell Differentiation (GO:2001198),HLA-B,NK_Micro,ST13
+P2,Regulation Of Dendritic Cell Differentiation (GO:2001198),HLA-G,NK_Micro,ST13
+P2,Regulation Of Dendritic Cell Differentiation (GO:2001198),LGALS1,NK_Micro,ST13
+P3,Positive Regulation Of Leukocyte Degranulation (GO:0043302),HLA-F,NK_Micro,ST13
+P3,Positive Regulation Of Leukocyte Degranulation (GO:0043302),ITGB2,NK_Micro,ST13
+P4,Antimicrobial Humoral Response (GO:0019730),HLA-A,B_Micro,ST13
+P4,Antimicrobial Humoral Response (GO:0019730),HLA-E,B_Micro,ST13
+P4,Antimicrobial Humoral Response (GO:0019730),RPL30,B_Micro,ST13
+P4,Antimicrobial Humoral Response (GO:0019730),RPL39,B_Micro,ST13
+P4,Antimicrobial Humoral Response (GO:0019730),HLA-A,CD4T_Micro,ST13
+P4,Antimicrobial Humoral Response (GO:0019730),HLA-E,CD4T_Micro,ST13
+P4,Antimicrobial Humoral Response (GO:0019730),RPL30,CD4T_Micro,ST13
+P4,Antimicrobial Humoral Response (GO:0019730),RPL39,CD4T_Micro,ST13
+P5,Microglial Cell Activation (GO:0001774),C1QA,Mono_Micro,PILRB
+P5,Microglial Cell Activation (GO:0001774),ITGAM,Mono_Micro,PILRB
+P5,Microglial Cell Activation (GO:0001774),TYROBP,Mono_Micro,PILRB
+P6,Regulation Of Peptidase Activity (GO:0052547),CST3,Mono_Micro,PILRB
+P6,Regulation Of Peptidase Activity (GO:0052547),CTSB,Mono_Micro,PILRB
+P6,Regulation Of Peptidase Activity (GO:0052547),CTSS,Mono_Micro,PILRB
+P7,Defense Response To Bacterium (GO:0042742),HLA-A,CD4T_Micro,ST13
+P7,Defense Response To Bacterium (GO:0042742),HLA-E,CD4T_Micro,ST13
+P7,Defense Response To Bacterium (GO:0042742),RPL30,CD4T_Micro,ST13
+P7,Defense Response To Bacterium (GO:0042742),RPL39,CD4T_Micro,ST13
+P7,Defense Response To Bacterium (GO:0042742),S100A8,CD4T_Micro,ST13

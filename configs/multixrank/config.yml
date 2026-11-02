@@ -1,0 +1,14 @@
+bipartite:
+  bipartite/brain_to_blood.tsv:
+    source: brain
+    target: blood
+include_bipartite_nodes: true
+multiplex:
+  blood:
+    layers:
+    - multiplex/blood/blood_layer.tsv
+  brain:
+    layers:
+    - multiplex/brain/brain_layer.tsv
+r: 0.5
+seed: seeds.txt

@@ -1,0 +1,9 @@
+{
+  "checkpoint": "checkpoints/human_full.pt",
+  "sha256": "f5fe0937e96611b418f9459e48b5836854e7228a8f48e2aed4bd5fff33079a83",
+  "step": 1500,
+  "predicted_cells": 1024,
+  "nodes": 25790,
+  "weights_unchanged": true,
+  "sampling": "original evaluation rng_for; corrected DistributionModel; CPU float32"
+}

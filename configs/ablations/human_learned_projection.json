@@ -1,0 +1,12 @@
+{
+  "species": "human",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {
+    "representation": "learned"
+  },
+  "name": "human_learned_projection",
+  "description": "Species x sequence representation comparison"
+}

@@ -1,0 +1,10 @@
+{
+  "species": "joint",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {},
+  "name": "joint_full",
+  "description": "Reference: human+mouse, real ESM, ODE, joint CITE head"
+}

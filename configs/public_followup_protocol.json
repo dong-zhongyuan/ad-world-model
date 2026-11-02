@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-30T17:31:50.393721+00:00",
+  "purpose": "Complete public-data follow-up; user declined Synapse restricted data",
+  "candidates": "All original 136 candidates retained; UKB23 frozen and AGES9 exposure-selected primary assays plus2 labelled secondary assays",
+  "AGES_selection": "Maximum published exposure F per gene, ties by accession; selection already locked in AGES coverage before AD follow-up",
+  "AGES_leads_sha256": "e7f9e4e2e02c99a7856ae5f9705be98381b26e7d4703f04962c087834fbeb215",
+  "AGES_source_plan_sha256": "bae2296d7df24494629e0262b624d313b72920d66ea89f78c82939e5b7602045",
+  "primary_outcome": "Bellenguez2022 GCST90027158 stage I, 21101114 variants, maximum N487511; excludes FinnGen stage II",
+  "independent_outcome": {
+    "study": "FinnGen_R13",
+    "endpoint": "G6_ALZHEIMER",
+    "cases": 16652,
+    "controls": 483534,
+    "build": "GRCh38",
+    "effect_allele": "ALT"
+  },
+  "cohort_evidence": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9005347/",
+    "statement": "Stage I consortium list excludes FinnGen and CHARGE; FinnGen participates in stage II. Downloaded AD file exactly matches stage I variant count and sample count."
+  },
+  "statistics": "Wald first-order primary and second-order sensitivity; BH across all estimable primary assays within source and outcome; additionally joint UKB+AGES BH within each outcome; secondary assays separate",
+  "replication": "Report same-direction FinnGen association and P; Bonferroni across discovery-significant protein-assay hypotheses, with all original candidates retained",
+  "variant_identity": "Exact GRCh38 chromosome, coordinate and sequence allele pair, including merged/missing rs identifiers; ambiguous allele or duplicates excluded, no LD proxies",
+  "coloc": "All AGES primary and secondary assays, both outcomes; complete unfiltered \u00b1500kb regions; ABF single causal variant, p1=p2=1e-4, primary p12=1e-5 and sensitivity1e-6,1e-4; report continuous PP_H4; 0.8 descriptive strong-support cutoff",
+  "scale": "Estimate quantitative sdY from SE, EAF, per-assay N using official coloc no-intercept regression; use prior SD0.15*sdY, outcome0.2; scale sensitivity0.5x/2x",
+  "unsupported": "No brain-edge mediation, peripheral tissue specificity, drug efficacy, or full multicausal fine-mapping claim",
+  "UKB_regional": "Not available: anonymous Synapse READ-only, user elected public sources only",
+  "training": false
+}

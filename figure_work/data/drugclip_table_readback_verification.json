@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "targets": 10,
+  "parent_identities_and_all_state_identities_verified": true,
+  "parent_scores_equal_state_maxima": true,
+  "actual_loader_order_corrected": true
+}

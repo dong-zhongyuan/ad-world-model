@@ -1,0 +1,41 @@
+{
+  "rank": 5,
+  "target": "ACP5",
+  "screening_name": "ACP5",
+  "group": "union_only",
+  "uniprot": "P13686",
+  "chembl_id": "CHEMBL284348",
+  "name": "DALFAMPRIDINE",
+  "score_max_pocket_z": 5.797966957092285,
+  "best_state_id": "CHEMBL284348_s000",
+  "best_state_smiles": "Nc1ccncc1",
+  "states_scored": 1,
+  "best_pocket": "ACP5_AF-P13686-F1_pocket8",
+  "best_pocket_mean_cosine": 0.5980949997901917,
+  "folds_in_top_1_percent": 4,
+  "median_fold_rank_percent": 0.5659555942533739,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 98.6809090909091,
+  "pocket_fraction_pLDDT_ge70": 1.0,
+  "vina_score": -3.41,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 3.0179718355213314,
+  "selected_residues": [
+    [
+      "A",
+      83
+    ],
+    [
+      "A",
+      85
+    ],
+    [
+      "A",
+      38
+    ],
+    [
+      "A",
+      79
+    ]
+  ]
+}

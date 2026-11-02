@@ -1,0 +1,10 @@
+{
+  "species": "human",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {},
+  "name": "human_full",
+  "description": "Human-only disease training; CITE supervision unchanged"
+}

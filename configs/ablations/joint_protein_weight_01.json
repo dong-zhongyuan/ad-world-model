@@ -1,0 +1,12 @@
+{
+  "species": "joint",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {
+    "protein_weight": 0.1
+  },
+  "name": "joint_protein_weight_01",
+  "description": "Auxiliary-loss strength sensitivity, fixed before tests"
+}

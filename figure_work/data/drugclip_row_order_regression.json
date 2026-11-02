@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "real_cached_arrays_tested": 12,
+  "all_six_molecule_and_pocket_encoders": true,
+  "comparison": "fixed scorer canonical_rows vs independently captured full official-loader identities and corrected cache",
+  "no_gpu_inference": true
+}

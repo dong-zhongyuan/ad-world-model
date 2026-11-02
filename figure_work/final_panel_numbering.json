@@ -1,0 +1,515 @@
+[
+  {
+    "figure": 1,
+    "source_id": "1a",
+    "final_id": "1a",
+    "x_u": 0,
+    "y_u": 0,
+    "width_u": 20.0,
+    "height_u": 4.0
+  },
+  {
+    "figure": 1,
+    "source_id": "1b",
+    "final_id": "1b",
+    "x_u": 0,
+    "y_u": 4,
+    "width_u": 10.0,
+    "height_u": 9.0
+  },
+  {
+    "figure": 1,
+    "source_id": "1c",
+    "final_id": "1c",
+    "x_u": 10,
+    "y_u": 4,
+    "width_u": 10.0,
+    "height_u": 9.0
+  },
+  {
+    "figure": 1,
+    "source_id": "1d",
+    "final_id": "1d",
+    "x_u": 0,
+    "y_u": 13,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 1,
+    "source_id": "1f",
+    "final_id": "1e",
+    "x_u": 10,
+    "y_u": 13,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 1,
+    "source_id": "1g",
+    "final_id": "1f",
+    "x_u": 0,
+    "y_u": 19.5,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 1,
+    "source_id": "1h",
+    "final_id": "1g",
+    "x_u": 10,
+    "y_u": 19.5,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2a",
+    "final_id": "2a",
+    "x_u": 0,
+    "y_u": 0,
+    "width_u": 20.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2b",
+    "final_id": "2b",
+    "x_u": 0,
+    "y_u": 3,
+    "width_u": 12.0,
+    "height_u": 7.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2c",
+    "final_id": "2c",
+    "x_u": 12,
+    "y_u": 3,
+    "width_u": 8.0,
+    "height_u": 7.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2d",
+    "final_id": "2d",
+    "x_u": 0,
+    "y_u": 10,
+    "width_u": 7.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2e",
+    "final_id": "2e",
+    "x_u": 7,
+    "y_u": 10,
+    "width_u": 7.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2j",
+    "final_id": "2f",
+    "x_u": 14,
+    "y_u": 10,
+    "width_u": 6.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2g",
+    "final_id": "2g",
+    "x_u": 0,
+    "y_u": 16,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2h",
+    "final_id": "2h",
+    "x_u": 10,
+    "y_u": 16,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2f",
+    "final_id": "2i",
+    "x_u": 0,
+    "y_u": 21,
+    "width_u": 10.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 2,
+    "source_id": "2i",
+    "final_id": "2j",
+    "x_u": 10,
+    "y_u": 21,
+    "width_u": 10.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3a",
+    "final_id": "3a",
+    "x_u": 0,
+    "y_u": 0,
+    "width_u": 20.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3b",
+    "final_id": "3b",
+    "x_u": 0,
+    "y_u": 3,
+    "width_u": 20.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3c",
+    "final_id": "3c",
+    "x_u": 0,
+    "y_u": 6,
+    "width_u": 7.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3d",
+    "final_id": "3d",
+    "x_u": 7,
+    "y_u": 6,
+    "width_u": 7.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3e",
+    "final_id": "3e",
+    "x_u": 14,
+    "y_u": 6,
+    "width_u": 6.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3f",
+    "final_id": "3f",
+    "x_u": 0,
+    "y_u": 12,
+    "width_u": 7.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3g",
+    "final_id": "3g",
+    "x_u": 7,
+    "y_u": 12,
+    "width_u": 7.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3h",
+    "final_id": "3h",
+    "x_u": 14,
+    "y_u": 12,
+    "width_u": 6.0,
+    "height_u": 6.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3i",
+    "final_id": "3i",
+    "x_u": 0,
+    "y_u": 18,
+    "width_u": 8.0,
+    "height_u": 7.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3j",
+    "final_id": "3j",
+    "x_u": 8,
+    "y_u": 18,
+    "width_u": 6.0,
+    "height_u": 7.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3k",
+    "final_id": "3k",
+    "x_u": 14,
+    "y_u": 18,
+    "width_u": 6.0,
+    "height_u": 7.0
+  },
+  {
+    "figure": 3,
+    "source_id": "3l",
+    "final_id": "3l",
+    "x_u": 0,
+    "y_u": 25,
+    "width_u": 20.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4a",
+    "final_id": "4a",
+    "x_u": 0,
+    "y_u": 0,
+    "width_u": 20.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4b",
+    "final_id": "4b",
+    "x_u": 0,
+    "y_u": 3,
+    "width_u": 12.0,
+    "height_u": 11.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4j",
+    "final_id": "4c",
+    "x_u": 12,
+    "y_u": 3,
+    "width_u": 8.0,
+    "height_u": 11.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4c",
+    "final_id": "4d",
+    "x_u": 0,
+    "y_u": 14,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4d",
+    "final_id": "4e",
+    "x_u": 10,
+    "y_u": 14,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4e",
+    "final_id": "4f",
+    "x_u": 0,
+    "y_u": 19,
+    "width_u": 7.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4f",
+    "final_id": "4g",
+    "x_u": 7,
+    "y_u": 19,
+    "width_u": 7.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4i",
+    "final_id": "4h",
+    "x_u": 14,
+    "y_u": 19,
+    "width_u": 6.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4g",
+    "final_id": "4i",
+    "x_u": 0,
+    "y_u": 24,
+    "width_u": 10.0,
+    "height_u": 4.0
+  },
+  {
+    "figure": 4,
+    "source_id": "4h",
+    "final_id": "4j",
+    "x_u": 10,
+    "y_u": 24,
+    "width_u": 10.0,
+    "height_u": 4.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5a",
+    "final_id": "5a",
+    "x_u": 0,
+    "y_u": 0,
+    "width_u": 20.0,
+    "height_u": 2.5
+  },
+  {
+    "figure": 5,
+    "source_id": "5c",
+    "final_id": "5b",
+    "x_u": 0,
+    "y_u": 2.5,
+    "width_u": 20.0,
+    "height_u": 7.5
+  },
+  {
+    "figure": 5,
+    "source_id": "5b",
+    "final_id": "5c",
+    "x_u": 0,
+    "y_u": 10,
+    "width_u": 8.0,
+    "height_u": 4.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5d",
+    "final_id": "5d",
+    "x_u": 8,
+    "y_u": 10,
+    "width_u": 6.0,
+    "height_u": 4.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5h",
+    "final_id": "5e",
+    "x_u": 14,
+    "y_u": 10,
+    "width_u": 6.0,
+    "height_u": 4.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5e",
+    "final_id": "5f",
+    "x_u": 0,
+    "y_u": 14,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5f",
+    "final_id": "5g",
+    "x_u": 10,
+    "y_u": 14,
+    "width_u": 10.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5g",
+    "final_id": "5h",
+    "x_u": 0,
+    "y_u": 19,
+    "width_u": 20.0,
+    "height_u": 5.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5i",
+    "final_id": "5i",
+    "x_u": 0,
+    "y_u": 24,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5j",
+    "final_id": "5j",
+    "x_u": 4,
+    "y_u": 24,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5k",
+    "final_id": "5k",
+    "x_u": 8,
+    "y_u": 24,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5l",
+    "final_id": "5l",
+    "x_u": 12,
+    "y_u": 24,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5m",
+    "final_id": "5m",
+    "x_u": 16,
+    "y_u": 24,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5n",
+    "final_id": "5n",
+    "x_u": 0,
+    "y_u": 27,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5o",
+    "final_id": "5o",
+    "x_u": 4,
+    "y_u": 27,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5p",
+    "final_id": "5p",
+    "x_u": 8,
+    "y_u": 27,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5q",
+    "final_id": "5q",
+    "x_u": 12,
+    "y_u": 27,
+    "width_u": 4.0,
+    "height_u": 3.0
+  },
+  {
+    "figure": 5,
+    "source_id": "5r",
+    "final_id": "5r",
+    "x_u": 16,
+    "y_u": 27,
+    "width_u": 4.0,
+    "height_u": 3.0
+  }
+]

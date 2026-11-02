@@ -1,0 +1,471 @@
+target,route,term,p,overlap,query,background,set_size,nodes,genes,q,fold_enrichment
+BIN1,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+BIN1,B_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+BIN1,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+BIN1,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+BIN1,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+BIN1,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+BIN1,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+BIN1,B_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+CR1,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10244,87,,,1.0,0.0
+CR1,B_Micro,Gene Expression (GO:0010467),1.0,0,15,10244,254,,,1.0,0.0
+CR1,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10244,151,,,1.0,0.0
+CR1,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10244,16,,,1.0,0.0
+CR1,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10244,129,,,1.0,0.0
+CR1,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10244,10,,,1.0,0.0
+CR1,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10244,8,,,1.0,0.0
+CR1,B_Micro,Translation (GO:0006412),0.24723651436190466,1,15,10244,192,OG013507,AURKAIP1,1.0,3.5569444444444445
+PILRB,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,6,10244,87,,,1.0,0.0
+PILRB,B_Micro,Gene Expression (GO:0010467),1.0,0,6,10244,254,,,1.0,0.0
+PILRB,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,6,10244,151,,,1.0,0.0
+PILRB,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,6,10244,16,,,1.0,0.0
+PILRB,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,6,10244,129,,,1.0,0.0
+PILRB,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,6,10244,10,,,1.0,0.0
+PILRB,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,6,10244,8,,,1.0,0.0
+PILRB,B_Micro,Translation (GO:0006412),1.0,0,6,10244,192,,,1.0,0.0
+GRN,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+GRN,B_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+GRN,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+GRN,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,15,,,1.0,0.0
+GRN,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+GRN,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+GRN,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+GRN,B_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+BLNK,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+BLNK,B_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+BLNK,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+BLNK,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+BLNK,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+BLNK,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+BLNK,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+BLNK,B_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+CD55,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+CD55,B_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+CD55,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+CD55,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+CD55,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+CD55,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),0.014554373286314027,1,15,10243,10,OG014351,HLA-F,1.0,68.28666666666666
+CD55,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),0.011659411187855151,1,15,10243,8,OG014351,HLA-B,1.0,85.35833333333333
+CD55,B_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+ACP5,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10244,87,,,1.0,0.0
+ACP5,B_Micro,Gene Expression (GO:0010467),1.0,0,15,10244,254,,,1.0,0.0
+ACP5,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10244,151,,,1.0,0.0
+ACP5,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10244,16,,,1.0,0.0
+ACP5,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10244,129,,,1.0,0.0
+ACP5,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10244,10,,,1.0,0.0
+ACP5,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10244,8,,,1.0,0.0
+ACP5,B_Micro,Translation (GO:0006412),1.0,0,15,10244,192,,,1.0,0.0
+ST13,B_Micro,Cytoplasmic Translation (GO:0002181),1.1955609186285674e-13,8,15,10243,87,OG003444;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL18A;RPL30;RPL34;RPL39;RPS14;RPS15A;RPS27;RPS3A,1.513352966409227e-08,62.792337164750954
+ST13,B_Micro,Gene Expression (GO:0010467),7.096084914034662e-10,8,15,10243,254,OG003444;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL18A;RPL30;RPL34;RPL39;RPS14;RPS15A;RPS27;RPS3A,1.7964590490068432e-05,21.50761154855643
+ST13,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0920733938613104e-11,8,15,10243,151,OG003444;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL18A;RPL30;RPL34;RPL39;RPS14;RPS15A;RPS27;RPS3A,4.607858075611951e-07,36.17836644591612
+ST13,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+ST13,B_Micro,Peptide Biosynthetic Process (GO:0043043),3.0393294261019195e-12,8,15,10243,129,OG003444;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL18A;RPL30;RPL34;RPL39;RPS14;RPS15A;RPS27;RPS3A,1.9236067904270355e-07,42.348320413436696
+ST13,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),8.947026184462515e-05,2,15,10243,10,OG009636;OG014351,HLA-F,0.27963543739640734,136.57333333333332
+ST13,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),5.576470928580152e-05,2,15,10243,8,OG009636;OG014351,HLA-B;HLA-G,0.2554326839999404,170.71666666666667
+ST13,B_Micro,Translation (GO:0006412),7.57874653442776e-11,8,15,10243,192,OG003444;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL18A;RPL30;RPL34;RPL39;RPS14;RPS15A;RPS27;RPS3A,2.398313287686001e-06,28.45277777777778
+GNAS,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+GNAS,B_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+GNAS,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+GNAS,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+GNAS,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+GNAS,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+GNAS,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+GNAS,B_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+BST2,B_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+BST2,B_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+BST2,B_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+BST2,B_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+BST2,B_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+BST2,B_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+BST2,B_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+BST2,B_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+BIN1,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+BIN1,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+BIN1,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+BIN1,CD4T_Micro,Microglial Cell Activation (GO:0001774),0.023191844497823723,1,15,10243,16,OG002373,TYROBP,1.0,42.67916666666667
+BIN1,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+BIN1,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+BIN1,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+BIN1,CD4T_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+CR1,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+CR1,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+CR1,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+CR1,CD4T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+CR1,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+CR1,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+CR1,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+CR1,CD4T_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+PILRB,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+PILRB,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+PILRB,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+PILRB,CD4T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+PILRB,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+PILRB,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+PILRB,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+PILRB,CD4T_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+GRN,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+GRN,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+GRN,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+GRN,CD4T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,15,,,1.0,
+GRN,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+GRN,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+GRN,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+GRN,CD4T_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+BLNK,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+BLNK,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+BLNK,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+BLNK,CD4T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+BLNK,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+BLNK,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+BLNK,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+BLNK,CD4T_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+CD55,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+CD55,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+CD55,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+CD55,CD4T_Micro,Microglial Cell Activation (GO:0001774),0.023191844497823723,1,15,10243,16,OG014119,CLU,1.0,42.67916666666667
+CD55,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+CD55,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+CD55,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+CD55,CD4T_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+ACP5,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+ACP5,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+ACP5,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+ACP5,CD4T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+ACP5,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+ACP5,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+ACP5,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+ACP5,CD4T_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+ST13,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.1955609186285674e-13,8,15,10243,87,OG003452;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL10;RPL18A;RPL30;RPL34;RPL39;RPS15A;RPS27;RPS3A,1.513352966409227e-08,62.792337164750954
+ST13,CD4T_Micro,Gene Expression (GO:0010467),7.096084914034662e-10,8,15,10243,254,OG003452;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL10;RPL18A;RPL30;RPL34;RPL39;RPS15A;RPS27;RPS3A,1.7964590490068432e-05,21.50761154855643
+ST13,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0920733938613104e-11,8,15,10243,151,OG003452;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL10;RPL18A;RPL30;RPL34;RPL39;RPS15A;RPS27;RPS3A,4.607858075611951e-07,36.17836644591612
+ST13,CD4T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+ST13,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),3.0393294261019195e-12,8,15,10243,129,OG003452;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL10;RPL18A;RPL30;RPL34;RPL39;RPS15A;RPS27;RPS3A,1.9236067904270355e-07,42.348320413436696
+ST13,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),8.947026184462515e-05,2,15,10243,10,OG009636;OG014351,HLA-F,0.27963543739640734,136.57333333333332
+ST13,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),5.576470928580152e-05,2,15,10243,8,OG009636;OG014351,HLA-B;HLA-G,0.2554326839999404,170.71666666666667
+ST13,CD4T_Micro,Translation (GO:0006412),7.57874653442776e-11,8,15,10243,192,OG003452;OG003453;OG003667;OG003700;OG011646;OG011709;OG013796;OG013817,RPL10;RPL18A;RPL30;RPL34;RPL39;RPS15A;RPS27;RPS3A,2.398313287686001e-06,28.45277777777778
+GNAS,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+GNAS,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+GNAS,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+GNAS,CD4T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+GNAS,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+GNAS,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+GNAS,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+GNAS,CD4T_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+BST2,CD4T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,12,10243,87,,,1.0,0.0
+BST2,CD4T_Micro,Gene Expression (GO:0010467),1.0,0,12,10243,254,,,1.0,0.0
+BST2,CD4T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,12,10243,151,,,1.0,0.0
+BST2,CD4T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,12,10243,16,,,1.0,0.0
+BST2,CD4T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,12,10243,129,,,1.0,0.0
+BST2,CD4T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,12,10243,10,,,1.0,0.0
+BST2,CD4T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,12,10243,8,,,1.0,0.0
+BST2,CD4T_Micro,Translation (GO:0006412),1.0,0,12,10243,192,,,1.0,0.0
+BIN1,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+BIN1,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+BIN1,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+BIN1,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+BIN1,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+BIN1,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+BIN1,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+BIN1,CD8T_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+CR1,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+CR1,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+CR1,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+CR1,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+CR1,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+CR1,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+CR1,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+CR1,CD8T_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+PILRB,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+PILRB,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+PILRB,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+PILRB,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+PILRB,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+PILRB,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+PILRB,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+PILRB,CD8T_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+GRN,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+GRN,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+GRN,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+GRN,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,15,,,1.0,
+GRN,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+GRN,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+GRN,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+GRN,CD8T_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+BLNK,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+BLNK,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+BLNK,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+BLNK,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+BLNK,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+BLNK,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+BLNK,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+BLNK,CD8T_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+CD55,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+CD55,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+CD55,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+CD55,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+CD55,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+CD55,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+CD55,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+CD55,CD8T_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+ACP5,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+ACP5,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+ACP5,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+ACP5,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+ACP5,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+ACP5,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+ACP5,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+ACP5,CD8T_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+ST13,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+ST13,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+ST13,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+ST13,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+ST13,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+ST13,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+ST13,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+ST13,CD8T_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+GNAS,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+GNAS,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+GNAS,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+GNAS,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+GNAS,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+GNAS,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+GNAS,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+GNAS,CD8T_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+BST2,CD8T_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+BST2,CD8T_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+BST2,CD8T_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+BST2,CD8T_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+BST2,CD8T_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+BST2,CD8T_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+BST2,CD8T_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+BST2,CD8T_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+BIN1,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+BIN1,Mono_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+BIN1,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+BIN1,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+BIN1,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+BIN1,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+BIN1,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+BIN1,Mono_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+CR1,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+CR1,Mono_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+CR1,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+CR1,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+CR1,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+CR1,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+CR1,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+CR1,Mono_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+PILRB,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10244,87,,,1.0,0.0
+PILRB,Mono_Micro,Gene Expression (GO:0010467),1.0,0,15,10244,254,,,1.0,0.0
+PILRB,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10244,151,,,1.0,0.0
+PILRB,Mono_Micro,Microglial Cell Activation (GO:0001774),1.406386638834802e-06,3,15,10244,16,OG001781;OG002373;OG012623,C1QA;ITGAM;TYROBP,0.023743170396488336,128.05
+PILRB,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10244,129,,,1.0,0.0
+PILRB,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),0.014552961249704848,1,15,10244,10,OG001781,ITGAM,1.0,68.29333333333334
+PILRB,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10244,8,,,1.0,0.0
+PILRB,Mono_Micro,Translation (GO:0006412),1.0,0,15,10244,192,,,1.0,0.0
+GRN,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+GRN,Mono_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+GRN,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+GRN,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,15,,,1.0,0.0
+GRN,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+GRN,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+GRN,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+GRN,Mono_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+BLNK,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+BLNK,Mono_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+BLNK,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+BLNK,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+BLNK,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+BLNK,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+BLNK,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+BLNK,Mono_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+CD55,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+CD55,Mono_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+CD55,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+CD55,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+CD55,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+CD55,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+CD55,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+CD55,Mono_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+ACP5,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+ACP5,Mono_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+ACP5,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+ACP5,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+ACP5,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+ACP5,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+ACP5,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+ACP5,Mono_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+ST13,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+ST13,Mono_Micro,Gene Expression (GO:0010467),0.3140234102845663,1,15,10243,254,OG011664,KPNA4,1.0,2.6884514435695537
+ST13,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+ST13,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+ST13,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+ST13,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+ST13,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+ST13,Mono_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+GNAS,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,7,10243,87,,,1.0,0.0
+GNAS,Mono_Micro,Gene Expression (GO:0010467),1.0,0,7,10243,254,,,1.0,0.0
+GNAS,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,7,10243,151,,,1.0,0.0
+GNAS,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,7,10243,16,,,1.0,0.0
+GNAS,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,7,10243,129,,,1.0,0.0
+GNAS,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,7,10243,10,,,1.0,0.0
+GNAS,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,7,10243,8,,,1.0,0.0
+GNAS,Mono_Micro,Translation (GO:0006412),1.0,0,7,10243,192,,,1.0,0.0
+BST2,Mono_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+BST2,Mono_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+BST2,Mono_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+BST2,Mono_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+BST2,Mono_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+BST2,Mono_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+BST2,Mono_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+BST2,Mono_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+BIN1,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+BIN1,NK_Micro,Gene Expression (GO:0010467),0.3140234102845663,1,15,10243,254,OG003884,HNRNPUL1,1.0,2.6884514435695537
+BIN1,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+BIN1,NK_Micro,Microglial Cell Activation (GO:0001774),1.0,0,15,10243,16,,,1.0,0.0
+BIN1,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+BIN1,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+BIN1,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+BIN1,NK_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+CR1,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+CR1,NK_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+CR1,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+CR1,NK_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+CR1,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+CR1,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+CR1,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+CR1,NK_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+PILRB,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,7,10244,87,,,1.0,0.0
+PILRB,NK_Micro,Gene Expression (GO:0010467),1.0,0,7,10244,254,,,1.0,0.0
+PILRB,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,7,10244,151,,,1.0,0.0
+PILRB,NK_Micro,Microglial Cell Activation (GO:0001774),1.0,0,7,10244,16,,,1.0,0.0
+PILRB,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,7,10244,129,,,1.0,0.0
+PILRB,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,7,10244,10,,,1.0,0.0
+PILRB,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,7,10244,8,,,1.0,0.0
+PILRB,NK_Micro,Translation (GO:0006412),1.0,0,7,10244,192,,,1.0,0.0
+GRN,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+GRN,NK_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+GRN,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+GRN,NK_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,15,,,1.0,
+GRN,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+GRN,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+GRN,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+GRN,NK_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+BLNK,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+BLNK,NK_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+BLNK,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+BLNK,NK_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+BLNK,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+BLNK,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+BLNK,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+BLNK,NK_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+CD55,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,3,10243,87,,,1.0,0.0
+CD55,NK_Micro,Gene Expression (GO:0010467),1.0,0,3,10243,254,,,1.0,0.0
+CD55,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,3,10243,151,,,1.0,0.0
+CD55,NK_Micro,Microglial Cell Activation (GO:0001774),1.0,0,3,10243,16,,,1.0,0.0
+CD55,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,3,10243,129,,,1.0,0.0
+CD55,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,3,10243,10,,,1.0,0.0
+CD55,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,3,10243,8,,,1.0,0.0
+CD55,NK_Micro,Translation (GO:0006412),1.0,0,3,10243,192,,,1.0,0.0
+ACP5,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10244,87,,,1.0,
+ACP5,NK_Micro,Gene Expression (GO:0010467),1.0,0,0,10244,254,,,1.0,
+ACP5,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10244,151,,,1.0,
+ACP5,NK_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10244,16,,,1.0,
+ACP5,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10244,129,,,1.0,
+ACP5,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10244,10,,,1.0,
+ACP5,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10244,8,,,1.0,
+ACP5,NK_Micro,Translation (GO:0006412),1.0,0,0,10244,192,,,1.0,
+ST13,NK_Micro,Cytoplasmic Translation (GO:0002181),0.12017840099849511,1,15,10243,87,OG011673,UBA52,1.0,7.849042145593869
+ST13,NK_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+ST13,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),0.19982613500448798,1,15,10243,151,OG003059,EEF1D,1.0,4.522295805739515
+ST13,NK_Micro,Microglial Cell Activation (GO:0001774),0.023191844497823723,1,15,10243,16,OG017526,ITGB2,1.0,42.67916666666667
+ST13,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+ST13,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),3.0305141981374367e-07,3,15,10243,10,OG009636;OG014351;OG017526,HLA-F;ITGB2,0.006393425295240581,204.86
+ST13,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.4167294752150566e-07,3,15,10243,8,OG002908;OG009636;OG014351,HLA-B;HLA-G;LGALS1,0.003260564249130856,256.07500000000005
+ST13,NK_Micro,Translation (GO:0006412),0.03126695285400007,2,15,10243,192,OG003059;OG011673,EEF1D;UBA52,1.0,7.113194444444445
+GNAS,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,0,10243,87,,,1.0,
+GNAS,NK_Micro,Gene Expression (GO:0010467),1.0,0,0,10243,254,,,1.0,
+GNAS,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10243,151,,,1.0,
+GNAS,NK_Micro,Microglial Cell Activation (GO:0001774),1.0,0,0,10243,16,,,1.0,
+GNAS,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10243,129,,,1.0,
+GNAS,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10243,10,,,1.0,
+GNAS,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,0,10243,8,,,1.0,
+GNAS,NK_Micro,Translation (GO:0006412),1.0,0,0,10243,192,,,1.0,
+BST2,NK_Micro,Cytoplasmic Translation (GO:0002181),1.0,0,15,10243,87,,,1.0,0.0
+BST2,NK_Micro,Gene Expression (GO:0010467),1.0,0,15,10243,254,,,1.0,0.0
+BST2,NK_Micro,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10243,151,,,1.0,0.0
+BST2,NK_Micro,Microglial Cell Activation (GO:0001774),0.023191844497823723,1,15,10243,16,OG012623,C1QA,1.0,42.67916666666667
+BST2,NK_Micro,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10243,129,,,1.0,0.0
+BST2,NK_Micro,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10243,10,,,1.0,0.0
+BST2,NK_Micro,Regulation Of Dendritic Cell Differentiation (GO:2001198),1.0,0,15,10243,8,,,1.0,0.0
+BST2,NK_Micro,Translation (GO:0006412),1.0,0,15,10243,192,,,1.0,0.0
+BIN1,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,0,10259,85,,,1.0,
+BIN1,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,0,10259,243,,,1.0,
+BIN1,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10259,150,,,1.0,
+BIN1,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,0,10259,8,,,1.0,
+BIN1,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10259,128,,,1.0,
+BIN1,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10259,6,,,1.0,
+BIN1,Mono_Oligo,Translation (GO:0006412),1.0,0,0,10259,192,,,1.0,
+CR1,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,0,10259,85,,,1.0,
+CR1,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,0,10259,243,,,1.0,
+CR1,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10259,150,,,1.0,
+CR1,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,0,10259,8,,,1.0,
+CR1,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10259,128,,,1.0,
+CR1,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10259,6,,,1.0,
+CR1,Mono_Oligo,Translation (GO:0006412),1.0,0,0,10259,192,,,1.0,
+PILRB,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,15,10260,85,,,1.0,0.0
+PILRB,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,15,10260,243,,,1.0,0.0
+PILRB,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10260,150,,,1.0,0.0
+PILRB,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,15,10260,8,,,1.0,0.0
+PILRB,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10260,128,,,1.0,0.0
+PILRB,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10260,6,,,1.0,0.0
+PILRB,Mono_Oligo,Translation (GO:0006412),1.0,0,15,10260,192,,,1.0,0.0
+GRN,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,15,10259,85,,,1.0,0.0
+GRN,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,15,10259,243,,,1.0,0.0
+GRN,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10259,150,,,1.0,0.0
+GRN,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,15,10259,7,,,1.0,0.0
+GRN,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10259,128,,,1.0,0.0
+GRN,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10259,6,,,1.0,0.0
+GRN,Mono_Oligo,Translation (GO:0006412),1.0,0,15,10259,192,,,1.0,0.0
+BLNK,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,0,10260,85,,,1.0,
+BLNK,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,0,10260,243,,,1.0,
+BLNK,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10260,150,,,1.0,
+BLNK,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,0,10260,8,,,1.0,
+BLNK,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10260,128,,,1.0,
+BLNK,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10260,6,,,1.0,
+BLNK,Mono_Oligo,Translation (GO:0006412),1.0,0,0,10260,192,,,1.0,
+CD55,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,15,10259,85,,,1.0,0.0
+CD55,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,15,10259,243,,,1.0,0.0
+CD55,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10259,150,,,1.0,0.0
+CD55,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,15,10259,8,,,1.0,0.0
+CD55,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10259,128,,,1.0,0.0
+CD55,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10259,6,,,1.0,0.0
+CD55,Mono_Oligo,Translation (GO:0006412),1.0,0,15,10259,192,,,1.0,0.0
+ACP5,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,0,10260,85,,,1.0,
+ACP5,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,0,10260,243,,,1.0,
+ACP5,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,0,10260,150,,,1.0,
+ACP5,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,0,10260,8,,,1.0,
+ACP5,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,0,10260,128,,,1.0,
+ACP5,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,0,10260,6,,,1.0,
+ACP5,Mono_Oligo,Translation (GO:0006412),1.0,0,0,10260,192,,,1.0,
+ST13,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,15,10259,85,,,1.0,0.0
+ST13,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,15,10259,243,,,1.0,0.0
+ST13,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10259,150,,,1.0,0.0
+ST13,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,15,10259,8,,,1.0,0.0
+ST13,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10259,128,,,1.0,0.0
+ST13,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10259,6,,,1.0,0.0
+ST13,Mono_Oligo,Translation (GO:0006412),1.0,0,15,10259,192,,,1.0,0.0
+GNAS,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,9,10259,85,,,1.0,0.0
+GNAS,Mono_Oligo,Gene Expression (GO:0010467),1.0,0,9,10259,243,,,1.0,0.0
+GNAS,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,9,10259,150,,,1.0,0.0
+GNAS,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,9,10259,8,,,1.0,0.0
+GNAS,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,9,10259,128,,,1.0,0.0
+GNAS,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,9,10259,6,,,1.0,0.0
+GNAS,Mono_Oligo,Translation (GO:0006412),1.0,0,9,10259,192,,,1.0,0.0
+BST2,Mono_Oligo,Cytoplasmic Translation (GO:0002181),1.0,0,15,10260,85,,,1.0,0.0
+BST2,Mono_Oligo,Gene Expression (GO:0010467),0.04789352609724921,2,15,10260,243,OG016774;OG018556,DDX25;NOX4,1.0,5.62962962962963
+BST2,Mono_Oligo,Macromolecule Biosynthetic Process (GO:0009059),1.0,0,15,10260,150,,,1.0,0.0
+BST2,Mono_Oligo,Microglial Cell Activation (GO:0001774),1.0,0,15,10260,8,,,1.0,0.0
+BST2,Mono_Oligo,Peptide Biosynthetic Process (GO:0043043),1.0,0,15,10260,128,,,1.0,0.0
+BST2,Mono_Oligo,Positive Regulation Of Leukocyte Degranulation (GO:0043302),1.0,0,15,10260,6,,,1.0,0.0
+BST2,Mono_Oligo,Translation (GO:0006412),1.0,0,15,10260,192,,,1.0,0.0

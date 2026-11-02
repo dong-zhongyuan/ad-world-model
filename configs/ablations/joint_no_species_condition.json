@@ -1,0 +1,12 @@
+{
+  "species": "joint",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {
+    "species_condition": false
+  },
+  "name": "joint_no_species_condition",
+  "description": "Does species-specific regulation require explicit condition?"
+}

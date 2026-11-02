@@ -1,0 +1,11 @@
+{
+  "species": "joint",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {},
+  "shuffle_protein": true,
+  "name": "joint_protein_shuffled",
+  "description": "RNA/ADT pairing shuffled within donor/subtype"
+}

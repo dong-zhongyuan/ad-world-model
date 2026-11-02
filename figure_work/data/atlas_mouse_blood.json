@@ -1,0 +1,10 @@
+{
+  "cells": 65175,
+  "features": 25790,
+  "svd_dimensions": 50,
+  "random_state": 42,
+  "n_neighbors": 30,
+  "min_dist": 0.3,
+  "explained_variance": 0.3661581873893738,
+  "display_only": true
+}

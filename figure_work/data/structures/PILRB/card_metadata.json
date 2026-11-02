@@ -1,0 +1,41 @@
+{
+  "rank": 6,
+  "target": "PILRB",
+  "screening_name": "PILRB",
+  "group": "intersection",
+  "uniprot": "Q9UKJ0",
+  "chembl_id": "CHEMBL354077",
+  "name": "AMIFAMPRIDINE",
+  "score_max_pocket_z": 6.215860366821289,
+  "best_state_id": "CHEMBL354077_s000",
+  "best_state_smiles": "Nc1ccncc1N",
+  "states_scored": 1,
+  "best_pocket": "PILRB_AF-Q9UKJ0-F1_pocket1",
+  "best_pocket_mean_cosine": 0.6101686358451843,
+  "folds_in_top_1_percent": 4,
+  "median_fold_rank_percent": 0.696560731388768,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 95.6,
+  "pocket_fraction_pLDDT_ge70": 1.0,
+  "vina_score": -3.576,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 2.8923665051303584,
+  "selected_residues": [
+    [
+      "A",
+      140
+    ],
+    [
+      "A",
+      33
+    ],
+    [
+      "A",
+      34
+    ],
+    [
+      "A",
+      142
+    ]
+  ]
+}

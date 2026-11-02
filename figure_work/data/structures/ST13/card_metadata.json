@@ -1,0 +1,41 @@
+{
+  "rank": 3,
+  "target": "ST13",
+  "screening_name": "ST13",
+  "group": "union_only",
+  "uniprot": "P50502",
+  "chembl_id": "CHEMBL455917",
+  "name": "CHLORAL HYDRATE",
+  "score_max_pocket_z": 6.241452217102051,
+  "best_state_id": "CHEMBL455917_s000",
+  "best_state_smiles": "OC(O)C(Cl)(Cl)Cl",
+  "states_scored": 1,
+  "best_pocket": "ST13_AF-P50502-F1_pocket19",
+  "best_pocket_mean_cosine": 0.5909639000892639,
+  "folds_in_top_1_percent": 4,
+  "median_fold_rank_percent": 0.21767522855899,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 83.51857142857143,
+  "pocket_fraction_pLDDT_ge70": 1.0,
+  "vina_score": -3.309,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 2.9395375486630537,
+  "selected_residues": [
+    [
+      "A",
+      321
+    ],
+    [
+      "A",
+      360
+    ],
+    [
+      "A",
+      325
+    ],
+    [
+      "A",
+      356
+    ]
+  ]
+}

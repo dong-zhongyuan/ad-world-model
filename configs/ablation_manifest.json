@@ -1,0 +1,163 @@
+{
+  "created": "2026-10-30",
+  "seeds": [
+    42
+  ],
+  "arms": [
+    {
+      "name": "joint_full",
+      "description": "Reference: human+mouse, real ESM, ODE, joint CITE head",
+      "config": "configs/ablations/joint_full.json"
+    },
+    {
+      "name": "human_full",
+      "description": "Human-only disease training; CITE supervision unchanged",
+      "config": "configs/ablations/human_full.json"
+    },
+    {
+      "name": "joint_no_protein",
+      "description": "Remove protein supervision",
+      "config": "configs/ablations/joint_no_protein.json"
+    },
+    {
+      "name": "human_no_protein",
+      "description": "Species x protein 2x2 factorial",
+      "config": "configs/ablations/human_no_protein.json"
+    },
+    {
+      "name": "joint_head_detached",
+      "description": "Readout only: no protein gradient into shared encoder",
+      "config": "configs/ablations/joint_head_detached.json"
+    },
+    {
+      "name": "joint_protein_shuffled",
+      "description": "RNA/ADT pairing shuffled within donor/subtype",
+      "config": "configs/ablations/joint_protein_shuffled.json"
+    },
+    {
+      "name": "joint_protein_weight_01",
+      "description": "Auxiliary-loss strength sensitivity, fixed before tests",
+      "config": "configs/ablations/joint_protein_weight_01.json"
+    },
+    {
+      "name": "joint_no_species_condition",
+      "description": "Does species-specific regulation require explicit condition?",
+      "config": "configs/ablations/joint_no_species_condition.json"
+    },
+    {
+      "name": "joint_no_disease_condition",
+      "description": "Disease-label contribution",
+      "config": "configs/ablations/joint_no_disease_condition.json"
+    },
+    {
+      "name": "joint_no_blood_expression",
+      "description": "Strong condition-only stochastic generator",
+      "config": "configs/ablations/joint_no_blood_expression.json"
+    },
+    {
+      "name": "joint_learned_projection",
+      "description": "No sequence embedding, learn gene projection",
+      "config": "configs/ablations/joint_learned_projection.json"
+    },
+    {
+      "name": "human_learned_projection",
+      "description": "Species x sequence representation comparison",
+      "config": "configs/ablations/human_learned_projection.json"
+    },
+    {
+      "name": "joint_random_projection",
+      "description": "Random fixed embedding matched dimension/scale",
+      "config": "configs/ablations/joint_random_projection.json"
+    },
+    {
+      "name": "joint_shuffled_esm",
+      "description": "Preserve sequence vectors, break gene identity",
+      "config": "configs/ablations/joint_shuffled_esm.json"
+    },
+    {
+      "name": "joint_mlp",
+      "description": "Replace ODE with conditional residual MLP",
+      "config": "configs/ablations/joint_mlp.json"
+    },
+    {
+      "name": "joint_deterministic",
+      "description": "Deterministic encoding, no VAE sampling/KL",
+      "config": "configs/ablations/joint_deterministic.json"
+    },
+    {
+      "name": "joint_no_reconstruction",
+      "description": "Reconstruction objective contribution",
+      "config": "configs/ablations/joint_no_reconstruction.json"
+    },
+    {
+      "name": "joint_legacy_random_pair",
+      "description": "Diagnostic comparison: unrelated same-stratum random-pair MSE",
+      "config": "configs/ablations/joint_legacy_random_pair.json"
+    },
+    {
+      "name": "joint_mouse_labels_swapped",
+      "description": "Break mouse disease alignment; not presented as a valid model",
+      "config": "configs/ablations/joint_mouse_labels_swapped.json"
+    },
+    {
+      "name": "joint_human_exposure_matched",
+      "description": "Match completed human update exposure to human-only; report selected exposure and extra compute",
+      "config": "configs/ablations/joint_human_exposure_matched.json"
+    }
+  ],
+  "total_runs": 20,
+  "user_amendment": "\u53e6\u5916\u6b65\u6570\uff0c\u91cd\u590d\u6b21\u6570\u4e5f\u53ef\u4ee5\u5220\u51cf\u3002\u5fc5\u987b\u524a\u51cf\u5230\u4e2a\u4f4d\u6570\u5c0f\u65f6\u5185",
+  "wallclock_budget_hours": 9,
+  "budget_start": "2026-10-30T15:33:00+08:00",
+  "deadline": "2026-10-31T00:33:00+08:00",
+  "primary_contrast": "joint_full vs human_full on all available source/target cell types in the same human test donors; 1000 updates x batch1024, no early stopping",
+  "secondary_budget_contrast": "joint_human_exposure_matched vs human_full; match 1000 completed human updates; report selected updates plus extra compute",
+  "species_protein_factorial": [
+    "joint_full",
+    "human_full",
+    "joint_no_protein",
+    "human_no_protein"
+  ],
+  "test_policy": "All arms fixed before opening test metrics; no dropping negative arms; only validation selects checkpoints",
+  "primary_checkpoint": "human brain validation mean(MMD+0.1*pseudobulk mean MSE)",
+  "protein_selection": "lambda fixed at 1 for primary, .1 prespecified sensitivity; P5 validation only",
+  "units": "brain donor/pool and CITE donor; seeds are optimization repeats, not biological replicates",
+  "gene_space": "ALL 25790 original v2 nodes in checkpoint order, including multi-member orthogroups and species-private nodes; explicit assay masks; no HVG truncation",
+  "scope": "All five original datasets and original condition axes retained, with all-cell-type extensions; no Mono-Micro restriction",
+  "early_stopping": false,
+  "batch": 1024,
+  "minimum_formal_updates": 1000,
+  "updates_by_arm": {
+    "joint_full": 1000,
+    "human_full": 1000,
+    "joint_no_protein": 1000,
+    "human_no_protein": 1000,
+    "joint_head_detached": 1000,
+    "joint_protein_shuffled": 1000,
+    "joint_protein_weight_01": 1000,
+    "joint_no_species_condition": 1000,
+    "joint_no_disease_condition": 1000,
+    "joint_no_blood_expression": 1000,
+    "joint_learned_projection": 1000,
+    "human_learned_projection": 1000,
+    "joint_random_projection": 1000,
+    "joint_shuffled_esm": 1000,
+    "joint_mlp": 1000,
+    "joint_deterministic": 1000,
+    "joint_no_reconstruction": 1000,
+    "joint_legacy_random_pair": 1000,
+    "joint_mouse_labels_swapped": 1000,
+    "joint_human_exposure_matched": 2000
+  },
+  "total_updates": 21000,
+  "optimization_repeats": 1,
+  "heldout": [
+    "GSE157827 fixed donor test",
+    "CITE P6-P8"
+  ],
+  "reserved": [
+    "IFNAR1 Brain2/3",
+    "GSE174367"
+  ],
+  "status": "configured_not_completed"
+}

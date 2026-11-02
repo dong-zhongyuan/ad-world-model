@@ -1,0 +1,12 @@
+{
+  "species": "joint",
+  "steps": 1000,
+  "eval_every": 500,
+  "batch": 1024,
+  "lr": 0.0002,
+  "model": {
+    "representation": "random"
+  },
+  "name": "joint_random_projection",
+  "description": "Random fixed embedding matched dimension/scale"
+}

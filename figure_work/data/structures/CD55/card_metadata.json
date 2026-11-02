@@ -1,0 +1,41 @@
+{
+  "rank": 5,
+  "target": "CD55",
+  "screening_name": "CD55",
+  "group": "union_only",
+  "uniprot": "P08174",
+  "chembl_id": "CHEMBL185",
+  "name": "FLUOROURACIL",
+  "score_max_pocket_z": 7.621288299560547,
+  "best_state_id": "CHEMBL185_s002",
+  "best_state_smiles": "O=c1[n-]cc(F)c(=O)[nH]1",
+  "states_scored": 4,
+  "best_pocket": "CD55_AF-P08174-F1_pocket8",
+  "best_pocket_mean_cosine": 0.420817881822586,
+  "folds_in_top_1_percent": 6,
+  "median_fold_rank_percent": 0.239442751414889,
+  "pocket_source": "AlphaFold predicted structure; fpocket predicted cavity",
+  "pocket_mean_pLDDT": 95.93166666666669,
+  "pocket_fraction_pLDDT_ge70": 1.0,
+  "vina_score": -4.352,
+  "pose_seed": 42,
+  "closest_heavy_atom_A": 3.143198530160003,
+  "selected_residues": [
+    [
+      "A",
+      114
+    ],
+    [
+      "A",
+      109
+    ],
+    [
+      "A",
+      107
+    ],
+    [
+      "A",
+      130
+    ]
+  ]
+}
