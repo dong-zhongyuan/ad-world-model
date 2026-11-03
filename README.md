@@ -1,6 +1,6 @@
 # AD blood–brain world model
 
-Code, analysis configurations, metadata and figure-source data for **A blood–brain world model nominates peripheral interventions for Alzheimer's disease**.
+Code, analysis configurations, metadata and figure-source data for **A reusable blood–brain world model nominates peripheral interventions for Alzheimer's disease**.
 
 The repository covers the current main analysis only:
 
@@ -9,7 +9,6 @@ The repository covers the current main analysis only:
 - virtual peripheral gene-clamp responses across six routes;
 - member-level response networks and MultiXrank target prioritization;
 - cis-pQTL Mendelian randomization and regional colocalization;
-- ADNI blood-expression associations with longitudinal MMSE decline;
 - six-model DrugCLIP screening and exact-state AutoDock Vina poses;
 - source data and rendering code for the five main figures.
 
@@ -27,7 +26,6 @@ scripts/data/             public-data preparation and scope validation
 scripts/step1_world_model/ model, training, inference and evaluation
 scripts/step2_edges/      virtual perturbation and MultiXrank network construction
 scripts/mr/               MR, allele harmonization and colocalization workflows
-scripts/clinical/         ADNI endpoint construction and Cox/KM analysis
 scripts/drug_discovery/   DrugCLIP, chemical-state preparation and exact-state docking
 scripts/figures/          figure-input derivation and workflow graphics
 figure_work/              main-figure source data, layout and R renderer
@@ -56,7 +54,6 @@ The metadata retain the following resources:
 - human brain: GSE138852 and GSE157827;
 - mouse blood and brain: GSE329430, including BM1/2, BM3/4 and Brain1;
 - paired PBMC RNA–ADT: GSE164378;
-- longitudinal clinical outcomes and blood microarray expression: ADNI;
 - protein instruments: UKB plasma proteomics and AGES–Reykjavik serum;
 - AD outcomes: Bellenguez stage I (GCST90027158) and FinnGen R13 G6_ALZHEIMER;
 - structures and compounds: AlphaFold, UniProt, ChEMBL and DrugCLIP resources.
@@ -106,26 +103,6 @@ python scripts/mr/run_pipeline.py --root "$PWD" --stage all
 python scripts/mr/run_public_followup.py --root "$PWD"
 ```
 
-Run the ADNI analysis using locally authorized downloads. The scripts do not contain server-specific paths:
-
-```bash
-python scripts/clinical/run_adni_target_survival.py \
-  --expression data/raw/adni/ADNI_Gene_Expression_Profile.zip \
-  --mmse data/raw/adni/MMSE.csv \
-  --diagnosis data/raw/adni/DXSUM.csv \
-  --evidence figure_work/data/evidence_wheel.csv \
-  --out results/adni_targets
-python scripts/clinical/run_wheel_survival.py \
-  --expression data/raw/adni/ADNI_Gene_Expression_Profile.zip \
-  --mmse data/raw/adni/MMSE.csv \
-  --diagnosis data/raw/adni/DXSUM.csv \
-  --gates figure_work/data/evidence_gates.csv \
-  --definitions figure_work/data/evidence_gate_definitions.json \
-  --out results/adni_wheel
-```
-
-The primary analysis uses baseline blood samples (`bl`/`v03`) with visit-matched clinical records and subsequent MMSE measurements. The event is the first post-sampling MMSE decline of at least three points from the baseline reference score. Cox models adjust for baseline MMSE and diagnosis. The figure-ready `bst2_km_curve.csv` contains aggregate survival estimates and 95% intervals; participant-level ADNI records are not stored in the repository.
-
 The drug-discovery scripts are ordered as follows:
 
 1. `prepare_ligands.py`
@@ -143,14 +120,10 @@ They use `work/drug_discovery/` by default. Derived rankings and pose summaries 
 The R renderer uses the included source data and `figure_work/page_layout.json`:
 
 ```bash
-python scripts/figures/workflows_current.py
-python scripts/figures/evidence_wheel.py
 Rscript figure_work/render_current.R
 ```
 
-The evidence wheel has ten rings, including the ADNI MMSE-association layer. To regenerate the aggregate KM source data after the clinical analysis, run `Rscript scripts/clinical/export_bst2_km.R --input results/adni_targets/analysis_cohort.csv --out figure_work/data`.
-
-Required R packages are `ggplot2`, `cowplot`, `jsonlite`, `ggrepel`, `ggalluvial`, `ComplexHeatmap`, `circlize` and `survival`, together with their standard dependencies. `AD_WORLD_MODEL_ROOT` and `AD_FIGURE_WORK` can override the repository and figure-work paths. Rendering writes to `figure_work/build/`.
+Required R packages are `ggplot2`, `cowplot`, `jsonlite`, `ggrepel`, `ggalluvial`, `ComplexHeatmap` and `circlize`, together with their standard dependencies. `AD_WORLD_MODEL_ROOT` and `AD_FIGURE_WORK` can override the repository and figure-work paths. Rendering writes to `figure_work/build/`.
 
 ## Citation
 

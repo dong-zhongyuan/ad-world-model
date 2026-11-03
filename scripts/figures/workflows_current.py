@@ -159,7 +159,6 @@ finish(s)
 s=ad_scene(4,504,75.6);s.group='network_support';routes_glyph(s,36,13);arrow(s,(97,30),(117,30));tx(s,106,39,50,10,'Top 50%',True)
 s.group='protein_mr';dna(s,13,58,28,12);asset(s,'protein',68,58,16);asset(s,'brain',101,58,16);arrow(s,(42,58),(55,58));arrow(s,(80,58),(90,58));tx(s,4,66,112,9,'cis-pQTL → protein → AD')
 s.group='outcome_evidence';arrow(s,(115,58),(151,58));mat(s,162,45,G,4,4,4);mat(s,208,45,P,4,4,4);tx(s,147,64,49,9,'Bellenguez');tx(s,197,64,40,9,'FinnGen');tx(s,148,12,91,10,'Protein-to-AD MR',True)
-s.group='clinical_followup';tx(s,242,2,60,24,'ADNI\nsurvival',True)
 s.group='identity';genes(s,260,24,20,25,G,4);tx(s,243,54,54,18,'Gene / protein\nidentity',True);arrow(s,(137,29),(257,29));arrow(s,(225,52),(257,40))
 s.group='target_groups';arrow(s,(283,35),(306,35),(306,20),(321,20));arrow(s,(306,35),(306,57),(321,57))
 for yy,lab,targets,col in [(17,'Both outcomes',['BIN1','CR1','PILRB','GRN','BLNK'],G),(52,'Union only',['CD55','ACP5','ST13','NESP55','BST2'],P)]:

@@ -7,10 +7,6 @@ __pycache__/
 checkpoints/
 runs/
 work/
-data/raw/
-results/adni*/
-figure_work/data/adni_survival_cohort.csv
-figure_work/data/analysis_cohort.csv
 figure_work/build/
 figure_work/references/
 *.tmp
