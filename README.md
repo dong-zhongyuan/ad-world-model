@@ -124,7 +124,7 @@ python scripts/clinical/run_wheel_survival.py \
   --out results/adni_wheel
 ```
 
-The event is the first observed MMSE decline of at least three points from baseline. Cox models adjust for baseline MMSE and diagnosis. The figure-ready `bst2_km_curve.csv` contains aggregate survival estimates and 95% intervals; participant-level ADNI records are not stored in the repository.
+The primary analysis uses baseline blood samples (`bl`/`v03`) with visit-matched clinical records and subsequent MMSE measurements. The event is the first post-sampling MMSE decline of at least three points from the baseline reference score. Cox models adjust for baseline MMSE and diagnosis. The figure-ready `bst2_km_curve.csv` contains aggregate survival estimates and 95% intervals; participant-level ADNI records are not stored in the repository.
 
 The drug-discovery scripts are ordered as follows:
 

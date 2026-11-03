@@ -1,8 +1,9 @@
 {
   "status": "complete",
   "n_expression_samples": 745,
-  "n_clinical_subjects": 727,
-  "events": 347,
+  "n_expression_subjects": 744,
+  "n_clinical_subjects": 452,
+  "events": 190,
   "targets": [
     "BIN1",
     "BLNK",
@@ -29,8 +30,15 @@
   "missing_targets": [
     "PILRB"
   ],
-  "endpoint": "time to first observed MMSE decline of at least 3 points from the earliest scored visit",
-  "time_origin": "earliest MMSE record with a numeric month; the expression matrix does not provide a sample-visit field",
+  "analysis": "baseline blood samples with visit-matched clinical records and subsequent MMSE",
+  "endpoint": "first MMSE decline >=3 points after the baseline blood-sample date",
+  "time_origin": "DXSUM EXAMDATE at the baseline blood-sample visit",
+  "time_scale": "actual EXAMDATE to MMSE VISDATE differences in months (days / 30.4375)",
+  "expression_visit_source": "second row of the source expression matrix",
+  "baseline_crosswalk": {
+    "ADNI2:v03": "MMSE v01",
+    "ADNIGO:bl": "MMSE sc"
+  },
   "hr_scale": "per 1 SD of blood gene expression",
   "adjusted_for": [
     "baseline MMSE",
@@ -39,6 +47,7 @@
   "primary_model": "adjusted",
   "nominal_positive": [
     "BLNK",
+    "CR1",
     "GRN",
     "ST13",
     "BST2"

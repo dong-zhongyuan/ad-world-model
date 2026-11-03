@@ -7,7 +7,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from run_adni_target_survival import bh, fit_model, load_diagnosis, load_expression, load_mmse, sha
+from run_adni_target_survival import bh, fit_model, sha
+from adni_visits import build_index_cohort, load_expression_samples
 
 
 def main():
@@ -23,9 +24,10 @@ def main():
 
     gates = pd.read_csv(args.gates)
     targets = sorted(gates.protein.unique())
-    expression, probes, samples = load_expression(args.expression, targets)
-    clinical = load_mmse(args.mmse).merge(load_diagnosis(args.diagnosis), on="subject", how="left")
-    clinical = clinical[clinical.subject.isin(samples)].copy()
+    expression, probes, samples = load_expression_samples(args.expression, targets)
+    clinical, crosswalk = build_index_cohort(args.mmse, args.diagnosis, samples)
+    clinical = clinical[clinical.sample_visit.isin(["bl", "v03"])].copy()
+    crosswalk.to_csv(args.out / "sample_visit_crosswalk.csv", index=False)
 
     rows = []
     for target in targets:
@@ -33,9 +35,12 @@ def main():
             rows.append(dict(target=target, status="not_measured"))
             continue
         data = clinical.copy()
-        data["expr"] = data.subject.map(expression.loc[target])
+        data["expr"] = data.sample_column.map(expression.loc[target])
         data = data.dropna(subset=["expr"])
         result = fit_model(data, True)
+        if result is None:
+            rows.append(dict(target=target, status="not_estimable"))
+            continue
         result.update(target=target, status="estimated", probe_id=probes[target])
         rows.append(result)
     results = pd.DataFrame(rows)
@@ -73,12 +78,13 @@ def main():
     gates["unresolved_count"] = gates[layers].eq("unresolved").sum(axis=1)
     gates.to_csv(args.out / "evidence_gates_with_survival.csv", index=False)
     definitions["layers"] = layers
-    definitions["rules"]["survival"] = "ADNI blood-expression adjusted Cox BH q < 0.05 for first observed MMSE decline >=3 points; unavailable expression is unresolved. Expression–clinical and protein-MR directions remain separately reported."
+    definitions["rules"]["survival"] = "ADNI baseline blood-expression adjusted Cox BH q < 0.05 for first subsequent MMSE decline >=3 points; unavailable expression is unresolved. Expression–clinical and protein-MR directions remain separately reported."
     definitions["outer_bars"] = "Number of passed criteria, from 0 to 10; not a weighted evidence score."
-    definitions["survival_data"] = "727 ADNI participants; 347 first observed MMSE declines >=3; baseline MMSE and diagnosis adjusted."
+    definitions["survival_data"] = f"{len(clinical)} ADNI participants with baseline blood samples; {int(clinical.event.sum())} subsequent MMSE declines >=3; baseline MMSE and diagnosis adjusted."
     (args.out / "evidence_gate_definitions_with_survival.json").write_text(json.dumps(definitions, indent=2))
     summary = dict(status="complete", n_wheel_genes=len(targets),
-                   n_measured=int(results.status.eq("estimated").sum()),
+                   n_clinical_subjects=len(clinical), events=int(clinical.event.sum()),
+                   analysis="baseline_sample", n_measured=int(results.status.eq("estimated").sum()),
                    n_unresolved=int(gates.survival.eq("unresolved").sum()),
                    passed_targets=sorted(gates.loc[gates.survival.eq("pass"), "protein"].unique().tolist()),
                    criterion=definitions["rules"]["survival"],
