@@ -1,16 +1,17 @@
 # AD blood–brain world model
 
-Code, analysis configurations, metadata and figure-source data for **A reusable blood–brain world model nominates peripheral interventions for Alzheimer's disease**.
+Code, analysis configurations, metadata and figure-source data for **A blood–brain world model translates peripheral interventions into brain-cell programs in Alzheimer's disease**.
 
 The repository covers the current main analysis only:
 
 - a shared RNA–protein encoder and conditional neural ODE for blood-to-brain prediction;
 - donor-held-out brain RNA and CITE-seq/ADT evaluation, with all registered model comparisons;
-- virtual peripheral gene-clamp responses across six routes;
+- virtual peripheral gene-clamp responses and measured CD4/myeloid Perturb-seq actions;
+- same-animal peripheral-to-microglial dynamic adaptation with processing-held-out tests;
 - member-level response networks and MultiXrank target prioritization;
-- cis-pQTL Mendelian randomization and regional colocalization;
+- cis-pQTL Mendelian randomization, regional colocalization and independent GRN/BIN1 brain responses;
 - six-model DrugCLIP screening and exact-state AutoDock Vina poses;
-- source data and rendering code for the five main figures.
+- source data and rendering code for the six main figures.
 
 Historical training schedules, repair queues, debugging scripts, old side projects, raw expression matrices and model checkpoints are excluded. Public-data locations and file hashes are retained in `configs/` and `data/processed/`.
 
@@ -25,6 +26,8 @@ docs/SCOPE_CONTRACT.json  model dimensions, coordinate order and scope checks
 scripts/data/             public-data preparation and scope validation
 scripts/step1_world_model/ model, training, inference and evaluation
 scripts/step2_edges/      virtual perturbation and MultiXrank network construction
+scripts/real_action/      CD4/myeloid guide assignment, action matrices and propagation
+scripts/dynamic_response/ animal-level LPS adaptation, GRN/BIN1 brain analyses and source tables
 scripts/mr/               MR, allele harmonization and colocalization workflows
 scripts/drug_discovery/   DrugCLIP, chemical-state preparation and exact-state docking
 scripts/figures/          figure-input derivation and workflow graphics
@@ -54,6 +57,11 @@ The metadata retain the following resources:
 - human brain: GSE138852 and GSE157827;
 - mouse blood and brain: GSE329430, including BM1/2, BM3/4 and Brain1;
 - paired PBMC RNA–ADT: GSE164378;
+- primary CD4 Perturb-seq: GSE314342;
+- primary myeloid Perturb-seq: GSE327644;
+- peripheral LPS brain response: GSE245309;
+- aged Grn-knockout microglia: GSE272377;
+- microglial Bin1 conditional knockout: Mendeley Data DOI 10.17632/whgkcy72yv.1;
 - protein instruments: UKB plasma proteomics and AGES–Reykjavik serum;
 - AD outcomes: Bellenguez stage I (GCST90027158) and FinnGen R13 G6_ALZHEIMER;
 - structures and compounds: AlphaFold, UniProt, ChEMBL and DrugCLIP resources.
@@ -115,9 +123,15 @@ The drug-discovery scripts are ordered as follows:
 
 They use `work/drug_discovery/` by default. Derived rankings and pose summaries used in the article are already present in `figure_work/data/`, so the figure workflow does not require rerunning the structural screen.
 
+## Real-action and dynamic-response extension
+
+`scripts/real_action/` contains guide assignment, orthogroup count aggregation, measured-action propagation and candidate response tables. `scripts/dynamic_response/` contains the fixed peripheral-plus-world ridge adapter, reciprocal animal holdout evaluation, headline-metric calculation, GRN/BIN1 brain analyses and figure-source export. These reference implementations retain the release analysis-root layout; place them in the directory containing the corresponding `data/` and `results/` resources before running.
+
+The fixed combined model uses a ridge penalty of 1.0 and is evaluated in both processing-transfer directions. Its reported 53.28% MSE reduction, 0.740 response correlation and 61.25% top-100 recovery are generated from the held-out-animal result tables rather than hardcoded figure labels.
+
 ## Main figures
 
-The R renderer uses the included source data and `figure_work/page_layout.json`:
+The current six-figure extension uses `make_real_action_figure.py`, `make_dynamic_figure.py`, `make_genetics_brain_panel.py` and `assemble_six_figures.py` in `scripts/figures/`. The original R renderer uses the included source data and `figure_work/page_layout.json`:
 
 ```bash
 Rscript figure_work/render_current.R

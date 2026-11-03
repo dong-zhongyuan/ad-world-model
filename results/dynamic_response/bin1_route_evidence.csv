@@ -1,0 +1,15 @@
+category,dataset,feature,value,uncertainty,q
+human_protein_genetics,AGES:Bellenguez_stageI,circulating_BIN1_to_AD_log_odds,1.1346200436081724,0.0565291124929338,5.66694696018251e-87
+human_protein_genetics,AGES:FinnGen_R13,circulating_BIN1_to_AD_log_odds,0.8706358179224204,0.0840291797894963,1.6804316414861082e-22
+human_colocalization,Bellenguez_stageI,PP_H4_shared_protein_AD_signal,0.9994039060077952,,
+human_colocalization,FinnGen_R13,PP_H4_shared_protein_AD_signal,0.999207312209646,,
+real_CD4_perturbation,GSE314342:Rest,BIN1_on_target_logfc,-7.540372256394335,,
+real_CD4_perturbation,GSE314342:Stim48hr,BIN1_on_target_logfc,-8.11841884744911,,
+real_CD4_perturbation,GSE314342:Stim8hr,BIN1_on_target_logfc,-4.104800008889986,,
+independent_microglial_Bin1cKO,Mendeley:whgkcy72yv,Cx3cr1_baseline_response,-0.4307014783900702,,
+independent_microglial_Bin1cKO,Mendeley:whgkcy72yv,Apoe_baseline_response,0.1285117657378464,,
+independent_microglial_Bin1cKO,Mendeley:whgkcy72yv,Trem2_baseline_response,0.2620064352158975,,
+independent_microglial_Bin1cKO,Mendeley:whgkcy72yv,Tyrobp_baseline_response,0.0656612237018336,,
+independent_microglial_Bin1cKO,Mendeley:whgkcy72yv,Cst3_baseline_response,0.5330215641476763,,
+independent_microglial_Bin1cKO,Mendeley:whgkcy72yv,Ctsd_baseline_response,0.328306386054231,,
+independent_microglial_Bin1cKO,Mendeley:whgkcy72yv,Ifitm3_baseline_response,-0.0225882776048665,,

@@ -12,6 +12,7 @@ rdkit>=2024.3.1
 lmdb>=1.5,<2
 reportlab>=4.2,<5
 Pillow>=10.4,<13
+PyMuPDF>=1.24,<2
 matplotlib>=3.9,<4
 umap-learn>=0.5.6,<1
 anndata>=0.10,<1

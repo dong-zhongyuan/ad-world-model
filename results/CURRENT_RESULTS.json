@@ -2,5 +2,15 @@
   "recommended_checkpoint": "checkpoints/joint_full.pt",
   "recommended_checkpoint_actual_step": 1500,
   "network_results": "results/network_v3_repair",
-  "mr_results": "results/mr/union_primary"
+  "mr_results": "results/mr/union_primary",
+  "real_action_scripts": "scripts/real_action",
+  "dynamic_response_scripts": "scripts/dynamic_response",
+  "dynamic_response_results": "results/dynamic_response",
+  "six_figure_scripts": "scripts/figures",
+  "dynamic_headline": {
+    "relative_mse_reduction": 0.532804532990663,
+    "mean_delta_pearson": 0.7397289492212019,
+    "mean_top100_overlap": 0.6125,
+    "source": "results/dynamic_response/headline_by_method.csv"
+  }
 }

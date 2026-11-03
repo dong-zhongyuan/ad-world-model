@@ -1,0 +1,15 @@
+category,dataset,feature,value,uncertainty,q
+human_protein_genetics,UKB:Bellenguez_stageI,circulating_GRN_to_AD_log_odds,-0.2580758567239548,0.0367538371805012,1.3523043024837415e-10
+human_protein_genetics,UKB:FinnGen_R13,circulating_GRN_to_AD_log_odds,-0.4065214091101576,0.0503671388735747,1.046792646716482e-13
+human_protein_genetics,AGES:Bellenguez_stageI,circulating_GRN_to_AD_log_odds,-0.346910828880595,0.0494052573637999,1.3523043024837415e-10
+human_protein_genetics,AGES:FinnGen_R13,circulating_GRN_to_AD_log_odds,-0.5464543672636469,0.0677045350804178,1.046792646716482e-13
+human_colocalization,Bellenguez_stageI,PP_H4_shared_protein_AD_signal,0.9999999606053088,,
+human_colocalization,FinnGen_R13,PP_H4_shared_protein_AD_signal,0.9999452129614632,,
+independent_aged_Grn_KO_microglia,GSE272377,Gpnmb,0.4853577246451256,0.1013412497383903,
+independent_aged_Grn_KO_microglia,GSE272377,Ctsd,0.3348175752173125,0.0840815027974807,
+independent_aged_Grn_KO_microglia,GSE272377,Ctsb,0.4144911015681895,0.0830589289494703,
+independent_aged_Grn_KO_microglia,GSE272377,Lamp1,0.2298577083890449,0.0384605933794458,
+independent_aged_Grn_KO_microglia,GSE272377,Cst7,0.2462138563591143,0.0618679818058326,
+independent_aged_Grn_KO_microglia,GSE272377,Apoe,0.5327206113846035,0.0778317735005806,
+independent_aged_Grn_KO_microglia,GSE272377,Tyrobp,0.1883401434940477,0.0336819091264698,
+independent_aged_Grn_KO_microglia,GSE272377,Grn,-1.6405327918485768,0.00786606539531,
