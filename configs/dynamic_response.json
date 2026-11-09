@@ -1,0 +1,17 @@
+{
+  "model_package": "checkpoints/dynamic_response_v3",
+  "benchmark_inputs": "results/dynamic_response/benchmark_inputs",
+  "genes_file": "data/processed/genes.csv",
+  "members_file": "data/mappings/orthogroups_member_level.csv",
+  "go_gmt": "figure_work/references/GO_Biological_Process_2023.gmt",
+  "ridge_alpha": 1.0,
+  "input_hashes": {
+    "selected_world_inputs.npz": "9b34477c53d378b8bfc2d660be65c6c531f7c77b204e8d438163151ef61cc53a",
+    "state_means.npz": "69618fb1da4e16361b628e56f4d8681f66163d3d8a1198d131aa4f8a493b48b7",
+    "verified_metrics.csv": "f548c2f36f71762bad3f65dcd46c32290aea4011b33fda4f7eb18b51b4146a90",
+    "v2_reference.csv": "b6ed3481163db53347484423b845c57d0dec401f4ff511856999602d99da8203"
+  },
+  "raw_preprocessing_archive": "/public/home/mengxl/dzy/ad_omics_v3/analysis/v3_dynamic_swap_20261108_2110/src/run_swap.py",
+  "frozen_execution_protocol": "/public/home/mengxl/dzy/ad_omics_v3/analysis/v3_dynamic_swap_20261108_2110/protocol.json",
+  "claim_scope": "Historical GSE245309 brain-CD45+ phagocyte-to-microglia benchmark, frozen official v3 backbone plus fold-fitted ridge; no new independent paired blood-brain test."
+}

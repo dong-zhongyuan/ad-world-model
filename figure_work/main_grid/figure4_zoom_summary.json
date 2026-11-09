@@ -1,0 +1,38 @@
+[
+  {
+    "gsm": "GSM7840549",
+    "total": 11330,
+    "central_n": 11083,
+    "central_fraction": 0.9781994704325,
+    "main_limits": [-1, 1],
+    "inset_limits": [-5.2, 5.2],
+    "metrics_use_all_genes": true
+  },
+  {
+    "gsm": "GSM7840553",
+    "total": 11330,
+    "central_n": 11111,
+    "central_fraction": 0.9806707855252,
+    "main_limits": [-1, 1],
+    "inset_limits": [-5.2, 5.2],
+    "metrics_use_all_genes": true
+  },
+  {
+    "gsm": "GSM7840551",
+    "total": 11330,
+    "central_n": 11137,
+    "central_fraction": 0.9829655781112,
+    "main_limits": [-1, 1],
+    "inset_limits": [-5.2, 5.2],
+    "metrics_use_all_genes": true
+  },
+  {
+    "gsm": "GSM7840555",
+    "total": 11330,
+    "central_n": 11099,
+    "central_fraction": 0.9796116504854,
+    "main_limits": [-1, 1],
+    "inset_limits": [-5.2, 5.2],
+    "metrics_use_all_genes": true
+  }
+]

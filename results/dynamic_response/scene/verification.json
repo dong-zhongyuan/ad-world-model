@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "model": "official_v3_1500_plus_fixed_ridge",
+  "n_nodes": 11330,
+  "n_test_lps_animals": 4,
+  "max_mse_difference_from_original": 7.632783294297951e-17,
+  "relative_mse_reduction": 0.6905080516019082,
+  "mean_delta_pearson": 0.8354737931663493
+}

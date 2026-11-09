@@ -1,0 +1,165 @@
+{
+  "status": "complete",
+  "background_genes": 11564,
+  "queries": {
+    "concordant_top100": {
+      "n_significant_terms": 128,
+      "top_terms": [
+        {
+          "term": "Cellular Response To Zinc Ion (GO:0071294)",
+          "q": 3.597477047885864e-15
+        },
+        {
+          "term": "Cellular Response To Copper Ion (GO:0071280)",
+          "q": 1.8552396002033997e-14
+        },
+        {
+          "term": "Cytoplasmic Translation (GO:0002181)",
+          "q": 2.238411113879216e-14
+        },
+        {
+          "term": "Response To Copper Ion (GO:0046688)",
+          "q": 2.4516589404642555e-14
+        },
+        {
+          "term": "Cellular Response To Type II Interferon (GO:0071346)",
+          "q": 1.7867775408901155e-13
+        },
+        {
+          "term": "Response To Zinc Ion (GO:0010043)",
+          "q": 1.8355961117807476e-13
+        },
+        {
+          "term": "Lymphocyte Migration (GO:0072676)",
+          "q": 3.118757357980467e-13
+        },
+        {
+          "term": "Response To Type II Interferon (GO:0034341)",
+          "q": 1.1325504213319315e-12
+        },
+        {
+          "term": "Eosinophil Migration (GO:0072677)",
+          "q": 1.4074918544121488e-12
+        },
+        {
+          "term": "Eosinophil Chemotaxis (GO:0048245)",
+          "q": 1.4074918544121488e-12
+        },
+        {
+          "term": "Neutrophil Chemotaxis (GO:0030593)",
+          "q": 1.7659155907208952e-12
+        },
+        {
+          "term": "Neutrophil Migration (GO:1990266)",
+          "q": 3.604200977153189e-12
+        }
+      ]
+    },
+    "observed_top100": {
+      "n_significant_terms": 82,
+      "top_terms": [
+        {
+          "term": "Cytoplasmic Translation (GO:0002181)",
+          "q": 1.769529279273393e-49
+        },
+        {
+          "term": "Macromolecule Biosynthetic Process (GO:0009059)",
+          "q": 5.546429590113603e-40
+        },
+        {
+          "term": "Peptide Biosynthetic Process (GO:0043043)",
+          "q": 9.901125660734587e-39
+        },
+        {
+          "term": "Translation (GO:0006412)",
+          "q": 5.041464751188097e-37
+        },
+        {
+          "term": "Gene Expression (GO:0010467)",
+          "q": 4.4997083015203996e-29
+        },
+        {
+          "term": "Cellular Response To Zinc Ion (GO:0071294)",
+          "q": 6.223523636418975e-16
+        },
+        {
+          "term": "Cellular Response To Copper Ion (GO:0071280)",
+          "q": 5.501138544130937e-15
+        },
+        {
+          "term": "Response To Copper Ion (GO:0046688)",
+          "q": 1.272085237504245e-14
+        },
+        {
+          "term": "Response To Zinc Ion (GO:0010043)",
+          "q": 1.2696050469689692e-13
+        },
+        {
+          "term": "Ribonucleoprotein Complex Biogenesis (GO:0022613)",
+          "q": 5.087523361398336e-12
+        },
+        {
+          "term": "Ribosomal Small Subunit Biogenesis (GO:0042274)",
+          "q": 2.7404675121925316e-10
+        },
+        {
+          "term": "Ribosome Biogenesis (GO:0042254)",
+          "q": 3.061002193231669e-10
+        }
+      ]
+    },
+    "predicted_top100": {
+      "n_significant_terms": 123,
+      "top_terms": [
+        {
+          "term": "Cytoplasmic Translation (GO:0002181)",
+          "q": 9.102744345016246e-17
+        },
+        {
+          "term": "Cellular Response To Zinc Ion (GO:0071294)",
+          "q": 1.7542593319562127e-15
+        },
+        {
+          "term": "Cellular Response To Copper Ion (GO:0071280)",
+          "q": 1.2062421667000013e-14
+        },
+        {
+          "term": "Response To Copper Ion (GO:0046688)",
+          "q": 2.3910343375843284e-14
+        },
+        {
+          "term": "Macromolecule Biosynthetic Process (GO:0009059)",
+          "q": 1.2113018580763125e-13
+        },
+        {
+          "term": "Response To Zinc Ion (GO:0010043)",
+          "q": 1.7902055056536272e-13
+        },
+        {
+          "term": "Lymphocyte Migration (GO:0072676)",
+          "q": 3.0416367507109203e-13
+        },
+        {
+          "term": "Translation (GO:0006412)",
+          "q": 9.801167046448819e-13
+        },
+        {
+          "term": "Eosinophil Chemotaxis (GO:0048245)",
+          "q": 1.3726874069736683e-12
+        },
+        {
+          "term": "Eosinophil Migration (GO:0072677)",
+          "q": 1.3726874069736683e-12
+        },
+        {
+          "term": "Neutrophil Chemotaxis (GO:0030593)",
+          "q": 1.722248043967164e-12
+        },
+        {
+          "term": "Cellular Response To Type II Interferon (GO:0071346)",
+          "q": 2.8611437182975746e-12
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "complete_verified",
+  "backbone": "official_v3_1500",
+  "backbone_sha256": "8104c4661f31d45122e19bb117e298b62e92fceb8bf4da101586557415ced560",
+  "ridge_alpha": 1.0,
+  "matched_verified_20261108_results": true,
+  "backbone_training": false,
+  "runtime_seconds": 6.049126386642456,
+  "scope": "Historical GSE245309 brain-CD45+ phagocyte-to-microglia benchmark, frozen official v3 backbone plus fold-fitted ridge; no new independent paired blood-brain test.",
+  "input_policy": "Identical historical log1p(CP10K) mapped full-coordinate vectors, no additional assay mask; deterministic posterior-mean inference; same seed42 sample of 128 source cells. v3 adds fixed CTRL disease condition to mouse/Mono/Micro; LPS is never encoded as AD. This is the fixed legacy external benchmark, not a new population-distribution evaluation."
+}

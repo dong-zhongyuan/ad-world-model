@@ -1,0 +1,16 @@
+target,"CD4
+action","Myeloid
+action","Independent
+brain","Two AD
+outcomes","Candidate
+compound"
+GRN,True,False,True,True,True
+BIN1,True,False,True,True,True
+PILRB,True,False,False,True,True
+BST2,True,False,False,False,True
+ST13,True,False,False,False,True
+ACP5,True,True,False,False,True
+CD55,True,False,False,False,True
+CR1,True,True,False,True,True
+GNAS,True,True,False,False,True
+BLNK,False,False,False,True,True

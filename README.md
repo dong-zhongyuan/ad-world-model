@@ -1,13 +1,16 @@
 # AD blood–brain world model
 
-Code, analysis configurations, metadata and figure-source data for **A blood–brain world model translates peripheral interventions into brain-cell programs in Alzheimer's disease**.
+Code, analysis configurations, metadata and figure-source data for **A blood–brain world model nominates peripheral interventions for Alzheimer's disease**.
 
-The repository covers the current main analysis only:
+- **69.05% lower microglial response MSE.** Across four held-out LPS animals, a ridge readout combining brain-isolated phagocyte expression and frozen world-model predictions reduced mean squared error relative to a zero-response predictor. [Held-out results](results/dynamic_response/headline/headline_by_method.csv)
+- **2.08-fold enrichment for human AD genetic evidence.** After accounting for linkage disequilibrium, 15 of 130 model-nominated genes (11.5%) and 7 of 126 blood differential-expression candidates (5.6%) ranked in the top decile of Bellenguez protein–AD genetic evidence. [Gene-level scores and list membership](figure_work/data/gene_scores_LD_component_representatives_Bellenguez_stageI.csv)
+
+## Analysis scope
 
 - a shared RNA–protein encoder and conditional neural ODE for blood-to-brain prediction;
 - donor-held-out brain RNA and CITE-seq/ADT evaluation, with all registered model comparisons;
 - virtual peripheral gene-clamp responses and measured CD4/myeloid Perturb-seq actions;
-- same-animal peripheral-to-microglial dynamic adaptation with processing-held-out tests;
+- brain-isolated phagocyte-to-microglia dynamic adaptation with processing-held-out tests;
 - member-level response networks and MultiXrank target prioritization;
 - cis-pQTL Mendelian randomization, regional colocalization and independent GRN/BIN1 brain responses;
 - six-model DrugCLIP screening and exact-state AutoDock Vina poses;
@@ -59,7 +62,7 @@ The metadata retain the following resources:
 - paired PBMC RNA–ADT: GSE164378;
 - primary CD4 Perturb-seq: GSE314342;
 - primary myeloid Perturb-seq: GSE327644;
-- peripheral LPS brain response: GSE245309;
+- brain CD45-positive cells after systemic saline or LPS: GSE245309;
 - aged Grn-knockout microglia: GSE272377;
 - microglial Bin1 conditional knockout: Mendeley Data DOI 10.17632/whgkcy72yv.1;
 - protein instruments: UKB plasma proteomics and AGES–Reykjavik serum;
@@ -123,22 +126,32 @@ The drug-discovery scripts are ordered as follows:
 
 They use `work/drug_discovery/` by default. Derived rankings and pose summaries used in the article are already present in `figure_work/data/`, so the figure workflow does not require rerunning the structural screen.
 
-## Real-action and dynamic-response extension
+## Dynamic response benchmark
 
-`scripts/real_action/` contains guide assignment, orthogroup count aggregation, measured-action propagation and candidate response tables. `scripts/dynamic_response/` contains the fixed peripheral-plus-world ridge adapter, reciprocal animal holdout evaluation, headline-metric calculation, GRN/BIN1 brain analyses and figure-source export. These reference implementations retain the release analysis-root layout; place them in the directory containing the corresponding `data/` and `results/` resources before running.
+The frozen 1,500-step model and gene-wise ridge readouts (penalty 1.0) were evaluated across reciprocal tissue-processing groups. The readouts use the source phagocyte state and the frozen model prediction. The four held-out LPS animals gave a mean response correlation of 0.835 and 61.50% top-100 gene recovery. [Per-animal results](results/dynamic_response/headline/combined_by_test_animal.csv)
 
-The fixed combined model uses a ridge penalty of 1.0 and is evaluated in both processing-transfer directions. Its reported 53.28% MSE reduction, 0.740 response correlation and 61.25% top-100 recovery are generated from the held-out-animal result tables rather than hardcoded figure labels.
+Recompute the headline from the published per-animal comparison table:
+
+```bash
+python scripts/dynamic_response/summarize_dynamic_headline.py
+```
+
+For full inference, place the separately provisioned model bundle, benchmark inputs and GO gene-set file at the locations in [the benchmark configuration](configs/dynamic_response.json), then run `python scripts/dynamic_response/benchmark.py`. It verifies the frozen inputs, refits the two training-fold readouts and regenerates the response vectors and enrichment tables.
 
 ## Main figures
 
-The current six-figure extension uses `make_real_action_figure.py`, `make_dynamic_figure.py`, `make_genetics_brain_panel.py` and `assemble_six_figures.py` in `scripts/figures/`. The original R renderer uses the included source data and `figure_work/page_layout.json`:
+[Figure sources](figure_work/main_grid/source) contain the fixed input tables, workflow artwork and vector masters used to compose the six figures. From the repository root:
 
 ```bash
-Rscript figure_work/render_current.R
+cd figure_work/main_grid
+Rscript design_figures.R .
+python normalize_pdfs.py
+python reflow_figures.py
+python space_panel_a.py output output
 ```
 
-Required R packages are `ggplot2`, `cowplot`, `jsonlite`, `ggrepel`, `ggalluvial`, `ComplexHeatmap` and `circlize`, together with their standard dependencies. `AD_WORLD_MODEL_ROOT` and `AD_FIGURE_WORK` can override the repository and figure-work paths. Rendering writes to `figure_work/build/`.
+The final PDFs are written to `figure_work/main_grid/output/`. Figures 3 and 4 use R with ggplot2, gtable, dplyr, tidyr, jsonlite, png and ragg. The PDF composition uses pypdf, PyMuPDF, NumPy and Arial Bold. The version of R and its packages is recorded in [R_sessionInfo.txt](figure_work/main_grid/R_sessionInfo.txt).
 
 ## Citation
 
-If you use this repository, cite the associated manuscript and the original public-data and software resources listed above.
+If you use this repository, cite the associated manuscript and the original public data and software resources listed above.

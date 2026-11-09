@@ -1,0 +1,12 @@
+{
+  "regular": {
+    "font": "Arial.ttf",
+    "ink_width_em": 0.5615234375,
+    "ink_height_em": 0.7158203125
+  },
+  "bold": {
+    "font": "Arial Bold.ttf",
+    "ink_width_em": 0.572265625,
+    "ink_height_em": 0.7158203125
+  }
+}

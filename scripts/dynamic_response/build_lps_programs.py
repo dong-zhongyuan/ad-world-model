@@ -4,10 +4,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from scipy.stats import hypergeom
+from project_paths import RESULTS, configured_path
 
-WORK = Path(__file__).resolve().parent
-OUT = WORK / "results/lps_dynamic_scene_v1"
-GMT = Path("/public/home/mengxl/dzy/ad_omics_v3/analysis/figure_build_20261031/references/GO_Biological_Process_2023.gmt")
+OUT = RESULTS / 'scene'
+GMT = configured_path('go_gmt')
 
 
 def bh(values):
@@ -52,7 +52,7 @@ def enrich(query, background, terms, query_name):
 
 def main():
     table = pd.read_csv(OUT / "response_gene_table.csv")
-    members = pd.read_csv("/public/home/mengxl/dzy/ad_omics_v3/data/reference/v2/mappings/orthogroups_member_level.csv").set_index("og_id")
+    members = pd.read_csv(configured_path('members_file')).set_index("og_id")
     node_symbols = members.human_symbols.dropna().to_dict()
     background = sorted({symbol.upper() for node in table.node for symbol in str(node_symbols.get(node, "")).split(";") if symbol})
     observed_top = table.nlargest(100, "observed_abs_mean")

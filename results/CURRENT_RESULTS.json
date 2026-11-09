@@ -6,11 +6,31 @@
   "real_action_scripts": "scripts/real_action",
   "dynamic_response_scripts": "scripts/dynamic_response",
   "dynamic_response_results": "results/dynamic_response",
-  "six_figure_scripts": "scripts/figures",
+  "six_figure_scripts": "figure_work/main_grid",
   "dynamic_headline": {
-    "relative_mse_reduction": 0.532804532990663,
-    "mean_delta_pearson": 0.7397289492212019,
-    "mean_top100_overlap": 0.6125,
-    "source": "results/dynamic_response/headline_by_method.csv"
+    "relative_mse_reduction": 0.6905080516019088,
+    "mean_delta_pearson": 0.8354737931663493,
+    "mean_top100_overlap": 0.615,
+    "source": "results/dynamic_response/headline/headline_by_method.csv"
+  },
+  "dynamic_model_package": "checkpoints/dynamic_response_v3",
+  "dynamic_configuration": "configs/dynamic_response.json",
+  "rendered_delivery_needs_refresh": false,
+  "publication_delivery": {
+    "date": "2026-11-09",
+    "figures": 6,
+    "figure_sources": "figure_work/main_grid/source",
+    "renderer": "figure_work/main_grid/design_figures.R"
+  },
+  "genetic_evidence_headline": {
+    "outcome": "Bellenguez stage I",
+    "population": "LD component representatives",
+    "threshold": "score >= 0.9",
+    "model_list": "hub50_nominated",
+    "comparator_list": "blood_DE_top_n",
+    "model_top_decile_fraction": 0.11538461538461539,
+    "comparator_top_decile_fraction": 0.05555555555555555,
+    "fold_enrichment": 2.076923076923077,
+    "source": "figure_work/data/gene_scores_LD_component_representatives_Bellenguez_stageI.csv"
   }
 }

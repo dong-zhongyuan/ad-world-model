@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "model": "official_v3_1500_plus_fixed_ridge",
+  "protocol": "fixed source-plus-v3 ridge alpha=1; reciprocal processing-held-out benchmark",
+  "n_test_lps_animals": 4,
+  "n_test_lps_samples": 4,
+  "relative_mse_reduction": 0.6905080516019088,
+  "animal_bootstrap_95_low": 0.6001213688362872,
+  "animal_bootstrap_95_high": 0.7626941542575724,
+  "mean_delta_pearson": 0.8354737931663493,
+  "mean_top100_overlap": 0.615,
+  "target_relative_mse_reduction": 0.5328,
+  "target_met": true,
+  "uncertainty_scope": "Descriptive four-library bootstrap; shared controls and reciprocal fits limit independence.",
+  "claim_scope": "Historical GSE245309 brain-CD45+ phagocyte-to-microglia benchmark, frozen official v3 backbone plus fold-fitted ridge; no new independent paired blood-brain test."
+}
