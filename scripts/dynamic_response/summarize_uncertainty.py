@@ -50,6 +50,15 @@ def main():
     rows += summary(protein, ['arm','celltype'], 'unit', ['mse','median_pearson'], 'CITE-seq ablations')
     pd.DataFrame(rows).to_csv(SOURCE / 'metric_uncertainty.csv', index=False)
 
+    by_channel = pd.read_csv(FIG / 'protein_all_rows.csv')
+    keys = ['arm', 'celltype', 'protein_index']
+    if by_channel.duplicated(keys + ['unit']).any():
+        raise ValueError('A protein/donor/stratum has more than one score')
+    channel_stats = by_channel.groupby(keys)[['mse','pearson']].agg(['count','mean','std'])
+    channel_stats.columns = ['_'.join(name) for name in channel_stats.columns]
+    channel_stats.to_csv(SOURCE / 'antibody_channel_uncertainty.csv.gz',
+                         compression={'method': 'gzip', 'mtime': 0})
+
     paired = []
     def reduction(label, method, comparator, metric, a, b, unit):
         # Percent reduction is calculated after averaging the paired biological units.
@@ -67,10 +76,33 @@ def main():
             values = frame.pivot(index='unit',columns='method',values=metric)
             for method in values.columns.difference(['world_model']):
                 reduction(label, 'world_model', method, metric, values.world_model, values[method], 'donor')
+    for metric in ['mmd','energy','mean_mse']:
+        values = brain.pivot(index='unit',columns='arm',values=metric)
+        for method in values.columns.difference(['joint_full']):
+            reduction('brain ablations','joint_full',method,metric,values.joint_full,values[method],'donor')
+    protein_mse = protein[protein.celltype.eq('ALL')].pivot(index='unit',columns='arm',values='mse')
+    for method in protein_mse.columns.difference(['joint_full']):
+        reduction('CITE-seq ablations','joint_full',method,'mse',protein_mse.joint_full,protein_mse[method],'donor')
     for method, part in lps.groupby('method'):
         part=part.set_index('gsm').sort_index()
         for metric, baseline in [('mse','zero_response_mse'),('program_mse','program_zero_mse')]:
             reduction('LPS external comparisons',method,'zero response',metric,part[metric],part[baseline],'animal')
+    lps_mse = lps.pivot(index='gsm',columns='method',values='mse')
+    for method in lps_mse.columns.difference(['world_model_combined_ridge','zero_response']):
+        reduction('LPS external comparisons','world_model_combined_ridge',method,'mse',
+                  lps_mse.world_model_combined_ridge,lps_mse[method],'animal')
+    # The adjusted AD-control contrast uses all test donors jointly, so report
+    # delete-one-donor sensitivity and jackknife SE rather than resampling genes.
+    contrast = pd.read_csv(SOURCE / 'covariate_LODO_comparisons.csv').set_index('excluded_donor')
+    all_donors = contrast.loc['all_test_donors']
+    deleted = contrast.drop('all_test_donors')
+    cols = ['full_mse','noBlood_mse','optimized_brain_only_mse',
+            'full_relative_MSE_reduction_vs_noBlood','full_relative_MSE_reduction_vs_optimized_brain_only']
+    variability = pd.DataFrame({'estimate':all_donors[cols].astype(float),
+                                'delete_one_min':deleted[cols].min(),'delete_one_max':deleted[cols].max(),
+                                'jackknife_se':deleted[cols].std(ddof=0)*np.sqrt(len(deleted)-1),
+                                'n_donors':len(deleted)})
+    variability.to_csv(SOURCE / 'adjusted_contrast_uncertainty.csv',index_label='metric')
     pd.DataFrame(paired).to_csv(SOURCE / 'paired_reductions.csv', index=False)
 
 

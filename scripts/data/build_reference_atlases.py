@@ -7,6 +7,7 @@ import pandas as pd
 import anndata as ad
 
 import build_member_level as builder
+from reference_builders.split_mouse_t import split_mouse_t
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / 'data'
@@ -31,6 +32,8 @@ def main():
     for build in (builder.build_mouse_brain, builder.build_mouse_bm12, builder.build_mouse_bm34,
                   builder.build_human_brain, builder.build_human_blood):
         build(cs, report)
+    split_mouse_t(DATA / 'mappings/orthogroups_member_level.csv',
+                  [builder.OUT_DIR / 'mouse_blood_bm12.h5ad', builder.OUT_DIR / 'mouse_blood_bm34.h5ad'])
     shutil.copyfile(coordinates, builder.OUT_DIR / 'columns.csv')
     # Leiden annotations are tied to the frozen GSE181279 row order.
     # Match identifiers, donors and marker labels before attaching them.

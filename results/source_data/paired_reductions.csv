@@ -41,6 +41,80 @@ brain native,world_model,condition_mean,mean_mse,donor,4,-46.42530368099871,-148
 brain native,world_model,condition_only_world,mean_mse,donor,4,36.637352310267026,28.701598686326747,47.51953458644249
 brain native,world_model,linear_latent_transport,mean_mse,donor,4,-91.6559668227003,-171.3533363181786,-64.52225454879208
 brain native,world_model,scgen,mean_mse,donor,4,-91.23194850287734,-190.91250225182912,-61.52385436846743
+brain ablations,joint_full,human_full,mmd,donor,4,-2.252870656252437,-4.375363314410019,-1.0937009113636043
+brain ablations,joint_full,human_learned_projection,mmd,donor,4,-0.24944731773606232,-2.026370687702328,1.351586472761157
+brain ablations,joint_full,human_no_protein,mmd,donor,4,-7.269721944364416,-12.461661815571844,-4.454581244119771
+brain ablations,joint_full,joint_deterministic,mmd,donor,4,27.176167511203264,22.545789926518456,34.82156654241473
+brain ablations,joint_full,joint_head_detached,mmd,donor,4,-1.0754077077418822,-1.5530285197886378,-0.48558893193875186
+brain ablations,joint_full,joint_human_exposure_matched,mmd,donor,4,-8.452576720634507,-14.391365681301771,-5.65695831883779
+brain ablations,joint_full,joint_learned_projection,mmd,donor,4,-7.254812378050524,-11.45504063611309,-5.233642031257046
+brain ablations,joint_full,joint_legacy_random_pair,mmd,donor,4,59.788037848259854,52.759121620297556,68.87477173331943
+brain ablations,joint_full,joint_mlp,mmd,donor,4,2.510172892537166,1.6897481445876106,4.080790264540113
+brain ablations,joint_full,joint_mouse_labels_swapped,mmd,donor,4,1.6996679922484659,1.4631685726342658,1.944869781553045
+brain ablations,joint_full,joint_no_blood_expression,mmd,donor,4,-8.499128211494856,-12.349632914106845,-6.636496437815187
+brain ablations,joint_full,joint_no_disease_condition,mmd,donor,4,0.9458292774100596,0.691180788401724,1.4172763469015415
+brain ablations,joint_full,joint_no_protein,mmd,donor,4,-2.090039917685882,-2.62325609294487,-1.641476085030122
+brain ablations,joint_full,joint_no_reconstruction,mmd,donor,4,-8.234888963343456,-12.937053165552381,-5.9859139650987325
+brain ablations,joint_full,joint_no_species_condition,mmd,donor,4,1.9346673775085144,1.3309668919058577,2.9288019873586757
+brain ablations,joint_full,joint_protein_shuffled,mmd,donor,4,0.6021023757407762,0.162827870997595,1.4528731344810364
+brain ablations,joint_full,joint_protein_weight_01,mmd,donor,4,0.6144851253968353,0.36200616547146236,0.9937240331497454
+brain ablations,joint_full,joint_random_projection,mmd,donor,4,-1.4003394541011849,-1.8044884857625787,-0.9317170539767217
+brain ablations,joint_full,joint_shuffled_esm,mmd,donor,4,0.051767431705196376,-0.04144987776152631,0.12201212234388414
+brain ablations,joint_full,human_full,energy,donor,4,2.52245824448053,1.138991427301972,4.368058480481185
+brain ablations,joint_full,human_learned_projection,energy,donor,4,3.6196709094471258,1.713659443549509,6.238762807729959
+brain ablations,joint_full,human_no_protein,energy,donor,4,0.2947285646875297,-1.0047573561330347,1.4538224309082248
+brain ablations,joint_full,joint_deterministic,energy,donor,4,38.49365397659839,31.859431734387954,48.95548195427876
+brain ablations,joint_full,joint_head_detached,energy,donor,4,0.5705363728764623,-0.3942686719741628,2.5421493880429025
+brain ablations,joint_full,joint_human_exposure_matched,energy,donor,4,-2.582832320759043,-4.547940511797699,-1.4912286318748968
+brain ablations,joint_full,joint_learned_projection,energy,donor,4,-4.153572663732441,-6.451902436784263,-3.055879099933412
+brain ablations,joint_full,joint_legacy_random_pair,energy,donor,4,66.38699647359141,59.15356429703702,75.51482790434602
+brain ablations,joint_full,joint_mlp,energy,donor,4,2.7899969665605706,1.7983996723315299,4.81332877614622
+brain ablations,joint_full,joint_mouse_labels_swapped,energy,donor,4,1.450150120431215,1.1357438344208326,1.8588272428218255
+brain ablations,joint_full,joint_no_blood_expression,energy,donor,4,-4.253343752483252,-7.738226961775907,-2.6756895099457223
+brain ablations,joint_full,joint_no_disease_condition,energy,donor,4,0.9220173819913247,0.6056632729092515,1.5061025608012146
+brain ablations,joint_full,joint_no_protein,energy,donor,4,1.0467566369898207,-0.123449475257012,3.422912181001625
+brain ablations,joint_full,joint_no_reconstruction,energy,donor,4,3.3532991707786897,2.5799104691138552,4.941892248939506
+brain ablations,joint_full,joint_no_species_condition,energy,donor,4,2.058023623205807,1.362482731828396,3.198439391695973
+brain ablations,joint_full,joint_protein_shuffled,energy,donor,4,1.2898889551594794,0.5664190345294862,2.778981764959565
+brain ablations,joint_full,joint_protein_weight_01,energy,donor,4,3.4327518711383176,2.3453299658362403,5.481301469656852
+brain ablations,joint_full,joint_random_projection,energy,donor,4,-1.9180840429826373,-2.278858393893457,-1.5664523728970314
+brain ablations,joint_full,joint_shuffled_esm,energy,donor,4,-0.5830941816690194,-1.153041914848374,-0.267763284992828
+brain ablations,joint_full,human_full,mean_mse,donor,4,2.006672648009067,-1.4079500521612331,6.230011181842377
+brain ablations,joint_full,human_learned_projection,mean_mse,donor,4,12.055565910573463,8.51447876053497,17.970682136328087
+brain ablations,joint_full,human_no_protein,mean_mse,donor,4,-8.14249502707105,-11.69109941401183,-5.506295476058831
+brain ablations,joint_full,joint_deterministic,mean_mse,donor,4,35.97864283722344,28.864969949914354,46.03288824144074
+brain ablations,joint_full,joint_head_detached,mean_mse,donor,4,2.598090258600816,0.4943320626314418,6.289123328445201
+brain ablations,joint_full,joint_human_exposure_matched,mean_mse,donor,4,1.456899425380087,0.1824052349177041,3.11993348953411
+brain ablations,joint_full,joint_learned_projection,mean_mse,donor,4,1.9596723441194452,1.0269225195827625,3.499228084969097
+brain ablations,joint_full,joint_legacy_random_pair,mean_mse,donor,4,-9.113939551700035,-13.4687378250399,-6.7204751148790765
+brain ablations,joint_full,joint_mlp,mean_mse,donor,4,4.255725421476752,2.810973250500204,6.835816508921244
+brain ablations,joint_full,joint_mouse_labels_swapped,mean_mse,donor,4,1.1758053275526037,0.6156328519579035,2.102774848512734
+brain ablations,joint_full,joint_no_blood_expression,mean_mse,donor,4,1.865081634701471,-0.9802717134123506,3.3272381506001314
+brain ablations,joint_full,joint_no_disease_condition,mean_mse,donor,4,1.0913810259854717,0.633792546361267,1.7645524507207382
+brain ablations,joint_full,joint_no_protein,mean_mse,donor,4,4.894668392377288,2.2727143583538223,9.42199595201596
+brain ablations,joint_full,joint_no_reconstruction,mean_mse,donor,4,11.855149063065774,9.75984448166466,15.509942747302762
+brain ablations,joint_full,joint_no_species_condition,mean_mse,donor,4,2.8636807118346264,1.9568394695076985,4.160565992456366
+brain ablations,joint_full,joint_protein_shuffled,mean_mse,donor,4,2.892450761072063,1.5364196574454092,5.321603676893194
+brain ablations,joint_full,joint_protein_weight_01,mean_mse,donor,4,8.168069147901003,5.938589793754135,11.852221904213444
+brain ablations,joint_full,joint_random_projection,mean_mse,donor,4,-2.030921510816963,-2.7762981248074414,-0.9891463972350856
+brain ablations,joint_full,joint_shuffled_esm,mean_mse,donor,4,-1.8388862206784928,-3.3986143019016035,-1.0209196468990323
+CITE-seq ablations,joint_full,human_full,mse,donor,3,0.021749785939517707,-0.03524071488409608,0.06683164010392427
+CITE-seq ablations,joint_full,human_learned_projection,mse,donor,3,-2.934129118694395,-4.688325136082173,-0.9860412027212053
+CITE-seq ablations,joint_full,joint_deterministic,mse,donor,3,3.1355772611481036,2.985191817208039,3.3005915125967555
+CITE-seq ablations,joint_full,joint_head_detached,mse,donor,3,28.686691447683543,25.7001113254499,31.075085560445572
+CITE-seq ablations,joint_full,joint_human_exposure_matched,mse,donor,3,-1.2412895620862896,-1.4471653686493002,-1.025839488395516
+CITE-seq ablations,joint_full,joint_learned_projection,mse,donor,3,-4.343640241122859,-5.64887385430845,-2.706207473852311
+CITE-seq ablations,joint_full,joint_legacy_random_pair,mse,donor,3,-0.5131368739401898,-0.6997140015413006,-0.32594480799036946
+CITE-seq ablations,joint_full,joint_mlp,mse,donor,3,-0.5051021317417304,-0.5998332292121067,-0.383251020993355
+CITE-seq ablations,joint_full,joint_mouse_labels_swapped,mse,donor,3,0.2590498073272052,0.07493684217063368,0.47200591976549605
+CITE-seq ablations,joint_full,joint_no_blood_expression,mse,donor,3,-1.24880057884742,-1.3147567839212682,-1.1705565580498056
+CITE-seq ablations,joint_full,joint_no_disease_condition,mse,donor,3,-0.278524731098706,-0.31533777666297613,-0.23293272290128014
+CITE-seq ablations,joint_full,joint_no_reconstruction,mse,donor,3,0.724298634295939,0.4936134192562902,0.9841929033810589
+CITE-seq ablations,joint_full,joint_no_species_condition,mse,donor,3,0.12413340067742862,0.08882681544990056,0.150784256607836
+CITE-seq ablations,joint_full,joint_protein_shuffled,mse,donor,3,1.129694560219785,0.6467888238913772,1.5245510365202573
+CITE-seq ablations,joint_full,joint_protein_weight_01,mse,donor,3,6.788086648060854,6.259770760317443,7.392487326826877
+CITE-seq ablations,joint_full,joint_random_projection,mse,donor,3,-0.9361246739780782,-1.6652823028932806,-0.13264780463881123
+CITE-seq ablations,joint_full,joint_shuffled_esm,mse,donor,3,-0.6011032967123464,-1.1235511557701028,-0.007126837945388334
 LPS external comparisons,cellot_combined_ridge,zero response,mse,animal,4,71.47098921171602,63.385654370166655,76.83011655551557
 LPS external comparisons,cellot_combined_ridge,zero response,program_mse,animal,4,76.39660030388436,71.28662430391242,81.78164981110373
 LPS external comparisons,cellot_direct,zero response,mse,animal,4,9.916236569843884,6.89967218508869,13.114447861121626
@@ -77,3 +151,19 @@ LPS external comparisons,world_model_model_only_ridge,zero response,mse,animal,4
 LPS external comparisons,world_model_model_only_ridge,zero response,program_mse,animal,4,54.76605995319368,43.611332596751915,66.2988358106525
 LPS external comparisons,zero_response,zero response,mse,animal,4,0.0,0.0,0.0
 LPS external comparisons,zero_response,zero response,program_mse,animal,4,0.0,0.0,0.0
+LPS external comparisons,world_model_combined_ridge,cellot_combined_ridge,mse,animal,4,-8.483238586453346,-36.13556727257408,11.119546348417815
+LPS external comparisons,world_model_combined_ridge,cellot_direct,mse,animal,4,65.64398104459224,56.96509380957613,73.61781217082486
+LPS external comparisons,world_model_combined_ridge,cellot_model_only_ridge,mse,animal,4,37.14252491035618,21.37315831031858,47.36692608441898
+LPS external comparisons,world_model_combined_ridge,linear_latent_transport_combined_ridge,mse,animal,4,24.34395287795511,-8.24333862437705,36.851706017484545
+LPS external comparisons,world_model_combined_ridge,linear_latent_transport_direct,mse,animal,4,67.12955739720346,57.69209222811333,74.20530330234445
+LPS external comparisons,world_model_combined_ridge,linear_latent_transport_model_only_ridge,mse,animal,4,52.69980558226438,39.2626274178977,64.07950200103217
+LPS external comparisons,world_model_combined_ridge,multivariate_source_ridge,mse,animal,4,-239.4150360899821,-373.3589216881298,-137.8083756114181
+LPS external comparisons,world_model_combined_ridge,scgen_combined_ridge,mse,animal,4,39.72117781116262,24.298286273040237,47.9346518562063
+LPS external comparisons,world_model_combined_ridge,scgen_direct,mse,animal,4,66.64199560899917,57.244303469516026,74.64793200844126
+LPS external comparisons,world_model_combined_ridge,scgen_model_only_ridge,mse,animal,4,56.49315663628849,46.003117208253265,65.37769414539866
+LPS external comparisons,world_model_combined_ridge,source_duplicated_ridge,mse,animal,4,43.50181297736944,31.135165022732647,50.190479923829656
+LPS external comparisons,world_model_combined_ridge,source_only_ridge,mse,animal,4,41.046054729390505,27.654724147268517,49.355398802748475
+LPS external comparisons,world_model_combined_ridge,source_tuned_ridge,mse,animal,4,55.130201857440795,43.96915699399947,65.50531029733277
+LPS external comparisons,world_model_combined_ridge,training_treatment_mean,mse,animal,4,-643.4460562336108,-893.750202480022,-438.6026447564136
+LPS external comparisons,world_model_combined_ridge,world_model_direct,mse,animal,4,68.79829264869828,59.3034696453443,75.48359476873175
+LPS external comparisons,world_model_combined_ridge,world_model_model_only_ridge,mse,animal,4,39.68164208706343,26.193269144898245,50.57684605161017

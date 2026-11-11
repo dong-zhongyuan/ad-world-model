@@ -11,6 +11,17 @@ python scripts/data/build_reference_atlases.py
 python scripts/data/prepare_raw_intermediates.py --stage all
 python scripts/data/prepare_full_data.py
 python scripts/data/validate_full_scope.py
+python scripts/data/verify_training_snapshot.py
 ```
 
 The first command after extraction reconstructs five expression atlases from counts on the released coordinate list. It checks the blood row IDs, donors and marker labels before joining the archived Leiden annotations. [Reference annotation programs](../scripts/data/reference_builders) document the original cell labels and HTO demultiplexing. The second stage prepares the expanded mouse-brain atlas, cortex and same-cell RNA/ADT data, including marker assignments, cell QC, normalization and donor splits. The final transformation constructs the CSR matrices, donor metadata, assay masks, centered ADT targets, ESM-2 features and training-only standardization. The [release manifest](../configs/data_manifest.json) records the original matrix shapes and hashes.
+
+## Transformations and verification environment
+
+The five reference matrices start from the deposited counts and fixed molecular coordinates. The original mouse BM labels are refined on the mapped CD4, CD8A and CD8B expression values. The two-stage implementation and the frozen human blood labels preserve the training annotations. For the expanded Brain1, GSE157827 and CITE RNA atlases, repeated upper-case symbols are summed. Cells must have at least 500 counts and 200 detected genes and a mitochondrial fraction below 0.10. Counts are scaled to 10,000 per cell and log1p transformed. GSE157827 and expanded Brain1 marker assignments require at least two detected markers and a winning score margin of 0.10. The CITE cohort uses its deposited cell annotations, with RNA and ADT measurements joined by barcode after doublet exclusion.
+
+Assay masks record the measured coordinates. Human training donors contribute equally within assay to gene means and squared moments on available coordinates. Protein means and variances use the four training CITE donors; the variance floor is 0.0001. ESM-2 features use the archived per-node vectors and corrections, zero vectors for uncovered nodes, and column-wise L2 scaling with a floor of one. The processed-matrix manifest covers CSR data and indices, observations, coordinate labels, protein targets, embeddings, assay masks and preprocessing parameters.
+
+The raw-count rebuild used Linux x86-64, Python 3.10.20, NumPy 1.26.4, pandas 2.2.3, SciPy 1.15.3, scikit-learn 1.7.2, Scanpy 1.11.5, AnnData 0.10.8, h5py 3.14.0 and PyTorch 2.4.0. The lightweight inference example uses the separate environment in `requirements-benchmark.txt`.
+
+The rebuilt 36 files matched all SHA-256 values in the frozen manifest. The scope validator retained all 25,790 nodes and all 348 active training strata.

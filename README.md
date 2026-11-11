@@ -32,7 +32,7 @@ AD_OMICS_RESULTS=work/benchmark python scripts/dynamic_response/benchmark.py
 - six-model DrugCLIP screening and exact-state AutoDock Vina poses;
 - source data and rendering code for the six main figures.
 
-The [versioned release](https://github.com/dong-zhongyuan/ad-world-model/releases/tag/v3.0.1) includes the frozen inference model and training references. Public test matrices, source-data tables and file checksums are available in this checkout.
+The [release page](https://github.com/dong-zhongyuan/ad-world-model/releases) provides the frozen inference model and training references. Public test matrices, source-data tables and file checksums are available in this checkout.
 
 ## Repository layout
 
@@ -70,7 +70,7 @@ DrugCLIP additionally requires its Uni-Mol/Uni-Core implementation and the six o
 
 ## Public data
 
-The [dataset index](docs/data_sources.md) links the training atlases, perturbation measurements, independent brain cohorts, genetic outcomes and structural resources. It explains outcome definitions, sample annotations and data versions. [Source Data 1 and 2](results/source_data/README.md) include the complete human and mouse comparison tables and biological-unit uncertainty. The [training-input guide](docs/training_inputs.md) gives the raw-count reconstruction commands and reference bundle.
+The [dataset index](docs/data_sources.md) links the training atlases, perturbation measurements, independent brain cohorts, genetic outcomes and structural resources. It explains outcome definitions, sample annotations and data versions. [Source Data 1 and 2](results/source_data/README.md) include the complete human and mouse comparison tables and biological-unit uncertainty. The [training-input guide](docs/training_inputs.md) gives the raw-count reconstruction commands and reference bundle. A raw-count rebuild reproduced all 36 frozen training files byte for byte, including expression matrices, cell labels, assay masks and preprocessing parameters.
 
 ## Tests
 
