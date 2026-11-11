@@ -5,6 +5,22 @@ Code, analysis configurations, metadata and figure-source data for **A blood–b
 - **69.05% lower microglial response MSE.** Across four held-out LPS animals, a ridge readout combining brain-isolated phagocyte expression and frozen world-model predictions reduced mean squared error relative to a zero-response predictor. [Held-out results](results/dynamic_response/headline/headline_by_method.csv)
 - **2.08-fold enrichment for human AD genetic evidence.** After accounting for linkage disequilibrium, 15 of 130 model-nominated genes (11.5%) and 7 of 126 blood differential-expression candidates (5.6%) ranked in the top decile of Bellenguez protein–AD genetic evidence. [Gene-level scores and list membership](figure_work/data/gene_scores_LD_component_representatives_Bellenguez_stageI.csv)
 
+## Run the published test dataset
+
+The [eight GSE245309 test inputs](results/dynamic_response/benchmark_inputs) ship with the checkout. The following commands run the frozen model on CPU and evaluate both processing-held-out folds. Start in a new directory with Python 3.11.
+
+```bash
+git clone https://github.com/dong-zhongyuan/ad-world-model.git
+cd ad-world-model
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-benchmark.txt
+python scripts/dynamic_response/fetch_model.py
+AD_OMICS_RESULTS=work/benchmark python scripts/dynamic_response/benchmark.py
+```
+
+**Expected output:** `OFFICIAL_V3_DYNAMIC_BENCHMARK_VERIFIED`. In `work/benchmark/headline/headline_metrics.json`, the four LPS animals give a **69.05% reduction in MSE** against zero response, a **0.835 mean response correlation** and **61.5% mean top-100 recovery**. The 95% animal-resampling interval for the MSE reduction is 60.01–76.27%. Per-animal metrics and gene-level predictions are written alongside the summary. [Input schema, raw-count reconstruction and outputs](docs/prediction_benchmark.md).
+
 ## Analysis scope
 
 - a shared RNA–protein encoder and conditional neural ODE for blood-to-brain prediction;
@@ -16,7 +32,7 @@ Code, analysis configurations, metadata and figure-source data for **A blood–b
 - six-model DrugCLIP screening and exact-state AutoDock Vina poses;
 - source data and rendering code for the six main figures.
 
-Historical training schedules, repair queues, debugging scripts, old side projects, raw expression matrices and model checkpoints are excluded. Public-data locations and file hashes are retained in `configs/` and `data/processed/`.
+The [versioned release](https://github.com/dong-zhongyuan/ad-world-model/releases/tag/v3.0.1) includes the frozen inference model and training references. Public test matrices, source-data tables and file checksums are available in this checkout.
 
 ## Repository layout
 
@@ -54,22 +70,7 @@ DrugCLIP additionally requires its Uni-Mol/Uni-Core implementation and the six o
 
 ## Public data
 
-The metadata retain the following resources:
-
-- human blood: GSE181279;
-- human brain: GSE138852 and GSE157827;
-- mouse blood and brain: GSE329430, including BM1/2, BM3/4 and Brain1;
-- paired PBMC RNA–ADT: GSE164378;
-- primary CD4 Perturb-seq: GSE314342;
-- primary myeloid Perturb-seq: GSE327644;
-- brain CD45-positive cells after systemic saline or LPS: GSE245309;
-- aged Grn-knockout microglia: GSE272377;
-- microglial Bin1 conditional knockout: Mendeley Data DOI 10.17632/whgkcy72yv.1;
-- protein instruments: UKB plasma proteomics and AGES–Reykjavik serum;
-- AD outcomes: Bellenguez stage I (GCST90027158) and FinnGen R13 G6_ALZHEIMER;
-- structures and compounds: AlphaFold, UniProt, ChEMBL and DrugCLIP resources.
-
-`configs/download_manifest.json` records raw GSE157827 file URLs, sizes and hashes. `configs/data_manifest.json` records processed-matrix hashes. The expression matrices and `.pt` checkpoints are not stored in GitHub. After preparing the data, place the selected full-model checkpoint at `checkpoints/joint_full.pt` before running the registered perturbation workflow.
+The [dataset index](docs/data_sources.md) links the training atlases, perturbation measurements, independent brain cohorts, genetic outcomes and structural resources. It explains outcome definitions, sample annotations and data versions. [Source Data 1 and 2](results/source_data/README.md) include the complete human and mouse comparison tables and biological-unit uncertainty. The [training-input guide](docs/training_inputs.md) gives the raw-count reconstruction commands and reference bundle.
 
 ## Tests
 
@@ -81,9 +82,10 @@ The tests construct and backpropagate every registered comparison model, check p
 
 ## Main workflow
 
-Prepare and validate the matrices:
+After downloading the data and reference bundle described in the [training-input guide](docs/training_inputs.md), prepare and validate the matrices:
 
 ```bash
+python scripts/data/build_reference_atlases.py
 python scripts/data/prepare_raw_intermediates.py --stage all
 python scripts/data/prepare_full_data.py
 python scripts/data/validate_full_scope.py
@@ -125,18 +127,6 @@ The drug-discovery scripts are ordered as follows:
 7. `dock_shortlist.py`
 
 They use `work/drug_discovery/` by default. Derived rankings and pose summaries used in the article are already present in `figure_work/data/`, so the figure workflow does not require rerunning the structural screen.
-
-## Dynamic response benchmark
-
-The frozen 1,500-step model and gene-wise ridge readouts (penalty 1.0) were evaluated across reciprocal tissue-processing groups. The readouts use the source phagocyte state and the frozen model prediction. The four held-out LPS animals gave a mean response correlation of 0.835 and 61.50% top-100 gene recovery. [Per-animal results](results/dynamic_response/headline/combined_by_test_animal.csv)
-
-Recompute the headline from the published per-animal comparison table:
-
-```bash
-python scripts/dynamic_response/summarize_dynamic_headline.py
-```
-
-For full inference, place the separately provisioned model bundle, benchmark inputs and GO gene-set file at the locations in [the benchmark configuration](configs/dynamic_response.json), then run `python scripts/dynamic_response/benchmark.py`. It verifies the frozen inputs, refits the two training-fold readouts and regenerates the response vectors and enrichment tables.
 
 ## Main figures
 

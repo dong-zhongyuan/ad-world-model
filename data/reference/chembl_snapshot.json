@@ -1,0 +1,37 @@
+{
+  "downloaded_at_utc": "2026-10-31T03:14:53.506309+00:00",
+  "library_query": "max_phase=4; molecule_type=Small molecule; all pages",
+  "library_records": 3475,
+  "files": [
+    {
+      "file": "chembl_status.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+      "bytes": 212,
+      "sha256": "29dc1fb09487a8d2962253a4d0d92c4ded0aa0d831effab42445d0c3483d4740"
+    },
+    {
+      "file": "chembl_phase4_page_000.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase=4&molecule_type=Small+molecule&limit=1000&offset=0",
+      "bytes": 5108669,
+      "sha256": "311acfc6b01e27357881dfc7a396e162a0cef32734306c7d5232c770168e16ec"
+    },
+    {
+      "file": "chembl_phase4_page_001.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&offset=1000&max_phase=4&molecule_type=Small+molecule",
+      "bytes": 5484356,
+      "sha256": "155a2369e7b8f743baf9abf43210fd0e1c0777b6b6114cf3d371307c2cb47e38"
+    },
+    {
+      "file": "chembl_phase4_page_002.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&offset=2000&max_phase=4&molecule_type=Small+molecule",
+      "bytes": 5043477,
+      "sha256": "6f586a15a6b0ae3df36c8bb5acbe22915c964b5cb114d665e59d3e4910b43f4a"
+    },
+    {
+      "file": "chembl_phase4_page_003.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&offset=3000&max_phase=4&molecule_type=Small+molecule",
+      "bytes": 2814598,
+      "sha256": "ebd86ccff36ecde8734559e0d9b66bc30836a0b87b5daa31e0b44e1f21d86c25"
+    }
+  ]
+}

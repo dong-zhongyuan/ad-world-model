@@ -1,0 +1,6 @@
+excluded_donor,full_mse,noBlood_mse,optimized_brain_only_mse,full_relative_MSE_reduction_vs_noBlood,full_relative_MSE_reduction_vs_optimized_brain_only,n_types,interpretation
+GSE157827:AD10,0.012343698404301676,0.013372967614572968,0.011602326919187167,0.07696640266665,-0.06389851710595029,8,positive reduction favors full; fixed predictions and all fitted coefficients unchanged
+GSE157827:AD4,0.00897547468865819,0.009525633040228697,0.009807013198509311,0.05775556850101993,0.084790189736618,8,positive reduction favors full; fixed predictions and all fitted coefficients unchanged
+GSE157827:NC18,0.011191628088802386,0.0120431650158482,0.011154132178566043,0.07070707126616915,-0.003361616093127795,8,positive reduction favors full; fixed predictions and all fitted coefficients unchanged
+GSE157827:NC7,0.008684716781236244,0.009412607416032233,0.0088123797162092,0.07733145584678192,0.014486771914530294,8,positive reduction favors full; fixed predictions and all fitted coefficients unchanged
+all_test_donors,0.005563516797436475,0.0063532305783573755,0.0056086003098047826,0.12430113643460439,0.00803828225903247,8,positive reduction favors full; fixed predictions and all fitted coefficients unchanged

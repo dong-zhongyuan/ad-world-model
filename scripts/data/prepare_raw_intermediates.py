@@ -11,7 +11,6 @@ import anndata as ad,scanpy as sc,torch
 ROOT=Path(__file__).resolve().parents[2]
 RAW=ROOT/'data/raw';OUT=ROOT/'data/intermediate/restored_full_inputs';CACHE=OUT/'normalized'
 CACHE.mkdir(parents=True,exist_ok=True)
-sys.path.insert(0,str(ROOT/'provenance/fullscope_sources/v2'))
 from build_member_level import qc_mask
 BLOOD={'Mono':['LYZ','LYZ2','CD14','FCN1','CSF1R','CTSS'],
        'T':['CD3D','CD3E','TRAC','CD247'],'B':['CD79A','MS4A1','CD79B','CD19'],

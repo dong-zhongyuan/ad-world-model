@@ -1,0 +1,79 @@
+benchmark,method,comparator,metric,unit,n,reduction_pct,lower_95_pct,upper_95_pct
+brain calibrated,world_model,cellot,energy,donor,4,19.279075021587055,15.584402681927735,27.078286161587826
+brain calibrated,world_model,condition_gaussian,energy,donor,4,5.330866306312099,-25.26770670305917,19.610625908722213
+brain calibrated,world_model,condition_marginal,energy,donor,4,9.737618302870498,-14.95377180702313,21.111530887942465
+brain calibrated,world_model,condition_mean,energy,donor,4,73.13031493679208,65.52774760822551,83.66830927884305
+brain calibrated,world_model,condition_only_world,energy,donor,4,0.4515085340321523,-0.15109116274505396,1.4452159726121572
+brain calibrated,world_model,linear_latent_transport,energy,donor,4,14.330751443672685,11.526020645766833,20.49013458097476
+brain calibrated,world_model,scgen,energy,donor,4,15.452950769671725,12.474302918026481,21.944214601522827
+brain calibrated,world_model,cellot,mmd_squared,donor,4,21.76153311409479,17.57596854587906,29.744104020910612
+brain calibrated,world_model,condition_gaussian,mmd_squared,donor,4,-5.4249512058954785,-47.46372585030863,11.530381342103125
+brain calibrated,world_model,condition_marginal,mmd_squared,donor,4,-1.4368705479370858,-41.73145522673622,13.863027166969621
+brain calibrated,world_model,condition_mean,mmd_squared,donor,4,62.99328010284627,54.65163603475229,73.78339900488993
+brain calibrated,world_model,condition_only_world,mmd_squared,donor,4,1.465380539007466,0.23530273030661908,3.359173240447877
+brain calibrated,world_model,linear_latent_transport,mmd_squared,donor,4,14.8836862436856,11.693485886038646,20.68505676246556
+brain calibrated,world_model,scgen,mmd_squared,donor,4,18.092263997683656,14.599474872572038,24.95928829700359
+brain calibrated,world_model,cellot,mean_mse,donor,4,-36.0898888405498,-74.6577487697589,-4.854791216633547
+brain calibrated,world_model,condition_gaussian,mean_mse,donor,4,0.4908339510085069,0.2996102390310451,1.3479435898561252
+brain calibrated,world_model,condition_marginal,mean_mse,donor,4,9.775857900962137e-09,-3.2754843282134516e-08,8.378888693982844e-08
+brain calibrated,world_model,condition_mean,mean_mse,donor,4,1.1280321121631687e-07,-4.893143223938523e-07,2.982834979015081e-07
+brain calibrated,world_model,condition_only_world,mean_mse,donor,4,8.429501541229456e-09,0.0,1.8368073728680656e-08
+brain calibrated,world_model,linear_latent_transport,mean_mse,donor,4,-35.17459211919982,-72.64839055614645,-4.220480983082164
+brain calibrated,world_model,scgen,mean_mse,donor,4,-33.38544285228453,-73.61997052272086,-1.8976989630934638
+brain native,world_model,cellot,energy,donor,4,49.63476492416661,41.8894541336098,60.670010574717736
+brain native,world_model,condition_gaussian,energy,donor,4,-22.47905467178326,-107.10713379977675,10.83139156981967
+brain native,world_model,condition_marginal,energy,donor,4,-16.572126181850333,-95.63245490365826,13.7690706031377
+brain native,world_model,condition_mean,energy,donor,4,65.23710001911986,57.39110542233104,74.94807961934788
+brain native,world_model,condition_only_world,energy,donor,4,25.80518062284842,18.771914461742945,37.24398148313052
+brain native,world_model,linear_latent_transport,energy,donor,4,45.38229618773325,37.55327808869821,56.787048618620474
+brain native,world_model,scgen,energy,donor,4,52.82992941958378,44.890725781408655,63.80631460123838
+brain native,world_model,cellot,mmd_squared,donor,4,46.24487610155561,38.260280714929685,57.12466837809005
+brain native,world_model,condition_gaussian,mmd_squared,donor,4,-34.36120892591321,-141.25311842183396,2.3987967786118447
+brain native,world_model,condition_marginal,mmd_squared,donor,4,-29.027691098928976,-130.43057024941726,5.111923784357675
+brain native,world_model,condition_mean,mmd_squared,donor,4,52.83595043782987,42.83178101208088,63.48155725450232
+brain native,world_model,condition_only_world,mmd_squared,donor,4,21.13648677310952,15.315446266143951,30.508881455328783
+brain native,world_model,linear_latent_transport,mmd_squared,donor,4,44.21197998227455,36.19957971155491,55.24115068946441
+brain native,world_model,scgen,mmd_squared,donor,4,48.405329990168376,40.67573613594205,58.91005572002883
+brain native,world_model,cellot,mean_mse,donor,4,-95.62822443610783,-186.10284179468093,-66.96454104996894
+brain native,world_model,condition_gaussian,mean_mse,donor,4,-45.70659874202671,-145.41035030069784,-7.503728968098685
+brain native,world_model,condition_marginal,mean_mse,donor,4,-45.99819782901313,-145.84249303470222,-7.628954742213945
+brain native,world_model,condition_mean,mean_mse,donor,4,-46.42530368099871,-148.7635437433132,-7.856459955763717
+brain native,world_model,condition_only_world,mean_mse,donor,4,36.637352310267026,28.701598686326747,47.51953458644249
+brain native,world_model,linear_latent_transport,mean_mse,donor,4,-91.6559668227003,-171.3533363181786,-64.52225454879208
+brain native,world_model,scgen,mean_mse,donor,4,-91.23194850287734,-190.91250225182912,-61.52385436846743
+LPS external comparisons,cellot_combined_ridge,zero response,mse,animal,4,71.47098921171602,63.385654370166655,76.83011655551557
+LPS external comparisons,cellot_combined_ridge,zero response,program_mse,animal,4,76.39660030388436,71.28662430391242,81.78164981110373
+LPS external comparisons,cellot_direct,zero response,mse,animal,4,9.916236569843884,6.89967218508869,13.114447861121626
+LPS external comparisons,cellot_direct,zero response,program_mse,animal,4,17.272601543380684,14.548298408408467,21.865721424135288
+LPS external comparisons,cellot_model_only_ridge,zero response,mse,animal,4,50.76290481653756,46.273841057746324,54.913169973115
+LPS external comparisons,cellot_model_only_ridge,zero response,program_mse,animal,4,46.7725524105146,30.273094520942333,57.55253947449594
+LPS external comparisons,linear_latent_transport_combined_ridge,zero response,mse,animal,4,59.09223913075541,43.608876268080074,71.33129222566478
+LPS external comparisons,linear_latent_transport_combined_ridge,zero response,program_mse,animal,4,72.69716361871123,63.464547255947934,81.73909476236865
+LPS external comparisons,linear_latent_transport_direct,zero response,mse,animal,4,5.844909927753639,3.5116441833452416,8.00207944914657
+LPS external comparisons,linear_latent_transport_direct,zero response,program_mse,animal,4,11.349168651943742,7.618104790676727,14.814649530282665
+LPS external comparisons,linear_latent_transport_model_only_ridge,zero response,mse,animal,4,34.568567379493786,21.087473292571314,48.03513477423222
+LPS external comparisons,linear_latent_transport_model_only_ridge,zero response,program_mse,animal,4,43.454020527522395,32.05723656251217,54.92930882426881
+LPS external comparisons,multivariate_source_ridge,zero response,mse,animal,4,90.88160760455992,90.0211317144612,91.81232672438145
+LPS external comparisons,multivariate_source_ridge,zero response,program_mse,animal,4,90.99064581264813,90.75749340491103,91.25859749621567
+LPS external comparisons,scgen_combined_ridge,zero response,mse,animal,4,48.65660323810973,27.10822126001552,60.62325213272184
+LPS external comparisons,scgen_combined_ridge,zero response,program_mse,animal,4,67.79230530296081,59.40060616499727,76.45648324516159
+LPS external comparisons,scgen_direct,zero response,mse,animal,4,7.221084100107422,5.909754572695758,9.05142791193464
+LPS external comparisons,scgen_direct,zero response,program_mse,animal,4,13.3501307627934,9.659252179455628,17.33669084995556
+LPS external comparisons,scgen_model_only_ridge,zero response,mse,animal,4,28.86361673937613,25.94412668117335,32.900345213944014
+LPS external comparisons,scgen_model_only_ridge,zero response,program_mse,animal,4,46.05783900481492,42.69559605338347,49.42023584268148
+LPS external comparisons,source_duplicated_ridge,zero response,mse,animal,4,45.22090624357149,27.048177392595868,55.981304378613636
+LPS external comparisons,source_duplicated_ridge,zero response,program_mse,animal,4,65.79391846491191,53.207291215017975,79.3451431624285
+LPS external comparisons,source_only_ridge,zero response,mse,animal,4,47.502758809869974,31.411441414007594,57.88676489464961
+LPS external comparisons,source_only_ridge,zero response,program_mse,animal,4,64.95412057138611,53.39295848429826,77.40129185055923
+LPS external comparisons,source_tuned_ridge,zero response,mse,animal,4,31.024439331155197,26.60777039892446,35.18562763258038
+LPS external comparisons,source_tuned_ridge,zero response,program_mse,animal,4,35.057775464020516,30.446926694732635,40.17471132880339
+LPS external comparisons,training_treatment_mean,zero response,mse,animal,4,95.83706247678526,95.21312435433462,96.2096086692281
+LPS external comparisons,training_treatment_mean,zero response,program_mse,animal,4,95.5751401656958,94.91876598971434,96.27004718272708
+LPS external comparisons,world_model_combined_ridge,zero response,mse,animal,4,69.05080516019088,60.01213688362872,76.26941542575723
+LPS external comparisons,world_model_combined_ridge,zero response,program_mse,animal,4,80.56213691091838,74.00506329255263,86.91229840377986
+LPS external comparisons,world_model_direct,zero response,mse,animal,4,0.8092906860818427,-3.6078585676619035,4.107652669897391
+LPS external comparisons,world_model_direct,zero response,program_mse,animal,4,-23.1053526844708,-36.734331237912656,-10.446506220179796
+LPS external comparisons,world_model_model_only_ridge,zero response,mse,animal,4,48.690256315529766,34.642372837214076,61.67791798764033
+LPS external comparisons,world_model_model_only_ridge,zero response,program_mse,animal,4,54.76605995319368,43.611332596751915,66.2988358106525
+LPS external comparisons,zero_response,zero response,mse,animal,4,0.0,0.0,0.0
+LPS external comparisons,zero_response,zero response,program_mse,animal,4,0.0,0.0,0.0

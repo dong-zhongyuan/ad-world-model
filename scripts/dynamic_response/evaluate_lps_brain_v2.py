@@ -29,13 +29,14 @@ SAMPLES = {
 MICROGLIA_MARKERS = ["C1qa", "C1qb", "C1qc", "Hexb", "Csf1r", "Cx3cr1", "Fcrls", "Tyrobp", "Aif1", "Spi1"]
 
 
-def load_sample(gsm):
-    feature_path = next(RAW.glob(f"{gsm}_*_features.tsv.gz"))
+def load_sample(gsm, raw_dir=None):
+    raw_dir = RAW if raw_dir is None else Path(raw_dir)
+    feature_path = next(raw_dir.glob(f"{gsm}_*_features.tsv.gz"))
     suffix = feature_path.name[len(gsm) + 1:].removesuffix("_features.tsv.gz")
     features = pd.read_csv(feature_path, sep="\t", header=None)
     gene_names = features.iloc[:, 1].astype(str).to_numpy() if features.shape[1] >= 2 else features.iloc[:, 0].astype(str).to_numpy()
-    matrix = mmread(RAW / f"{gsm}_{suffix}_matrix.mtx.gz").tocsr().T.tocsr()
-    barcodes = pd.read_csv(RAW / f"{gsm}_{suffix}_barcodes.tsv.gz", sep="\t", header=None).iloc[:, 0].astype(str).to_numpy()
+    matrix = mmread(raw_dir / f"{gsm}_{suffix}_matrix.mtx.gz").tocsr().T.tocsr()
+    barcodes = pd.read_csv(raw_dir / f"{gsm}_{suffix}_barcodes.tsv.gz", sep="\t", header=None).iloc[:, 0].astype(str).to_numpy()
     if matrix.shape != (len(barcodes), len(gene_names)):
         raise ValueError(f"Matrix dimensions do not match metadata for {gsm}")
     input_cells = matrix.shape[0]

@@ -1,0 +1,6 @@
+# CPU benchmark environment tested with Python 3.11
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.1
+torch==2.6.0

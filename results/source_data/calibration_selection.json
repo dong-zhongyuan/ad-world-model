@@ -1,0 +1,144 @@
+{
+  "protocol_sha256": "41b3b36380411150252099b114446f1cc82dd2c4026c41c224502bc3358b4509",
+  "selected": {
+    "cellot": {
+      "candidate": "diag_1_b0.5",
+      "parameters": {
+        "id": "diag_1_b0.5",
+        "kind": "diagonal",
+        "a": 1.0,
+        "b": 0.5,
+        "tau": 1.0
+      },
+      "validation_metrics": {
+        "energy": 0.145525679199232,
+        "mmd_squared": 0.11065358883287343,
+        "mean_mse": 0.020465500681590736,
+        "mean_pearson": 0.9130924650718357,
+        "pred_var": 0.163378291926349
+      }
+    },
+    "condition_gaussian": {
+      "candidate": "scalar_1_b0",
+      "parameters": {
+        "id": "scalar_1_b0",
+        "kind": "scalar",
+        "a": 1.0,
+        "b": 0.0,
+        "tau": 0.0
+      },
+      "validation_metrics": {
+        "energy": 0.10966128835247622,
+        "mmd_squared": 0.07026392759548293,
+        "mean_mse": 0.025879703200997837,
+        "mean_pearson": 0.9048515297807073,
+        "pred_var": 0.1810294538218942
+      }
+    },
+    "condition_marginal": {
+      "candidate": "scalar_1_b1",
+      "parameters": {
+        "id": "scalar_1_b1",
+        "kind": "scalar",
+        "a": 1.0,
+        "b": 1.0,
+        "tau": 0.0
+      },
+      "validation_metrics": {
+        "energy": 0.11426986691852412,
+        "mmd_squared": 0.07255433996518454,
+        "mean_mse": 0.025698342396935914,
+        "mean_pearson": 0.9060771539000091,
+        "pred_var": 0.18095665632022753
+      }
+    },
+    "condition_mean": {
+      "candidate": "scalar_1_b0",
+      "parameters": {
+        "id": "scalar_1_b0",
+        "kind": "scalar",
+        "a": 1.0,
+        "b": 0.0,
+        "tau": 0.0
+      },
+      "validation_metrics": {
+        "energy": 0.498805926905738,
+        "mmd_squared": 0.2519769755502542,
+        "mean_mse": 0.025698342017777678,
+        "mean_pearson": 0.9060771538641296,
+        "pred_var": 3.5052833190338164e-16
+      }
+    },
+    "condition_only_world": {
+      "candidate": "scalar_1_b1",
+      "parameters": {
+        "id": "scalar_1_b1",
+        "kind": "scalar",
+        "a": 1.0,
+        "b": 1.0,
+        "tau": 0.0
+      },
+      "validation_metrics": {
+        "energy": 0.1170288879527814,
+        "mmd_squared": 0.08797875010511942,
+        "mean_mse": 0.02569834243836845,
+        "mean_pearson": 0.9060771538972908,
+        "pred_var": 0.25264195269361756
+      }
+    },
+    "linear_latent_transport": {
+      "candidate": "diag_1_b0.5",
+      "parameters": {
+        "id": "diag_1_b0.5",
+        "kind": "diagonal",
+        "a": 1.0,
+        "b": 0.5,
+        "tau": 1.0
+      },
+      "validation_metrics": {
+        "energy": 0.1355276192124519,
+        "mmd_squared": 0.10016514267772436,
+        "mean_mse": 0.02071841357782331,
+        "mean_pearson": 0.9126972886174289,
+        "pred_var": 0.17290762467078297
+      }
+    },
+    "scgen": {
+      "candidate": "diag_1_b0.5",
+      "parameters": {
+        "id": "diag_1_b0.5",
+        "kind": "diagonal",
+        "a": 1.0,
+        "b": 0.5,
+        "tau": 1.0
+      },
+      "validation_metrics": {
+        "energy": 0.13872884878785247,
+        "mmd_squared": 0.10534373766535686,
+        "mean_mse": 0.021029161080756847,
+        "mean_pearson": 0.9110508817912765,
+        "pred_var": 0.1479417646372225
+      }
+    },
+    "world_model": {
+      "candidate": "scalar_1_b1",
+      "parameters": {
+        "id": "scalar_1_b1",
+        "kind": "scalar",
+        "a": 1.0,
+        "b": 1.0,
+        "tau": 0.0
+      },
+      "validation_metrics": {
+        "energy": 0.11594327927256623,
+        "mmd_squared": 0.0858897693299999,
+        "mean_mse": 0.02569834235570549,
+        "mean_pearson": 0.9060771539026942,
+        "pred_var": 0.23985905373572475
+      }
+    }
+  },
+  "selection_metric": "donor-macro energy distance",
+  "test_target_access": false,
+  "completed": "2026-11-10T19:03:44+0800"
+}

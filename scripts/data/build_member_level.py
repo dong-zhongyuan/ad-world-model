@@ -39,6 +39,11 @@ MAP_DIR = PROJECT / "data" / "mappings"
 OUT_DIR = PROJECT / "data" / "member_level"
 ESM_CACHE = PROJECT / "cache" / "esm2_embeddings" / "esm2_all_genes_t30_150M_dim640.pt"
 
+LABEL_DIR = PROJECT / "data/transcriptomics"
+HUMAN_BRAIN = HUMAN
+HUMAN_BLOOD = HUMAN / "GSE181279_raw"
+
+
 MIN_COUNTS, MIN_GENES = 500, 200
 SAMPLE2MOUSE = {"955": "WT_1", "956": "5xFAD_1", "957": "WT_2", "958": "5xFAD_2"}
 SAMPLE2GENO = {"955": "WT", "956": "5xFAD", "957": "WT", "958": "5xFAD"}
@@ -181,7 +186,7 @@ def aggregate(X, S):
 
 def build_mouse_brain(cs, report):
     log("== 鼠脑 (955-958 h5, 限 brain_celltypes 5000 细胞) ==")
-    ctbl = pd.read_csv(PROJECT / "data/transcriptomics/brain_celltypes.csv", index_col=0)["celltype"]
+    ctbl = pd.read_csv(LABEL_DIR / "brain_celltypes.csv", index_col=0)["celltype"]
     parts, meta = [], []
     for s in ["955", "956", "957", "958"]:
         a = sc.read_10x_h5(RAW / f"GSM9703846_{s}_sample_filtered_feature_bc_matrix.h5")
@@ -216,7 +221,7 @@ def build_mouse_bm12(cs, report):
     cmap = {r["id"]: (str(r["multiplexed_sample"]).split("_")[0],
                       str(r["multiplexed_sample"]).split("_")[-1],
                       r["multiplexed_sample"]) for _, r in fr.iterrows()}
-    ctbl = pd.read_csv(PROJECT / "data/transcriptomics/bm12_celltypes.csv", index_col=0)["celltype"]
+    ctbl = pd.read_csv(LABEL_DIR / "bm12_celltypes.csv", index_col=0)["celltype"]
     parts, metas = [], []
     for bidx, (lane, prefix) in enumerate({"BM1": "GSM9703838_BM1", "BM2": "GSM9703839_BM2"}.items()):
         a = sc.read_10x_mtx(RAW, var_names="gene_symbols", prefix=f"{prefix}_")
@@ -316,8 +321,8 @@ def build_mouse_bm34(cs, report):
 
 def build_human_brain(cs, report):
     log("== 人脑 GSE138852 (注意: 仅 10850 预过滤基因) ==")
-    counts = pd.read_csv(HUMAN / "GSE138852_counts.csv.gz", index_col=0)
-    cov = pd.read_csv(HUMAN / "GSE138852_covariates.csv.gz", index_col=0)
+    counts = pd.read_csv(HUMAN_BRAIN / "GSE138852_counts.csv.gz", index_col=0)
+    cov = pd.read_csv(HUMAN_BRAIN / "GSE138852_covariates.csv.gz", index_col=0)
     cov.columns = [c.split(".")[-1] for c in cov.columns]
     cov["disease"] = cov["batchCond"].map({"AD": "AD", "ct": "CTRL"})
     cov["donor_pair"] = [i.split("_", 1)[1] if "_" in i else "NA" for i in cov.index]
@@ -344,7 +349,7 @@ def build_human_blood(cs, report):
     log("== 人血 GSE181279 (五供体) ==")
     parts = []
     for donor in ["AD1", "AD2", "AD3", "NC1", "NC2"]:
-        a = sc.read_10x_mtx(HUMAN / "GSE181279_raw", var_names="gene_symbols",
+        a = sc.read_10x_mtx(HUMAN_BLOOD, var_names="gene_symbols",
                             prefix=f"GSM{DONOR_GSM[donor]}_{donor}_")
         a.obs["donor"] = donor
         parts.append(a)
@@ -418,7 +423,7 @@ def main():
 
     def scan_all():
         # 鼠脑
-        ctbl = pd.read_csv(PROJECT / "data/transcriptomics/brain_celltypes.csv", index_col=0)["celltype"]
+        ctbl = pd.read_csv(LABEL_DIR / "brain_celltypes.csv", index_col=0)["celltype"]
         for s in ["955", "956", "957", "958"]:
             a = sc.read_10x_h5(RAW / f"GSM9703846_{s}_sample_filtered_feature_bc_matrix.h5")
             keep = a.obs_names.astype(str).isin(ctbl.index)
@@ -450,8 +455,8 @@ def main():
             del a, X
             gc.collect()
         # 人脑
-        counts = pd.read_csv(HUMAN / "GSE138852_counts.csv.gz", index_col=0)
-        cov = pd.read_csv(HUMAN / "GSE138852_covariates.csv.gz", index_col=0)
+        counts = pd.read_csv(HUMAN_BRAIN / "GSE138852_counts.csv.gz", index_col=0)
+        cov = pd.read_csv(HUMAN_BRAIN / "GSE138852_covariates.csv.gz", index_col=0)
         common = cov.index.intersection(counts.columns)
         X = sp.csr_matrix(counts[common].T.values.astype(np.float32))
         cs.scan_dataset("human", list(counts.index.astype(str)), X)
@@ -459,7 +464,7 @@ def main():
         gc.collect()
         # 人血
         for donor in ["AD1", "AD2", "AD3", "NC1", "NC2"]:
-            a = sc.read_10x_mtx(HUMAN / "GSE181279_raw", var_names="gene_symbols",
+            a = sc.read_10x_mtx(HUMAN_BLOOD, var_names="gene_symbols",
                                 prefix=f"GSM{DONOR_GSM[donor]}_{donor}_")
             X = a.X.tocsr()
             keep = qc_mask(X)

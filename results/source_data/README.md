@@ -1,0 +1,13 @@
+# Benchmark source data
+
+**Source Data 1 — human brain.** [Calibrated donor scores](brain_donors.csv), [all tested native and selected candidates](brain_native_donors.csv), [native and calibrated means](brain_summary.csv), [external model comparison](brain_external_summary.csv), [donor-specific reductions](brain_donor_reductions.csv) and [paired comparison summaries](brain_comparisons.csv). The [training and evaluation protocol](external_protocol.json), [calibration grid and selection rule](calibration_protocol.json) and [settings selected on validation donors](calibration_selection.json) define the comparison. In the candidate-level file, `scalar_1_b0` is the native setting. The selection file retains the hash of the original execution protocol.
+
+**Source Data 2 — mouse LPS.** The [animal-level table](lps_animals.csv) contains four treated animals for each of 18 readouts and controls. The [full summary](lps_summary.csv) and [grouped comparison](lps_comparison_grouped.csv) distinguish the averaging of four individual reductions from the reduction calculated from the two mean MSEs. The [frozen-backbone benchmark](../dynamic_response/benchmark_inputs) has its own fold definitions and comparator table.
+
+**Variation across test units.** [Per-metric estimates](metric_uncertainty.csv) give the mean, sample SD, number of biological units and a descriptive percentile interval. [Paired percent reductions](paired_reductions.csv) recompute the ratio of means within each paired resample. All ordered bootstrap resamples are enumerated for each group of three or four units; each donor or LPS animal contributes one row per method and stratum. Rows with fewer than two finite observations have no dispersion estimate. The LPS animals share saline controls within a processing group. For the covariate-adjusted disease contrast, [leave-one-donor-out estimates](covariate_LODO_comparisons.csv), [model-level MSEs](covariate_LODO_macro.csv) and [cell-type scores](covariate_LODO_by_type.csv) report sensitivity to each held-out donor. The [existing paired ablation intervals](../../figure_work/data/paired_contrasts.csv) use the original analysis. To regenerate the two summary files:
+
+```bash
+python scripts/dynamic_response/summarize_uncertainty.py
+```
+
+**Human genetic enrichment.** In the [Bellenguez LD-component table](../../figure_work/data/gene_scores_LD_component_representatives_Bellenguez_stageI.csv), the network-eligible list is `hub50_nominated`, the blood differential-expression comparator is `blood_DE_top_n`, and the top decile is `score >= 0.90`. The two fractions are 15/130 and 7/126. Their ratio is 2.08.

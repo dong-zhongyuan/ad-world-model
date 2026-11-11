@@ -1,0 +1,747 @@
+benchmark,method,stratum,metric,unit,n,mean,sd,lower_95,upper_95
+LPS external comparisons,cellot_combined_ridge,all,program_delta_pearson,gsm,4,0.8873591943650545,0.03403766296962811,0.8611042298382003,0.9148478061269285
+LPS external comparisons,cellot_combined_ridge,all,program_mse,gsm,4,0.0040890248748410496,0.0012357756166211486,0.003038820296408025,0.0050227569337202
+LPS external comparisons,cellot_combined_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,cellot_combined_ridge,all,program_relative_mse_reduction,gsm,4,0.7656740500923331,0.06459042549323098,0.7126112910889126,0.8209100894099388
+LPS external comparisons,cellot_combined_ridge,all,mse,gsm,4,0.019353665107126376,0.005320980261764545,0.015258698621962299,0.023761610960406677
+LPS external comparisons,cellot_combined_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,cellot_combined_ridge,all,relative_mse_reduction,gsm,4,0.7137637465335678,0.08374677173567245,0.6332349619921067,0.7694617187873205
+LPS external comparisons,cellot_combined_ridge,all,delta_pearson,gsm,4,0.8479202288240164,0.04959692341137324,0.7996018774759975,0.8823718847061967
+LPS external comparisons,cellot_combined_ridge,all,top100_overlap,gsm,4,0.6175,0.0718215380880508,0.56,0.675
+LPS external comparisons,cellot_combined_ridge,all,top100_overlap_legacy,gsm,4,0.6175,0.0718215380880508,0.56,0.675
+LPS external comparisons,cellot_combined_ridge,all,top100_direction_accuracy,gsm,4,0.97,0.029439202887759516,0.945,0.9950000000000001
+LPS external comparisons,cellot_combined_ridge,all,calibration_slope,gsm,4,0.7541275392829869,0.10953443936036715,0.6647999719851652,0.8434551065808088
+LPS external comparisons,cellot_direct,all,program_delta_pearson,gsm,4,0.3440175472017887,0.1151505415802939,0.25182302712053084,0.4362120672830465
+LPS external comparisons,cellot_direct,all,program_mse,gsm,4,0.014331596061378925,0.0012741700529322782,0.0134152243178902,0.015474545987732999
+LPS external comparisons,cellot_direct,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,cellot_direct,all,program_relative_mse_reduction,gsm,4,0.1727439598101133,0.045610551603893726,0.14563492914146395,0.21720583659079454
+LPS external comparisons,cellot_direct,all,mse,gsm,4,0.0611115121360192,0.005540641013681008,0.05721912489834009,0.06616183400762506
+LPS external comparisons,cellot_direct,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,cellot_direct,all,relative_mse_reduction,gsm,4,0.09953556295048116,0.03916279603112965,0.06791805987751334,0.131153066023449
+LPS external comparisons,cellot_direct,all,delta_pearson,gsm,4,0.3061879180578066,0.06488770884637904,0.25073820134020863,0.3616376347754046
+LPS external comparisons,cellot_direct,all,top100_overlap,gsm,4,0.1275,0.025,0.10750000000000001,0.15000000000000002
+LPS external comparisons,cellot_direct,all,top100_overlap_legacy,gsm,4,0.1275,0.025,0.10750000000000001,0.15000000000000002
+LPS external comparisons,cellot_direct,all,top100_direction_accuracy,gsm,4,0.8200000000000001,0.055976185412488874,0.7749999999999999,0.865
+LPS external comparisons,cellot_direct,all,calibration_slope,gsm,4,0.11031787887013018,0.011747736352134214,0.1012147808555483,0.11969525897405103
+LPS external comparisons,cellot_model_only_ridge,all,program_delta_pearson,gsm,4,0.6955311335661369,0.07741114291470769,0.6245080307595299,0.7504948773635955
+LPS external comparisons,cellot_model_only_ridge,all,program_mse,gsm,4,0.009221059678683575,0.0028494149867418464,0.0076788237606024,0.012082585144835825
+LPS external comparisons,cellot_model_only_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,cellot_model_only_ridge,all,program_relative_mse_reduction,gsm,4,0.46613532420175724,0.16557254115071696,0.3036320077470698,0.5728011377982859
+LPS external comparisons,cellot_model_only_ridge,all,mse,gsm,4,0.03340172773953215,0.002244550134554225,0.0317857139876728,0.0354142995446915
+LPS external comparisons,cellot_model_only_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,cellot_model_only_ridge,all,relative_mse_reduction,gsm,4,0.5053280856260052,0.05365659789080978,0.4628956162784146,0.5477605549735958
+LPS external comparisons,cellot_model_only_ridge,all,delta_pearson,gsm,4,0.7254288609156324,0.02660214995985438,0.704693712169465,0.7461640096617999
+LPS external comparisons,cellot_model_only_ridge,all,top100_overlap,gsm,4,0.53,0.0469041575982343,0.49,0.5650000000000001
+LPS external comparisons,cellot_model_only_ridge,all,top100_overlap_legacy,gsm,4,0.53,0.0469041575982343,0.49,0.5650000000000001
+LPS external comparisons,cellot_model_only_ridge,all,top100_direction_accuracy,gsm,4,0.8825000000000001,0.018929694486000927,0.87,0.9
+LPS external comparisons,cellot_model_only_ridge,all,calibration_slope,gsm,4,0.6032769196657388,0.0927253004308391,0.5283719225769061,0.6781819167545715
+LPS external comparisons,linear_latent_transport_combined_ridge,all,program_delta_pearson,gsm,4,0.8779456612944052,0.06384942210283054,0.8281125256420453,0.9277787969467652
+LPS external comparisons,linear_latent_transport_combined_ridge,all,program_mse,gsm,4,0.004729910883777375,0.0019373907892252299,0.0032034470405273496,0.0062563747270274
+LPS external comparisons,linear_latent_transport_combined_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,linear_latent_transport_combined_ridge,all,program_relative_mse_reduction,gsm,4,0.7275269627926995,0.10873489551371218,0.6366244142010891,0.8197448858307885
+LPS external comparisons,linear_latent_transport_combined_ridge,all,mse,gsm,4,0.027751228741197797,0.010953327225113834,0.0188717373841768,0.03788907423799165
+LPS external comparisons,linear_latent_transport_combined_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,linear_latent_transport_combined_ridge,all,relative_mse_reduction,gsm,4,0.5870525209476402,0.17758809283617838,0.4266303817721281,0.7139478616783903
+LPS external comparisons,linear_latent_transport_combined_ridge,all,delta_pearson,gsm,4,0.7747482579070478,0.12225671835530803,0.6666591007199013,0.8640845509179899
+LPS external comparisons,linear_latent_transport_combined_ridge,all,top100_overlap,gsm,4,0.5975,0.06946221994724902,0.54,0.655
+LPS external comparisons,linear_latent_transport_combined_ridge,all,top100_overlap_legacy,gsm,4,0.5975,0.06946221994724902,0.54,0.655
+LPS external comparisons,linear_latent_transport_combined_ridge,all,top100_direction_accuracy,gsm,4,0.89,0.04546060565661951,0.855,0.9275
+LPS external comparisons,linear_latent_transport_combined_ridge,all,calibration_slope,gsm,4,0.6506364459331517,0.22579256324192434,0.5017369307259743,0.8726305054585081
+LPS external comparisons,linear_latent_transport_direct,all,program_delta_pearson,gsm,4,0.3532538865350576,0.15280885696188892,0.2458887833953393,0.4930722308736056
+LPS external comparisons,linear_latent_transport_direct,all,program_mse,gsm,4,0.015357764526488776,0.0006103528538440316,0.01485565244813585,0.0158598766048417
+LPS external comparisons,linear_latent_transport_direct,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,linear_latent_transport_direct,all,program_relative_mse_reduction,gsm,4,0.1117030776556793,0.04464151595928639,0.07539200131228385,0.14801415399907475
+LPS external comparisons,linear_latent_transport_direct,all,mse,gsm,4,0.06387344079024,0.003935669805638206,0.0610298459077267,0.06738811575617995
+LPS external comparisons,linear_latent_transport_direct,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,linear_latent_transport_direct,all,relative_mse_reduction,gsm,4,0.0577202649137613,0.027343927396522655,0.03521051473405945,0.08023001509346316
+LPS external comparisons,linear_latent_transport_direct,all,delta_pearson,gsm,4,0.24283750885748973,0.10375267972249548,0.16346379276739925,0.32895873698284883
+LPS external comparisons,linear_latent_transport_direct,all,top100_overlap,gsm,4,0.1325,0.020615528128088305,0.11499999999999999,0.1525
+LPS external comparisons,linear_latent_transport_direct,all,top100_overlap_legacy,gsm,4,0.1325,0.020615528128088305,0.11499999999999999,0.1525
+LPS external comparisons,linear_latent_transport_direct,all,top100_direction_accuracy,gsm,4,0.775,0.0759385716659634,0.7150000000000001,0.835
+LPS external comparisons,linear_latent_transport_direct,all,calibration_slope,gsm,4,0.057821330931005596,0.014320741163651821,0.04509301162495648,0.06932859403142828
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,program_delta_pearson,gsm,4,0.7001633520160901,0.13396467804541115,0.5871422271956809,0.8131844768364994
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,program_mse,gsm,4,0.00979595819297435,0.0022135604196228446,0.007679767584664425,0.0112465782989014
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,program_relative_mse_reduction,gsm,4,0.4311577334232978,0.14288346161468635,0.32048853866574395,0.5457768156546552
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,mse,gsm,4,0.04438773022360905,0.010694641710311379,0.03420688848148027,0.052381785493593576
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,relative_mse_reduction,gsm,4,0.3428713146042878,0.17200010700683618,0.2102554084028565,0.48044342672559864
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,delta_pearson,gsm,4,0.6014014809034193,0.1872419198815895,0.44909554368564003,0.7537074181211985
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,top100_overlap,gsm,4,0.47250000000000003,0.07135591542869217,0.41500000000000004,0.53
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,top100_overlap_legacy,gsm,4,0.47250000000000003,0.07135591542869217,0.41500000000000004,0.53
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,top100_direction_accuracy,gsm,4,0.835,0.09146948489341493,0.76,0.9099999999999999
+LPS external comparisons,linear_latent_transport_model_only_ridge,all,calibration_slope,gsm,4,0.3761329083116583,0.3078058411252475,0.17692988841109472,0.6877491031681381
+LPS external comparisons,multivariate_source_ridge,all,program_delta_pearson,gsm,4,0.9823342502409036,0.002832758230746284,0.9799665639333875,0.9847019365484198
+LPS external comparisons,multivariate_source_ridge,all,program_mse,gsm,4,0.0015607697981065748,0.00011989079225349326,0.001461566937442,0.00165997265877115
+LPS external comparisons,multivariate_source_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,multivariate_source_ridge,all,program_relative_mse_reduction,gsm,4,0.9099209156925212,0.002819463709447737,0.9075378130405439,0.9126594674526803
+LPS external comparisons,multivariate_source_ridge,all,mse,gsm,4,0.00618578450007765,0.0010075835776293068,0.0053365777830824,0.0070349912170729004
+LPS external comparisons,multivariate_source_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,multivariate_source_ridge,all,relative_mse_reduction,gsm,4,0.9090826477741915,0.010688377410289798,0.9000359527317261,0.9181293428166568
+LPS external comparisons,multivariate_source_ridge,all,delta_pearson,gsm,4,0.9806943343829446,0.0034296121784460074,0.9773830247983919,0.9827529361219006
+LPS external comparisons,multivariate_source_ridge,all,top100_overlap,gsm,4,0.8225,0.024999999999999974,0.8,0.8425
+LPS external comparisons,multivariate_source_ridge,all,top100_overlap_legacy,gsm,4,0.8225,0.024999999999999974,0.8,0.8425
+LPS external comparisons,multivariate_source_ridge,all,top100_direction_accuracy,gsm,4,1.0,0.0,1.0,1.0
+LPS external comparisons,multivariate_source_ridge,all,calibration_slope,gsm,4,0.7387362803223763,0.02023645449701011,0.7213836377423586,0.756088922902394
+LPS external comparisons,scgen_combined_ridge,all,program_delta_pearson,gsm,4,0.8427942682960884,0.07180610559516476,0.7857161204906249,0.8998724161015519
+LPS external comparisons,scgen_combined_ridge,all,program_mse,gsm,4,0.00557962270151925,0.001983106635229662,0.00392813133416765,0.00723111406887085
+LPS external comparisons,scgen_combined_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,scgen_combined_ridge,all,program_relative_mse_reduction,gsm,4,0.6797749903058607,0.10755802900986433,0.5949308269754499,0.7646191536362718
+LPS external comparisons,scgen_combined_ridge,all,mse,gsm,4,0.03483061203089513,0.013434767038553166,0.0260333856526292,0.04756276558758773
+LPS external comparisons,scgen_combined_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,scgen_combined_ridge,all,relative_mse_reduction,gsm,4,0.48233656819056625,0.2173641443760196,0.2654296559335856,0.6078142705721674
+LPS external comparisons,scgen_combined_ridge,all,delta_pearson,gsm,4,0.7193480026690955,0.12473909880382547,0.5954051714384438,0.8038857688876684
+LPS external comparisons,scgen_combined_ridge,all,top100_overlap,gsm,4,0.6,0.033665016461206954,0.58,0.6325000000000001
+LPS external comparisons,scgen_combined_ridge,all,top100_overlap_legacy,gsm,4,0.6,0.033665016461206954,0.58,0.6325000000000001
+LPS external comparisons,scgen_combined_ridge,all,top100_direction_accuracy,gsm,4,0.82,0.021602468994692835,0.8,0.835
+LPS external comparisons,scgen_combined_ridge,all,calibration_slope,gsm,4,0.6251487606208934,0.17768740341419265,0.5019268222940934,0.7886462253050509
+LPS external comparisons,scgen_direct,all,program_delta_pearson,gsm,4,0.4050548118657211,0.04687596277327873,0.36112040443920385,0.4358213602978266
+LPS external comparisons,scgen_direct,all,program_mse,gsm,4,0.015011120231589799,0.0010878507098191286,0.014220448697196974,0.016092002499871725
+LPS external comparisons,scgen_direct,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,scgen_direct,all,program_relative_mse_reduction,gsm,4,0.13276713352607789,0.04635123621498041,0.09585354508320273,0.17447134880328707
+LPS external comparisons,scgen_direct,all,mse,gsm,4,0.0629398642895171,0.005327869055218488,0.0597079684560217,0.0682683983020373
+LPS external comparisons,scgen_direct,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,scgen_direct,all,relative_mse_reduction,gsm,4,0.0727172677635849,0.019226880664203656,0.059308805091316794,0.09038046856240062
+LPS external comparisons,scgen_direct,all,delta_pearson,gsm,4,0.2958121329194694,0.0504329628431187,0.258127847136409,0.33893558179218436
+LPS external comparisons,scgen_direct,all,top100_overlap,gsm,4,0.1075,0.02629955639676583,0.0825,0.125
+LPS external comparisons,scgen_direct,all,top100_overlap_legacy,gsm,4,0.1075,0.02629955639676583,0.0825,0.125
+LPS external comparisons,scgen_direct,all,top100_direction_accuracy,gsm,4,0.7275,0.20854655755170515,0.5549999999999999,0.9
+LPS external comparisons,scgen_direct,all,calibration_slope,gsm,4,0.050080387206946575,0.018578987206347607,0.038930994967135854,0.06830823200723456
+LPS external comparisons,scgen_model_only_ridge,all,program_delta_pearson,gsm,4,0.742754411068115,0.04190106335654386,0.7101695389984057,0.7766336361804246
+LPS external comparisons,scgen_model_only_ridge,all,program_mse,gsm,4,0.009344875778563851,0.0011075019723180914,0.00843900928353625,0.01025074227359145
+LPS external comparisons,scgen_model_only_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,scgen_model_only_ridge,all,program_relative_mse_reduction,gsm,4,0.46135681081303637,0.04255401602842746,0.426715686713554,0.4944094198779385
+LPS external comparisons,scgen_model_only_ridge,all,mse,gsm,4,0.04825788558794668,0.0005910971376301842,0.047755105727461174,0.048823646783632955
+LPS external comparisons,scgen_model_only_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,scgen_model_only_ridge,all,relative_mse_reduction,gsm,4,0.2864188679202736,0.04155510759882609,0.2593449318445727,0.3271111265410862
+LPS external comparisons,scgen_model_only_ridge,all,delta_pearson,gsm,4,0.5899769212255587,0.0710894103626418,0.5297276715392745,0.6502261709118429
+LPS external comparisons,scgen_model_only_ridge,all,top100_overlap,gsm,4,0.4725,0.09639329160614168,0.4,0.555
+LPS external comparisons,scgen_model_only_ridge,all,top100_overlap_legacy,gsm,4,0.4725,0.09639329160614168,0.4,0.555
+LPS external comparisons,scgen_model_only_ridge,all,top100_direction_accuracy,gsm,4,0.6,0.06377042156569661,0.5525,0.6625
+LPS external comparisons,scgen_model_only_ridge,all,calibration_slope,gsm,4,0.38748532666016633,0.23859118286127665,0.23023006932063805,0.6121257329805602
+LPS external comparisons,source_duplicated_ridge,all,program_delta_pearson,gsm,4,0.8178624158146015,0.09317875604717767,0.7398588865007737,0.8958659451284292
+LPS external comparisons,source_duplicated_ridge,all,program_mse,gsm,4,0.005925820859222851,0.0029137553359813513,0.0034461712407402997,0.008405470477705401
+LPS external comparisons,source_duplicated_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,source_duplicated_ridge,all,program_relative_mse_reduction,gsm,4,0.6609631568240549,0.15971839786064376,0.5294814017482048,0.7924449118999051
+LPS external comparisons,source_duplicated_ridge,all,mse,gsm,4,0.037161338796548024,0.011461519418127942,0.029486351387515528,0.04849218881340655
+LPS external comparisons,source_duplicated_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,source_duplicated_ridge,all,relative_mse_reduction,gsm,4,0.447733982612897,0.18986214831503379,0.2597021992597567,0.5598360821233265
+LPS external comparisons,source_duplicated_ridge,all,delta_pearson,gsm,4,0.6971037879160936,0.09519977462594119,0.6013022463177163,0.759554838193681
+LPS external comparisons,source_duplicated_ridge,all,top100_overlap,gsm,4,0.6499999999999999,0.07118052168020873,0.59,0.71
+LPS external comparisons,source_duplicated_ridge,all,top100_overlap_legacy,gsm,4,0.6499999999999999,0.07118052168020873,0.59,0.71
+LPS external comparisons,source_duplicated_ridge,all,top100_direction_accuracy,gsm,4,0.8300000000000001,0.028284271247461874,0.805,0.85
+LPS external comparisons,source_duplicated_ridge,all,calibration_slope,gsm,4,0.6056918344543246,0.08979785563500076,0.5331830288801218,0.6782006400285274
+LPS external comparisons,source_only_ridge,all,program_delta_pearson,gsm,4,0.8178624158146013,0.09317875604717767,0.7398588865007735,0.8958659451284292
+LPS external comparisons,source_only_ridge,all,program_mse,gsm,4,0.006071306446921099,0.002702986662046079,0.00377049420942115,0.008372118684421049
+LPS external comparisons,source_only_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,source_only_ridge,all,program_relative_mse_reduction,gsm,4,0.6521666860423486,0.1470125113080553,0.5316756960545176,0.7726576760301797
+LPS external comparisons,source_only_ridge,all,mse,gsm,4,0.035613363273677326,0.010068750521870942,0.028623074608431227,0.0451832901121355
+LPS external comparisons,source_only_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,source_only_ridge,all,relative_mse_reduction,gsm,4,0.471689056118225,0.16535309773206516,0.30506813894583434,0.578890701497226
+LPS external comparisons,source_only_ridge,all,delta_pearson,gsm,4,0.6971037879160934,0.09519977462594091,0.6013022463177163,0.7595548381936805
+LPS external comparisons,source_only_ridge,all,top100_overlap,gsm,4,0.6499999999999999,0.07118052168020873,0.59,0.71
+LPS external comparisons,source_only_ridge,all,top100_overlap_legacy,gsm,4,0.6499999999999999,0.07118052168020873,0.59,0.71
+LPS external comparisons,source_only_ridge,all,top100_direction_accuracy,gsm,4,0.8300000000000001,0.028284271247461874,0.805,0.85
+LPS external comparisons,source_only_ridge,all,calibration_slope,gsm,4,0.5451226510088921,0.08081807007150066,0.47986472599210955,0.6103805760256746
+LPS external comparisons,source_tuned_ridge,all,program_delta_pearson,gsm,4,0.8178624158146015,0.09317875604717776,0.7398588865007735,0.8958659451284294
+LPS external comparisons,source_tuned_ridge,all,program_mse,gsm,4,0.011250513696077175,0.0014645733438427575,0.01000706584383855,0.0124939615483158
+LPS external comparisons,source_tuned_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,source_tuned_ridge,all,program_relative_mse_reduction,gsm,4,0.3513168633048345,0.06221583615710154,0.3038264524932409,0.4034394917812302
+LPS external comparisons,source_tuned_ridge,all,mse,gsm,4,0.0467920150357725,0.0051540974446532195,0.04268398573068885,0.050900044340856154
+LPS external comparisons,source_tuned_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,source_tuned_ridge,all,relative_mse_reduction,gsm,4,0.310475841804877,0.05458344312972717,0.26573166534732207,0.3524252001951259
+LPS external comparisons,source_tuned_ridge,all,delta_pearson,gsm,4,0.6971037879160933,0.09519977462594095,0.6013022463177163,0.7595548381936803
+LPS external comparisons,source_tuned_ridge,all,top100_overlap,gsm,4,0.6499999999999999,0.07118052168020873,0.59,0.71
+LPS external comparisons,source_tuned_ridge,all,top100_overlap_legacy,gsm,4,0.6499999999999999,0.07118052168020873,0.59,0.71
+LPS external comparisons,source_tuned_ridge,all,top100_direction_accuracy,gsm,4,0.8300000000000001,0.028284271247461874,0.805,0.85
+LPS external comparisons,source_tuned_ridge,all,calibration_slope,gsm,4,0.19468666107460428,0.028863596454107403,0.17138025928289624,0.21799306286631234
+LPS external comparisons,training_treatment_mean,all,program_delta_pearson,gsm,4,0.9825976808136143,0.0022916463543125004,0.980630755696505,0.9845646059307235
+LPS external comparisons,training_treatment_mean,all,program_mse,gsm,4,0.0007665574520238501,8.419404376232028e-05,0.0006855370392702,0.00082975179743065
+LPS external comparisons,training_treatment_mean,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,training_treatment_mean,all,program_relative_mse_reduction,gsm,4,0.9553674401832959,0.007669794502718075,0.9490478618957574,0.962499651521484
+LPS external comparisons,training_treatment_mean,all,mse,gsm,4,0.00282407614074285,0.0003928901117934573,0.0025420037134085503,0.003175017389559275
+LPS external comparisons,training_treatment_mean,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,training_treatment_mean,all,relative_mse_reduction,gsm,4,0.9582482472968288,0.006349444170260237,0.9521355585061773,0.9620908407840727
+LPS external comparisons,training_treatment_mean,all,delta_pearson,gsm,4,0.9806360563573642,0.0033111036836112476,0.977454029870333,0.9826857874786386
+LPS external comparisons,training_treatment_mean,all,top100_overlap,gsm,4,0.8275,0.028722813232690124,0.81,0.8550000000000001
+LPS external comparisons,training_treatment_mean,all,top100_overlap_legacy,gsm,4,0.8275,0.028722813232690124,0.81,0.8550000000000001
+LPS external comparisons,training_treatment_mean,all,top100_direction_accuracy,gsm,4,1.0,0.0,1.0,1.0
+LPS external comparisons,training_treatment_mean,all,calibration_slope,gsm,4,0.9754534916798149,0.04238493792190447,0.9349014823141464,1.00261947227811
+LPS external comparisons,world_model_combined_ridge,all,program_delta_pearson,gsm,4,0.9100388867441974,0.03577680186863489,0.8812362044488691,0.940542948264416
+LPS external comparisons,world_model_combined_ridge,all,program_mse,gsm,4,0.0033673922701097,0.0014751030422643424,0.0021836249557655,0.0045511595844539
+LPS external comparisons,world_model_combined_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,world_model_combined_ridge,all,program_relative_mse_reduction,gsm,4,0.8072966286114014,0.08154908656011738,0.7396233511793042,0.8699126576778514
+LPS external comparisons,world_model_combined_ridge,all,mse,gsm,4,0.020995482693387076,0.005774139932969197,0.016729798337727,0.025950922518604477
+LPS external comparisons,world_model_combined_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,world_model_combined_ridge,all,relative_mse_reduction,gsm,4,0.6866585469119666,0.10057527266596024,0.5993742664250528,0.7614604244477579
+LPS external comparisons,world_model_combined_ridge,all,delta_pearson,gsm,4,0.8354737931663493,0.06700519645585509,0.7734494862973157,0.8841339371148484
+LPS external comparisons,world_model_combined_ridge,all,top100_overlap,gsm,4,0.615,0.02380476142847619,0.6,0.6375000000000001
+LPS external comparisons,world_model_combined_ridge,all,top100_overlap_legacy,gsm,4,0.615,0.02380476142847619,0.6,0.6375000000000001
+LPS external comparisons,world_model_combined_ridge,all,top100_direction_accuracy,gsm,4,0.94,0.028284271247461874,0.9149999999999999,0.96
+LPS external comparisons,world_model_combined_ridge,all,calibration_slope,gsm,4,0.7045084297854357,0.14400493534071712,0.5891334530264717,0.8198834065443997
+LPS external comparisons,world_model_direct,all,program_delta_pearson,gsm,4,0.5304822518151854,0.0618346440488091,0.4770479306377307,0.5839165729926401
+LPS external comparisons,world_model_direct,all,program_mse,gsm,4,0.021326624801245125,0.0025259379414165678,0.019240406937743676,0.023776854877303202
+LPS external comparisons,world_model_direct,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,world_model_direct,all,program_relative_mse_reduction,gsm,4,-0.2343216491159651,0.15841437143265205,-0.364900927148504,-0.10374237108342621
+LPS external comparisons,world_model_direct,all,mse,gsm,4,0.0672895314894079,0.0037149835717070817,0.06421604525994315,0.07036301771887266
+LPS external comparisons,world_model_direct,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,world_model_direct,all,relative_mse_reduction,gsm,4,0.0066808289136929995,0.04368927556700278,-0.035818092194795245,0.0401923736452851
+LPS external comparisons,world_model_direct,all,delta_pearson,gsm,4,0.3570122069269348,0.054498559737911526,0.31019484359337224,0.4038295702604975
+LPS external comparisons,world_model_direct,all,top100_overlap,gsm,4,0.065,0.06137317546507323,0.015,0.115
+LPS external comparisons,world_model_direct,all,top100_overlap_legacy,gsm,4,0.065,0.06137317546507323,0.015,0.115
+LPS external comparisons,world_model_direct,all,top100_direction_accuracy,gsm,4,0.8049999999999999,0.031091263510296032,0.7749999999999999,0.8250000000000001
+LPS external comparisons,world_model_direct,all,calibration_slope,gsm,4,0.051377596727902625,0.01612373919197829,0.03505273586478975,0.06215833514848412
+LPS external comparisons,world_model_model_only_ridge,all,program_delta_pearson,gsm,4,0.8205528461498721,0.0882301905508641,0.7429251497575556,0.8841943466876343
+LPS external comparisons,world_model_model_only_ridge,all,program_mse,gsm,4,0.007836273944422451,0.0026181735942811925,0.00550330913809745,0.0097341903341172
+LPS external comparisons,world_model_model_only_ridge,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,world_model_model_only_ridge,all,program_relative_mse_reduction,gsm,4,0.5500081305524194,0.1458403343204055,0.43588453557732987,0.6673657527853152
+LPS external comparisons,world_model_model_only_ridge,all,mse,gsm,4,0.03480778227366852,0.010025034587173106,0.026717743170377724,0.04259892271355405
+LPS external comparisons,world_model_model_only_ridge,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,world_model_model_only_ridge,all,relative_mse_reduction,gsm,4,0.4831274575215921,0.16368887176421962,0.346761047212134,0.6194938678310502
+LPS external comparisons,world_model_model_only_ridge,all,delta_pearson,gsm,4,0.7515204403229693,0.08724778982890735,0.6763838369745273,0.8151475782367142
+LPS external comparisons,world_model_model_only_ridge,all,top100_overlap,gsm,4,0.495,0.05259911279353169,0.45,0.54
+LPS external comparisons,world_model_model_only_ridge,all,top100_overlap_legacy,gsm,4,0.495,0.05259911279353169,0.45,0.54
+LPS external comparisons,world_model_model_only_ridge,all,top100_direction_accuracy,gsm,4,0.9125,0.045734742446707465,0.885,0.9575
+LPS external comparisons,world_model_model_only_ridge,all,calibration_slope,gsm,4,0.4714081697108774,0.17386187652407217,0.33149934200246245,0.6072696322931243
+LPS external comparisons,zero_response,all,program_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,zero_response,all,program_zero_mse,gsm,4,0.0173238809980156,0.001158568839563552,0.016329730056734874,0.018379241584385975
+LPS external comparisons,zero_response,all,program_relative_mse_reduction,gsm,4,0.0,0.0,0.0,0.0
+LPS external comparisons,zero_response,all,mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,zero_response,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS external comparisons,zero_response,all,relative_mse_reduction,gsm,4,0.0,0.0,0.0,0.0
+LPS external comparisons,zero_response,all,top100_overlap_legacy,gsm,4,0.0175,0.012583057392117916,0.005,0.0275
+LPS external comparisons,zero_response,all,top100_direction_accuracy,gsm,4,0.0,0.0,0.0,0.0
+LPS external comparisons,zero_response,all,calibration_slope,gsm,4,0.0,0.0,0.0,0.0
+LPS backbone and readouts,combined_linear,all,mse,gsm,4,0.020995482693387076,0.005774139932969197,0.016729798337727,0.025950922518604477
+LPS backbone and readouts,combined_linear,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS backbone and readouts,combined_linear,all,relative_mse_reduction,gsm,4,0.6866585469119666,0.10057527266596024,0.5993742664250528,0.7614604244477579
+LPS backbone and readouts,combined_linear,all,delta_pearson,gsm,4,0.8354737931663493,0.06700519645585509,0.7734494862973157,0.8841339371148484
+LPS backbone and readouts,combined_linear,all,top100_overlap,gsm,4,0.615,0.02380476142847619,0.6,0.6375000000000001
+LPS backbone and readouts,source_linear,all,mse,gsm,4,0.035613363273677326,0.010068750521870942,0.028623074608431227,0.0451832901121355
+LPS backbone and readouts,source_linear,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS backbone and readouts,source_linear,all,relative_mse_reduction,gsm,4,0.471689056118225,0.16535309773206516,0.30506813894583434,0.578890701497226
+LPS backbone and readouts,source_linear,all,delta_pearson,gsm,4,0.6971037879160934,0.09519977462594091,0.6013022463177163,0.7595548381936805
+LPS backbone and readouts,source_linear,all,top100_overlap,gsm,4,0.6499999999999999,0.07118052168020873,0.59,0.71
+LPS backbone and readouts,training_mean,all,mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS backbone and readouts,training_mean,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS backbone and readouts,training_mean,all,relative_mse_reduction,gsm,4,0.0,0.0,0.0,0.0
+LPS backbone and readouts,training_mean,all,top100_overlap,gsm,4,0.0175,0.012583057392117916,0.005,0.0275
+LPS backbone and readouts,v2_combined_reference,all,mse,gsm,4,0.031693859542369675,0.010880279556119416,0.022708567089438324,0.0418734228690328
+LPS backbone and readouts,v2_combined_reference,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS backbone and readouts,v2_combined_reference,all,relative_mse_reduction,gsm,4,0.5299686514041139,0.174466413983242,0.35952269682645593,0.6641525576218085
+LPS backbone and readouts,v2_combined_reference,all,delta_pearson,gsm,4,0.7397289492212019,0.10533343982115748,0.640981104913655,0.8270692062825987
+LPS backbone and readouts,v2_combined_reference,all,top100_overlap,gsm,4,0.6125,0.07932002689527193,0.545,0.6799999999999999
+LPS backbone and readouts,v3_frozen_direct,all,mse,gsm,4,0.0672895314894079,0.0037149835717070817,0.06421604525994315,0.07036301771887266
+LPS backbone and readouts,v3_frozen_direct,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS backbone and readouts,v3_frozen_direct,all,relative_mse_reduction,gsm,4,0.0066808289136929995,0.04368927556700278,-0.035818092194795245,0.0401923736452851
+LPS backbone and readouts,v3_frozen_direct,all,delta_pearson,gsm,4,0.3570122069269348,0.054498559737911526,0.31019484359337224,0.4038295702604975
+LPS backbone and readouts,v3_frozen_direct,all,top100_overlap,gsm,4,0.065,0.06137317546507323,0.015,0.115
+LPS backbone and readouts,world_linear,all,mse,gsm,4,0.03480778227366852,0.010025034587173106,0.026717743170377724,0.04259892271355405
+LPS backbone and readouts,world_linear,all,zero_response_mse,gsm,4,0.06783854249539684,0.004869409687294013,0.06489699747916765,0.07276288818370943
+LPS backbone and readouts,world_linear,all,relative_mse_reduction,gsm,4,0.4831274575215921,0.16368887176421962,0.346761047212134,0.6194938678310502
+LPS backbone and readouts,world_linear,all,delta_pearson,gsm,4,0.7515204403229693,0.08724778982890735,0.6763838369745273,0.8151475782367142
+LPS backbone and readouts,world_linear,all,top100_overlap,gsm,4,0.495,0.05259911279353169,0.45,0.54
+brain calibrated,cellot,all,energy,unit,4,0.1765039854682981,0.08753535085609722,0.10034270838109974,0.24678528977351044
+brain calibrated,cellot,all,mmd_squared,unit,4,0.12968107227029063,0.05483127838274752,0.08293265916614058,0.1724494518298241
+brain calibrated,cellot,all,mean_mse,unit,4,0.025370085461054126,0.01630240010520631,0.012505128213837726,0.0381725058942618
+brain calibrated,cellot,all,mean_pearson,unit,4,0.9031657896298855,0.048747730099411156,0.8634289884389081,0.9482444579079975
+brain calibrated,cellot,all,pred_var,unit,4,0.1569107087765246,0.011249808848331468,0.14815445534891042,0.1658591373946488
+brain calibrated,condition_gaussian,all,energy,unit,4,0.15049852484630205,0.10197176420616266,0.05459139972097337,0.23710388044516234
+brain calibrated,condition_gaussian,all,mmd_squared,unit,4,0.09623953497244242,0.06494469518553095,0.03469414119091292,0.15187772230969526
+brain calibrated,condition_gaussian,all,mean_mse,unit,4,0.03469642292620838,0.02196803109145444,0.013712128481226124,0.05284667373246815
+brain calibrated,condition_gaussian,all,mean_pearson,unit,4,0.8911084941744619,0.05477723279528592,0.848713691872961,0.9405723767558092
+brain calibrated,condition_gaussian,all,pred_var,unit,4,0.17494045481499698,0.011446598255490905,0.16518634110689168,0.1846945685231023
+brain calibrated,condition_marginal,all,energy,unit,4,0.1578461004628075,0.10560049902401387,0.0570462370912233,0.24905749443504543
+brain calibrated,condition_marginal,all,mmd_squared,unit,4,0.10002327776617467,0.06677978658050887,0.03607761942678017,0.15789849592579733
+brain calibrated,condition_marginal,all,mean_mse,unit,4,0.03452612110607627,0.021983752537283845,0.013527296738983547,0.05268833966951603
+brain calibrated,condition_marginal,all,mean_pearson,unit,4,0.892248008067755,0.054924564301651,0.8497432847454459,0.9418544422847335
+brain calibrated,condition_marginal,all,pred_var,unit,4,0.1748438966667486,0.01146343366961393,0.16509481916824975,0.1845929741652475
+brain calibrated,condition_mean,all,energy,unit,4,0.5302468166583114,0.08676980061759984,0.4491920806467533,0.6038895123534732
+brain calibrated,condition_mean,all,mmd_squared,unit,4,0.2741677270167403,0.058823921214898836,0.2185262793468104,0.32536665565437733
+brain calibrated,condition_mean,all,mean_mse,unit,4,0.034526121141647624,0.021983752674734878,0.013527296658139601,0.052688339844138975
+brain calibrated,condition_mean,all,mean_pearson,unit,4,0.8922480082340221,0.05492456420192706,0.8497432850554012,0.9418544422921427
+brain calibrated,condition_mean,all,pred_var,unit,4,3.9396659399355675e-16,1.097397808266192e-16,3.1245738506415996e-16,4.885822543589029e-16
+brain calibrated,condition_only_world,all,energy,unit,4,0.14312185709261224,0.08056387723156504,0.0747634562560253,0.2048478201031684
+brain calibrated,condition_only_world,all,mmd_squared,unit,4,0.10296937598225961,0.05013871824487821,0.06311302588114297,0.14203507411811078
+brain calibrated,condition_only_world,all,mean_mse,unit,4,0.03452612110561143,0.02198375255305374,0.0135272967243306,0.05268833969570948
+brain calibrated,condition_only_world,all,mean_pearson,unit,4,0.8922480080663953,0.054924564300004905,0.8497432847402304,0.9418544422826772
+brain calibrated,condition_only_world,all,pred_var,unit,4,0.25162937750962244,0.0013148477266416473,0.2504656226477689,0.252609781448781
+brain calibrated,linear_latent_transport,all,energy,unit,4,0.16630897561812558,0.08736782909577509,0.08949418311628193,0.23687201134032665
+brain calibrated,linear_latent_transport,all,mmd_squared,unit,4,0.11920215797403615,0.05505570414219158,0.0716407591114855,0.1624280146012703
+brain calibrated,linear_latent_transport,all,mean_mse,unit,4,0.025541871857290448,0.016358382177855662,0.0125922707434255,0.03836981065105635
+brain calibrated,linear_latent_transport,all,mean_pearson,unit,4,0.9034557476189977,0.04894894712139145,0.8636935570540072,0.9486325929795021
+brain calibrated,linear_latent_transport,all,pred_var,unit,4,0.1666488561621826,0.01144539902189347,0.1573515198318413,0.1759461924925239
+brain calibrated,scgen,all,energy,unit,4,0.16851640712573288,0.08732003609531194,0.09218212597382555,0.23900576380805824
+brain calibrated,scgen,all,mmd_squared,unit,4,0.12387167285713874,0.055329642549991585,0.07617684888343006,0.16761709385448023
+brain calibrated,scgen,all,mean_mse,unit,4,0.0258844746206199,0.016739522378562306,0.01264278570286265,0.039126163538377154
+brain calibrated,scgen,all,mean_pearson,unit,4,0.902041788348015,0.048507671896540504,0.8613901106971641,0.9476664999584725
+brain calibrated,scgen,all,pred_var,unit,4,0.1423492095673522,0.010504587905708492,0.1343403875936019,0.15104265632210295
+brain calibrated,world_model,all,energy,unit,4,0.1424756496937738,0.08086994268785518,0.07336066135515763,0.2050524596538808
+brain calibrated,world_model,all,mmd_squared,unit,4,0.10146048278547815,0.050460281804701385,0.06058240317118655,0.14024235295752674
+brain calibrated,world_model,all,mean_mse,unit,4,0.03452612110270105,0.021983752548861694,0.0135272967243306,0.05268833968697835
+brain calibrated,world_model,all,mean_pearson,unit,4,0.8922480080636048,0.05492456429382944,0.8497432847486661,0.941854442269701
+brain calibrated,world_model,all,pred_var,unit,4,0.23860175902825875,0.0029458124173253426,0.23612432340160003,0.2408413448590888
+brain native,cellot,all,energy,unit,4,0.36598493037745355,0.07954774659188359,0.3018725285720494,0.43009733218285773
+brain native,cellot,all,mmd_squared,unit,4,0.24055121312331817,0.04633208138568227,0.2036328070486585,0.27746961919797786
+brain native,cellot,all,mean_mse,unit,4,0.02584237416489885,0.0159996247123988,0.01234389730881145,0.03934085102098625
+brain native,cellot,all,mean_pearson,unit,4,0.8968669854876602,0.0456911390686302,0.8561199197889907,0.9391862161943729
+brain native,cellot,all,pred_var,unit,4,0.008437694706051501,0.0005854906809780994,0.007880934413478275,0.008937022576086825
+brain native,condition_gaussian,all,energy,unit,4,0.1504985248463021,0.1019717642061627,0.05459139972097337,0.23710388044516245
+brain native,condition_gaussian,all,mmd_squared,unit,4,0.09623953497244245,0.06494469518553095,0.03469414119091292,0.15187772230969526
+brain native,condition_gaussian,all,mean_mse,unit,4,0.03469642292620842,0.021968031091454447,0.013712128481226148,0.05284667373246818
+brain native,condition_gaussian,all,mean_pearson,unit,4,0.8911084941744619,0.05477723279528592,0.848713691872961,0.9405723767558092
+brain native,condition_gaussian,all,pred_var,unit,4,0.17494045481499698,0.011446598255490905,0.16518634110689168,0.1846945685231023
+brain native,condition_marginal,all,energy,unit,4,0.15812456765108635,0.10552052038419514,0.05744128881229293,0.2492487962047259
+brain native,condition_marginal,all,mmd_squared,unit,4,0.10021771416068072,0.06674920210900662,0.036323608209689405,0.15806160519520437
+brain native,condition_marginal,all,mean_mse,unit,4,0.03462712450062905,0.021941459593507098,0.013688025257175048,0.05274137868157895
+brain native,condition_marginal,all,mean_pearson,unit,4,0.8916900551772643,0.054494342581582006,0.8499080150918291,0.9405842232466146
+brain native,condition_marginal,all,pred_var,unit,4,0.17484389666674868,0.011463433669613866,0.16509481916824986,0.1845929741652475
+brain native,condition_mean,all,energy,unit,4,0.5302468166583114,0.08676980061759984,0.4491920806467533,0.6038895123534732
+brain native,condition_mean,all,mmd_squared,unit,4,0.27416772701674036,0.058823921214898885,0.2185262793468104,0.3253666556543774
+brain native,condition_mean,all,mean_mse,unit,4,0.03452612114164765,0.021983752674734916,0.013527296658139601,0.05268833984413905
+brain native,condition_mean,all,mean_pearson,unit,4,0.8922480082340221,0.054924564201926984,0.8497432850554013,0.9418544422921427
+brain native,condition_mean,all,pred_var,unit,4,3.9396659399355675e-16,1.097397808266192e-16,3.1245738506415996e-16,4.885822543589029e-16
+brain native,condition_only_world,all,energy,unit,4,0.24843940867318043,0.0698667184803663,0.189187326365047,0.3076914909813139
+brain native,condition_only_world,all,mmd_squared,unit,4,0.1639650547669993,0.044855630929927025,0.12563942434887085,0.20229068518512777
+brain native,condition_only_world,all,mean_mse,unit,4,0.0797867191069397,0.015074655827871515,0.06729406972752056,0.09227936848635884
+brain native,condition_only_world,all,mean_pearson,unit,4,0.5962486768246456,0.03272755486525604,0.5694834547802221,0.6233817134389701
+brain native,condition_only_world,all,pred_var,unit,4,0.2516293775096225,0.001314847726641681,0.2504656226477689,0.2526097814487811
+brain native,linear_latent_transport,all,energy,unit,4,0.3374897838259737,0.07918131543350913,0.27474733793901074,0.4002322297129366
+brain native,linear_latent_transport,all,mmd_squared,unit,4,0.23178561026644373,0.04648714601893642,0.19506364139831725,0.26850757913457024
+brain native,linear_latent_transport,all,mean_mse,unit,4,0.026377982678564428,0.01587322613543264,0.0130148541631772,0.039741111193951656
+brain native,linear_latent_transport,all,mean_pearson,unit,4,0.8955650007111677,0.045726106212447395,0.8545829565936693,0.9384679677629437
+brain native,linear_latent_transport,all,pred_var,unit,4,0.0124752683754577,0.0010346939835497774,0.011602023810357225,0.013418211875160825
+brain native,scgen,all,energy,unit,4,0.3907756936943365,0.07541686617668011,0.3280307939276099,0.45352059346106316
+brain native,scgen,all,mmd_squared,unit,4,0.25062395520508285,0.04687988995860012,0.21248079753584323,0.28876711287432244
+brain native,scgen,all,mean_mse,unit,4,0.02643647054099143,0.01681202981517832,0.0121398154824419,0.040733125599540954
+brain native,scgen,all,mean_pearson,unit,4,0.895954994207635,0.04618076478990694,0.8563960060480178,0.9363249929519099
+brain native,scgen,all,pred_var,unit,4,0.0047349025024736755,0.0001443575705582718,0.004609588126954275,0.00486890508328635
+brain native,world_model,all,energy,unit,4,0.18432917052672967,0.07652198764511516,0.1187264335652192,0.24993190748824012
+brain native,world_model,all,mmd_squared,unit,4,0.1293086026536507,0.04887910324229336,0.08730824131311635,0.1713089639941851
+brain native,world_model,all,mean_mse,unit,4,0.05055497773092707,0.01780630541903258,0.035316240988726696,0.06579371447312746
+brain native,world_model,all,mean_pearson,unit,4,0.7392413628779185,0.0454833665251038,0.7018835573901587,0.782454950303573
+brain native,world_model,all,pred_var,unit,4,0.2386017590282588,0.0029458124173253513,0.23612432340160006,0.2408413448590888
+brain ablations,human_full,all,energy,unit,4,0.18909914921969168,0.0764729421978802,0.1238982691946956,0.25430002924468775
+brain ablations,human_full,all,mmd,unit,4,0.1264596287419812,0.049917597979247906,0.0836483203392061,0.16927093714475627
+brain ablations,human_full,all,mean_mse,unit,4,0.051590224814814574,0.01704768052964559,0.037292373571997495,0.06588807605763165
+brain ablations,human_full,all,mean_pearson,unit,4,0.7185863336529368,0.04705362058084315,0.6805905141766255,0.7605832020309198
+brain ablations,human_full,all,pred_var,unit,4,0.31348973443835143,0.00600455992355725,0.30795456725690096,0.3177398152701143
+brain ablations,human_learned_projection,all,energy,unit,4,0.1912518912098473,0.07585771369654279,0.1266263886872264,0.2558773937324682
+brain ablations,human_learned_projection,all,mmd,unit,4,0.12898684638138436,0.04925306672533287,0.08693400061585825,0.17103969214691045
+brain ablations,human_learned_projection,all,mean_mse,unit,4,0.057485136390783224,0.017024421147558755,0.0430531936977381,0.07191707908382836
+brain ablations,human_learned_projection,all,mean_pearson,unit,4,0.6852681033571666,0.03581220796035257,0.656961644032832,0.7175769119625931
+brain ablations,human_learned_projection,all,pred_var,unit,4,0.17469190710043112,0.0032957009468842146,0.17208522964889794,0.1772985845519643
+brain ablations,human_no_protein,all,energy,unit,4,0.1848740788590576,0.07683659731924894,0.11929139391415644,0.2504567638039588
+brain ablations,human_no_protein,all,mmd,unit,4,0.1205452929923517,0.05013924448284562,0.0776337792372537,0.1634568067474497
+brain ablations,human_no_protein,all,mean_mse,unit,4,0.04674848483175277,0.0171889953757337,0.0321964150732835,0.06130055459022205
+brain ablations,human_no_protein,all,mean_pearson,unit,4,0.7552487616904824,0.04642926516531236,0.7177342739702891,0.7981412101844217
+brain ablations,human_no_protein,all,pred_var,unit,4,0.47297397870053015,0.00663704714140023,0.4667055077850819,0.4774959084526118
+brain ablations,joint_deterministic,all,energy,unit,4,0.2996913555388649,0.07899568198147237,0.2325939654062191,0.36678874567151065
+brain ablations,joint_deterministic,all,mmd,unit,4,0.1775635752619968,0.05094983082352988,0.13395264910327057,0.221174501420723
+brain ablations,joint_deterministic,all,mean_mse,unit,4,0.07896580160878422,0.016814072994519567,0.06544030235818345,0.092491300859385
+brain ablations,joint_deterministic,all,mean_pearson,unit,4,0.6636967175159156,0.04814289205654449,0.6270632293344043,0.7057961079653989
+brain ablations,joint_deterministic,all,pred_var,unit,4,0.40992552661854353,0.01615546932879424,0.3960565854795277,0.42379446775755947
+brain ablations,joint_full,all,energy,unit,4,0.18432920213995702,0.07652198320786069,0.11872646864503614,0.24993193563487787
+brain ablations,joint_full,all,mmd,unit,4,0.12930860060991506,0.04887910430283006,0.0873082382604479,0.1713089629593822
+brain ablations,joint_full,all,mean_mse,unit,4,0.050554977884409304,0.017806305470673134,0.035316241108779955,0.06579371466003865
+brain ablations,joint_full,all,mean_pearson,unit,4,0.7392413628305106,0.04548336659269548,0.7018835572352886,0.7824549503319791
+brain ablations,joint_full,all,pred_var,unit,4,0.23860175728978994,0.0029458116866547847,0.2361243220149642,0.2408413432034042
+brain ablations,joint_head_detached,all,energy,unit,4,0.18538690184553458,0.07414430647218578,0.1218234015007813,0.24895040219028786
+brain ablations,joint_head_detached,all,mmd,unit,4,0.12793280140289817,0.04780890775949436,0.08688632786894825,0.1689792749368481
+brain ablations,joint_head_detached,all,mean_mse,unit,4,0.051903477065934456,0.016581849721519264,0.03768638429513265,0.06612056983673625
+brain ablations,joint_head_detached,all,mean_pearson,unit,4,0.718754510552394,0.03517965014079555,0.6926408822622372,0.7490482500907825
+brain ablations,joint_head_detached,all,pred_var,unit,4,0.23825819456121977,0.002771234405519863,0.2359106825095497,0.24034316229840938
+brain ablations,joint_human_exposure_matched,all,energy,unit,4,0.17968815831053583,0.07729003706513553,0.11356174790610865,0.245814568714963
+brain ablations,joint_human_exposure_matched,all,mmd,unit,4,0.11923054713859317,0.04996257815324808,0.07632415063886169,0.16213694363832465
+brain ablations,joint_human_exposure_matched,all,mean_mse,unit,4,0.05130240228855748,0.017688395440935555,0.036252645219873356,0.06635215935724159
+brain ablations,joint_human_exposure_matched,all,mean_pearson,unit,4,0.721842193475752,0.046630739386768656,0.6833315464005699,0.7638669694615257
+brain ablations,joint_human_exposure_matched,all,pred_var,unit,4,0.29604569866787633,0.004562988379736406,0.29169877576641734,0.2998478830559179
+brain ablations,joint_learned_projection,all,energy,unit,4,0.17697828065397003,0.07642782043808534,0.11153062174303655,0.2424259395649035
+brain ablations,joint_learned_projection,all,mmd,unit,4,0.12056205007765022,0.04922959226673627,0.0783349391486909,0.16278916100660956
+brain ablations,joint_learned_projection,all,mean_mse,unit,4,0.05156549258164068,0.01749691926784703,0.036596848302805254,0.0665341368604761
+brain ablations,joint_learned_projection,all,mean_pearson,unit,4,0.7175905374247216,0.040699263367180445,0.6840854112640387,0.7570954641817966
+brain ablations,joint_learned_projection,all,pred_var,unit,4,0.17810208718033704,0.0016440271995998793,0.17671568626537906,0.17934243218041945
+brain ablations,joint_legacy_random_pair,all,energy,unit,4,0.5483865849570267,0.07511504137578835,0.48489129739916986,0.6118818725148837
+brain ablations,joint_legacy_random_pair,all,mmd,unit,4,0.3215674980543553,0.04924129808171848,0.2805063388206892,0.36262865728802146
+brain ablations,joint_legacy_random_pair,all,mean_mse,unit,4,0.046332281734228375,0.017839691464789042,0.0311242037108361,0.06154035975762065
+brain ablations,joint_legacy_random_pair,all,mean_pearson,unit,4,0.7644392711686251,0.04885893930308972,0.7240325616197312,0.8105238320055782
+brain ablations,joint_legacy_random_pair,all,pred_var,unit,4,0.00037233450250865,6.569225172237327e-05,0.0003343791500279,0.0004377417655076
+brain ablations,joint_mlp,all,energy,unit,4,0.18961958274659174,0.07562230766953787,0.1247301403847005,0.254509025108483
+brain ablations,joint_mlp,all,mmd,unit,4,0.1326380448571095,0.048408529945313625,0.09102268304882766,0.17425340666539135
+brain ablations,joint_mlp,all,mean_mse,unit,4,0.05280208984501458,0.01737582836831275,0.037907530324850405,0.06769664936517875
+brain ablations,joint_mlp,all,mean_pearson,unit,4,0.7251707930424904,0.04123467250385616,0.6921485482608267,0.7640028423116295
+brain ablations,joint_mlp,all,pred_var,unit,4,0.23108617872672352,0.004701427578139004,0.2271927057661943,0.23497965168725274
+brain ablations,joint_mouse_labels_swapped,all,energy,unit,4,0.18704158592348286,0.07707780395144086,0.12096563923276125,0.2531175326142045
+brain ablations,joint_mouse_labels_swapped,all,mmd,unit,4,0.13154441899516509,0.04976660147879434,0.0887863548058602,0.17430248318446995
+brain ablations,joint_mouse_labels_swapped,all,mean_mse,unit,4,0.05115647848381025,0.017617981823935674,0.0360748132075564,0.0662381437600641
+brain ablations,joint_mouse_labels_swapped,all,mean_pearson,unit,4,0.7303755937260613,0.04429085165483616,0.6936431824294743,0.7725489977402678
+brain ablations,joint_mouse_labels_swapped,all,pred_var,unit,4,0.21817140246663855,0.006418311289935948,0.21275181180487068,0.2235909931284064
+brain ablations,joint_no_blood_expression,all,energy,unit,4,0.17680891135500526,0.07763237867517485,0.1101990184850162,0.24341880422499435
+brain ablations,joint_no_blood_expression,all,mmd,unit,4,0.1191793913383864,0.04824919991292808,0.0777111913905375,0.1606475912862353
+brain ablations,joint_no_blood_expression,all,mean_mse,unit,4,0.051515789411698376,0.01928811759068912,0.0349734066957251,0.06805817212767165
+brain ablations,joint_no_blood_expression,all,mean_pearson,unit,4,0.7515015131915765,0.04944045767327559,0.7090310889551106,0.798732243983046
+brain ablations,joint_no_blood_expression,all,pred_var,unit,4,0.2810982622878832,0.003792194397151425,0.2778795213904231,0.28429440331334865
+brain ablations,joint_no_disease_condition,all,energy,unit,4,0.18604456537092717,0.07637301060809928,0.12054195410261545,0.25154717663923887
+brain ablations,joint_no_disease_condition,all,mmd,unit,4,0.13054331752678577,0.0488422933174456,0.08856342675992174,0.1725232082936498
+brain ablations,joint_no_disease_condition,all,mean_mse,unit,4,0.051112813432054094,0.017704423349336224,0.0359506084512556,0.0662750184128526
+brain ablations,joint_no_disease_condition,all,mean_pearson,unit,4,0.739120132746915,0.045039840326125694,0.7022548683983495,0.7818980829211044
+brain ablations,joint_no_disease_condition,all,pred_var,unit,4,0.2360609843201624,0.0025880177244242022,0.23376284623001176,0.23813347184073377
+brain ablations,joint_no_protein,all,energy,unit,4,0.18627909088714248,0.07392687247008878,0.12293440538148076,0.2496237763928042
+brain ablations,joint_no_protein,all,mmd,unit,4,0.126661328288416,0.0476048156051557,0.08580454666581411,0.1675181099110179
+brain ablations,joint_no_protein,all,mean_mse,unit,4,0.05315682836056408,0.016534310154097343,0.0389898645702891,0.06732379215083906
+brain ablations,joint_no_protein,all,mean_pearson,unit,4,0.702929905625562,0.03375288035892948,0.6776253855746419,0.7315757853133873
+brain ablations,joint_no_protein,all,pred_var,unit,4,0.25563604588128824,0.003438495570323135,0.25292332586314936,0.2583487658994271
+brain ablations,joint_no_reconstruction,all,energy,unit,4,0.19072477441901953,0.07676308196475254,0.1248988344644506,0.25655071437358845
+brain ablations,joint_no_reconstruction,all,mmd,unit,4,0.11947034994761141,0.04904241744711678,0.07730699164999845,0.16163370824522436
+brain ablations,joint_no_reconstruction,all,mean_mse,unit,4,0.057354431197098876,0.018195143852425176,0.041799286516227954,0.0729095758779698
+brain ablations,joint_no_reconstruction,all,mean_pearson,unit,4,0.7005868816199732,0.0462016532839388,0.6645545441815351,0.74193903055187
+brain ablations,joint_no_reconstruction,all,pred_var,unit,4,0.3802893551066517,0.009718366954074102,0.3718808423106868,0.3886978679026166
+brain ablations,joint_no_species_condition,all,energy,unit,4,0.188202453083876,0.0763806956383838,0.12264933323280669,0.25375557293494533
+brain ablations,joint_no_species_condition,all,mmd,unit,4,0.1318596461684339,0.04874287796241558,0.08994247526344319,0.1737768170734246
+brain ablations,joint_no_species_condition,all,mean_mse,unit,4,0.052045391728744124,0.01778253022109887,0.03680196368845315,0.0672888197690351
+brain ablations,joint_no_species_condition,all,mean_pearson,unit,4,0.7351285026741128,0.0441630941453961,0.6990177468578951,0.7771059378449428
+brain ablations,joint_no_species_condition,all,pred_var,unit,4,0.23525672609684978,0.0027594697118445448,0.23289441516519407,0.23739182709121245
+brain ablations,joint_protein_shuffled,all,energy,unit,4,0.1867379138660099,0.07533215656435761,0.12212016578349794,0.2513556619485219
+brain ablations,joint_protein_shuffled,all,mmd,unit,4,0.13009188695189844,0.04827981411300114,0.08859541727643863,0.17158835662735827
+brain ablations,joint_protein_shuffled,all,mean_mse,unit,4,0.05206081121460648,0.0172251054661504,0.03730126668839745,0.06682035574081549
+brain ablations,joint_protein_shuffled,all,mean_pearson,unit,4,0.7299030310090919,0.04138839706598217,0.6966804504686677,0.7685499979847673
+brain ablations,joint_protein_shuffled,all,pred_var,unit,4,0.23148499364162686,0.003553893919699839,0.2286813763384189,0.23428861094483483
+brain ablations,joint_protein_weight_01,all,energy,unit,4,0.19088169717126416,0.07601179537306868,0.12561162023080716,0.2561517741117212
+brain ablations,joint_protein_weight_01,all,mmd,unit,4,0.13010809550372254,0.04882317325041364,0.08813436272450609,0.172081828282939
+brain ablations,joint_protein_weight_01,all,mean_mse,unit,4,0.05505163336468578,0.017452984353904254,0.04006481146967,0.07003845525970155
+brain ablations,joint_protein_weight_01,all,mean_pearson,unit,4,0.7060082158304175,0.03801326030195668,0.6759513914618456,0.7415447439384599
+brain ablations,joint_protein_weight_01,all,pred_var,unit,4,0.24127242863178244,0.0038754713792248344,0.2381103533216648,0.24443450394190008
+brain ablations,joint_random_projection,all,energy,unit,4,0.18086015241634504,0.07477072283678132,0.11681503626621423,0.24490526856647585
+brain ablations,joint_random_projection,all,mmd,unit,4,0.127522847858361,0.04780971935389683,0.08648406771115119,0.16856162800557076
+brain ablations,joint_random_projection,all,mean_mse,unit,4,0.04954868302257727,0.017044535817336517,0.03497033331667695,0.0641270327284776
+brain ablations,joint_random_projection,all,mean_pearson,unit,4,0.7354984808094931,0.04018300799707059,0.703609855415017,0.7724814148974751
+brain ablations,joint_random_projection,all,pred_var,unit,4,0.2151482695933534,0.0019588825067867097,0.2133328346794263,0.2166360821768951
+brain ablations,joint_shuffled_esm,all,energy,unit,4,0.18326062012670763,0.07687376110891439,0.11737310751858679,0.24914813273482844
+brain ablations,joint_shuffled_esm,all,mmd,unit,4,0.12937557502235797,0.04883727389796294,0.08741489502911759,0.17133625501559835
+brain ablations,joint_shuffled_esm,all,mean_mse,unit,4,0.04964211585627501,0.01810287731839109,0.03415542978715765,0.06512880192539236
+brain ablations,joint_shuffled_esm,all,mean_pearson,unit,4,0.7460585603410775,0.04728829348669267,0.7066911481237914,0.7902728436683556
+brain ablations,joint_shuffled_esm,all,pred_var,unit,4,0.23709492156566633,0.0015869624282419937,0.23563026433500142,0.23840246694291836
+CITE-seq ablations,human_full,ALL,mse,unit,3,0.41264990019789405,0.011835697350536497,0.40312253515945656,0.42144889419931647
+CITE-seq ablations,human_full,ALL,median_pearson,unit,3,0.41249746269492676,0.05097807265433675,0.3713127302574252,0.44750936097534005
+CITE-seq ablations,human_full,B,mse,unit,3,0.41196295450485887,0.007833563362192618,0.40605842039111023,0.4182439345273278
+CITE-seq ablations,human_full,B,median_pearson,unit,3,0.04342094399556826,0.009259125806536204,0.0378564766648344,0.05071664434354972
+CITE-seq ablations,human_full,CD4 T,mse,unit,3,0.42786241232395344,0.017654393736008352,0.41721331327155764,0.44178635622901347
+CITE-seq ablations,human_full,CD4 T,median_pearson,unit,3,0.029601384554292134,0.007904800019929742,0.024349168009144367,0.035962858711326665
+CITE-seq ablations,human_full,CD8 T,mse,unit,3,0.4163140920046273,0.00801259204401098,0.4099804201803635,0.4211904347888083
+CITE-seq ablations,human_full,CD8 T,median_pearson,unit,3,0.029580801941071933,0.007304049608668099,0.023833472657900905,0.03527460212750752
+CITE-seq ablations,human_full,DC,mse,unit,3,0.4359457847617921,0.037282427334638775,0.4059496837634859,0.4637206513689653
+CITE-seq ablations,human_full,DC,median_pearson,unit,3,0.09195123045782605,0.015336775545394662,0.07959067190589386,0.10328873599712715
+CITE-seq ablations,human_full,Mono,mse,unit,3,0.41114482778634526,0.020383556346108358,0.3954807268779924,0.42734681880711356
+CITE-seq ablations,human_full,Mono,median_pearson,unit,3,0.05644312335264503,0.01800745779649453,0.04297788621886474,0.07091719769504429
+CITE-seq ablations,human_full,NK,mse,unit,3,0.3881891787806082,0.025432390747704935,0.37289817992353896,0.40823087626402926
+CITE-seq ablations,human_full,NK,median_pearson,unit,3,0.021286169808656264,0.00623225172415739,0.01624625872808455,0.025763042187777637
+CITE-seq ablations,human_full,other,mse,unit,3,0.3870883344983061,0.014040482146838855,0.37887888992138735,0.3980705857105065
+CITE-seq ablations,human_full,other,median_pearson,unit,3,0.14632136437094198,0.007522864379041504,0.14056153607323632,0.1523130389618823
+CITE-seq ablations,human_full,other T,mse,unit,3,0.422110848794026,0.01935682965966449,0.40988188095950695,0.43754514746140644
+CITE-seq ablations,human_full,other T,median_pearson,unit,3,0.040067053386354495,0.003036355742788225,0.03762878406702292,0.042057177957320994
+CITE-seq ablations,human_learned_projection,ALL,mse,unit,3,0.4008001556531304,0.019071075955023692,0.3872223135261308,0.41622743151716085
+CITE-seq ablations,human_learned_projection,ALL,median_pearson,unit,3,0.44762000364420307,0.052643587338058094,0.40557084549886296,0.4811567505183788
+CITE-seq ablations,human_learned_projection,B,mse,unit,3,0.40555567298794076,0.0059189075741896725,0.40109503671770824,0.4103017413074017
+CITE-seq ablations,human_learned_projection,B,median_pearson,unit,3,0.06055137443067556,0.010735038632726965,0.054294865570638014,0.06894064553252882
+CITE-seq ablations,human_learned_projection,CD4 T,mse,unit,3,0.3823984392719077,0.008118190549676083,0.3777107752951061,0.3887261813248707
+CITE-seq ablations,human_learned_projection,CD4 T,median_pearson,unit,3,0.0485460780608517,0.009920210664934119,0.040599002748935506,0.05496099719047308
+CITE-seq ablations,human_learned_projection,CD8 T,mse,unit,3,0.38256759467601237,0.00652849734653894,0.3773730129083907,0.3866526052591368
+CITE-seq ablations,human_learned_projection,CD8 T,median_pearson,unit,3,0.03970620826909697,0.011220960609652567,0.03106732445421534,0.048615540098001994
+CITE-seq ablations,human_learned_projection,DC,mse,unit,3,0.42303635468262996,0.029435405625857655,0.39938654805300755,0.4450794989930554
+CITE-seq ablations,human_learned_projection,DC,median_pearson,unit,3,0.13975933939235496,0.009519511276955104,0.13206219288799337,0.1463770826735794
+CITE-seq ablations,human_learned_projection,Mono,mse,unit,3,0.42582073918588104,0.04013778582917445,0.40015555937342073,0.4579050797664205
+CITE-seq ablations,human_learned_projection,Mono,median_pearson,unit,3,0.05682284500517293,0.024272518439938336,0.03907936134742805,0.0764206927173013
+CITE-seq ablations,human_learned_projection,NK,mse,unit,3,0.38892038729751394,0.02459047894877749,0.37374285639241517,0.4084248342501398
+CITE-seq ablations,human_learned_projection,NK,median_pearson,unit,3,0.028573512441749466,0.008929227421419269,0.021452454148199008,0.0342194260648233
+CITE-seq ablations,human_learned_projection,other,mse,unit,3,0.38432909497281625,0.016134731076563363,0.37301969537511465,0.3973796519223556
+CITE-seq ablations,human_learned_projection,other,median_pearson,unit,3,0.15214549277840142,0.0063965658376158255,0.1471223213462869,0.15714311853059554
+CITE-seq ablations,human_learned_projection,other T,mse,unit,3,0.388750210847883,0.007573909394484866,0.3828219885605254,0.3931896016511711
+CITE-seq ablations,human_learned_projection,other T,median_pearson,unit,3,0.06497094408470003,0.014541876850176693,0.05434101180546555,0.0767122348752889
+CITE-seq ablations,joint_deterministic,ALL,mse,unit,3,0.4259150450317455,0.012146000189184365,0.4160892236035405,0.4345238990444202
+CITE-seq ablations,joint_deterministic,ALL,median_pearson,unit,3,0.38948759478966166,0.04169426212144674,0.356449415587199,0.4151159901242425
+CITE-seq ablations,joint_deterministic,B,mse,unit,3,0.42056048651491956,0.008551634728424665,0.41498684630829047,0.4274210119570073
+CITE-seq ablations,joint_deterministic,B,median_pearson,unit,3,0.0308679168201454,0.007929976037329521,0.02614920990684169,0.037100145721453835
+CITE-seq ablations,joint_deterministic,CD4 T,mse,unit,3,0.44286400368548046,0.018677103765520633,0.4315709006706519,0.4576035664743921
+CITE-seq ablations,joint_deterministic,CD4 T,median_pearson,unit,3,0.021898967776673866,0.009010351042533405,0.016544499275892806,0.028977777073723513
+CITE-seq ablations,joint_deterministic,CD8 T,mse,unit,3,0.4264088320168888,0.005761558705856178,0.421855931387039,0.429910877446777
+CITE-seq ablations,joint_deterministic,CD8 T,median_pearson,unit,3,0.028705655969353264,0.007734664964703404,0.02255905170504069,0.0346517351811164
+CITE-seq ablations,joint_deterministic,DC,mse,unit,3,0.47686603731874905,0.04887556094891312,0.43773391242582527,0.5138525507983841
+CITE-seq ablations,joint_deterministic,DC,median_pearson,unit,3,0.07964027490731561,0.019767732993078543,0.06384798781820708,0.09467956715474211
+CITE-seq ablations,joint_deterministic,Mono,mse,unit,3,0.4242667969693208,0.02075903912839649,0.4075706722364495,0.43975342647782306
+CITE-seq ablations,joint_deterministic,Mono,median_pearson,unit,3,0.05377621670924563,0.016389893407920148,0.04064837412874917,0.0661659640923944
+CITE-seq ablations,joint_deterministic,NK,mse,unit,3,0.3977114188019186,0.025539389709939006,0.3820178844383918,0.4179471028386615
+CITE-seq ablations,joint_deterministic,NK,median_pearson,unit,3,0.017512425964002966,0.0037788326543402094,0.014472432011321952,0.02001734532459228
+CITE-seq ablations,joint_deterministic,other,mse,unit,3,0.4046866512591285,0.02511922645692011,0.3870628992017979,0.425004879176794
+CITE-seq ablations,joint_deterministic,other,median_pearson,unit,3,0.1274643228471448,0.006443519501890682,0.1223558718179524,0.13243698601878123
+CITE-seq ablations,joint_deterministic,other T,mse,unit,3,0.44286842268359455,0.028923600935064853,0.42491747083757736,0.46583951279005437
+CITE-seq ablations,joint_deterministic,other T,median_pearson,unit,3,0.024927348354762735,0.0035520069949383144,0.022693778024050877,0.02775669831623399
+CITE-seq ablations,joint_full,ALL,mse,unit,3,0.4125601497279214,0.011899005814433917,0.40296112795615385,0.42130988310035755
+CITE-seq ablations,joint_full,ALL,median_pearson,unit,3,0.4100603879028983,0.04773114152838649,0.37171768137536676,0.44141047090402247
+CITE-seq ablations,joint_full,B,mse,unit,3,0.40700522128359545,0.0077622108825230315,0.4013952938412937,0.4132799156154284
+CITE-seq ablations,joint_full,B,median_pearson,unit,3,0.042596148786413233,0.010030651925006288,0.03592751250875121,0.050669125784643845
+CITE-seq ablations,joint_full,CD4 T,mse,unit,3,0.42320988809002474,0.01780659028205133,0.41226990758663135,0.4373180428841372
+CITE-seq ablations,joint_full,CD4 T,median_pearson,unit,3,0.03429778230809463,0.005921645068339104,0.030597601994973456,0.039008043835451055
+CITE-seq ablations,joint_full,CD8 T,mse,unit,3,0.41102873511789806,0.009039078507515641,0.40396145476704637,0.4163058996533177
+CITE-seq ablations,joint_full,CD8 T,median_pearson,unit,3,0.03576378678040867,0.009509279790480126,0.02839720828676736,0.04328328201715769
+CITE-seq ablations,joint_full,DC,mse,unit,3,0.4333689380437135,0.03357305657204079,0.4062863276511919,0.4580620826515812
+CITE-seq ablations,joint_full,DC,median_pearson,unit,3,0.09770394941885513,0.0172264583834909,0.0842277009126029,0.10778158106837547
+CITE-seq ablations,joint_full,Mono,mse,unit,3,0.41938730261643364,0.01912886271845307,0.4044515657338446,0.4344178629296255
+CITE-seq ablations,joint_full,Mono,median_pearson,unit,3,0.048944260442378096,0.017331633265632973,0.03606321331603753,0.06289663107452742
+CITE-seq ablations,joint_full,NK,mse,unit,3,0.38817398786167834,0.024399698578505505,0.37386507999257274,0.4072746696931841
+CITE-seq ablations,joint_full,NK,median_pearson,unit,3,0.023047625859925466,0.007387565179927508,0.01717308010000798,0.027657702113024762
+CITE-seq ablations,joint_full,other,mse,unit,3,0.3875825600255103,0.017074985440387772,0.3774300627898247,0.40099914695435596
+CITE-seq ablations,joint_full,other,median_pearson,unit,3,0.14646206241072693,0.006942100948155793,0.14093093162482964,0.15177349250182254
+CITE-seq ablations,joint_full,other T,mse,unit,3,0.41643083134355635,0.017021961451152066,0.40567504557991574,0.43000392219927597
+CITE-seq ablations,joint_full,other T,median_pearson,unit,3,0.045695836155592605,0.002304181563103825,0.043834866850813434,0.04727292059955066
+CITE-seq ablations,joint_head_detached,ALL,mse,unit,3,0.5785177523004158,0.04252921031113571,0.5448280877666548,0.6046267953634794
+CITE-seq ablations,joint_head_detached,ALL,median_pearson,unit,3,0.24561081216694294,0.04351873531989449,0.21084561964479248,0.2787232852743138
+CITE-seq ablations,joint_head_detached,B,mse,unit,3,0.7582641136832535,0.029585438409496425,0.7345117916333644,0.7804760781485431
+CITE-seq ablations,joint_head_detached,B,median_pearson,unit,3,0.012453109360500198,0.009299512999865223,0.004935420042174964,0.01917062867807853
+CITE-seq ablations,joint_head_detached,CD4 T,mse,unit,3,0.48585672717585804,0.023564711340619583,0.47101086746496584,0.5046348979854623
+CITE-seq ablations,joint_head_detached,CD4 T,median_pearson,unit,3,0.014770132371039232,0.005577150673219588,0.010741747050343855,0.01927870224576866
+CITE-seq ablations,joint_head_detached,CD8 T,mse,unit,3,0.4692531688682114,0.002799256636030943,0.46741752036697487,0.4715012325858143
+CITE-seq ablations,joint_head_detached,CD8 T,median_pearson,unit,3,0.020451896450175967,0.004753521438849201,0.016729562602213303,0.023242717236461097
+CITE-seq ablations,joint_head_detached,DC,mse,unit,3,0.5566458004815061,0.0680007308707759,0.503002341524587,0.6094919792775597
+CITE-seq ablations,joint_head_detached,DC,median_pearson,unit,3,0.033263244626807235,0.010100542743727764,0.025111436058940045,0.040126279048299504
+CITE-seq ablations,joint_head_detached,Mono,mse,unit,3,0.6460477118712983,0.04292688284657949,0.6113418473266176,0.6770070221779557
+CITE-seq ablations,joint_head_detached,Mono,median_pearson,unit,3,0.031090980741891868,0.01354646230872934,0.02019022290806802,0.040086658628657956
+CITE-seq ablations,joint_head_detached,NK,mse,unit,3,0.541517557171617,0.024773273107498012,0.5235418125959336,0.5615364983043123
+CITE-seq ablations,joint_head_detached,NK,median_pearson,unit,3,0.014404515802971266,0.0015619006996045008,0.013259368322493198,0.01566508890570459
+CITE-seq ablations,joint_head_detached,other,mse,unit,3,0.7539443226442449,0.06026249253417286,0.7071496292150447,0.8015131608777059
+CITE-seq ablations,joint_head_detached,other,median_pearson,unit,3,0.0450508859456445,0.017641108251439826,0.03118664227923794,0.058822021656885555
+CITE-seq ablations,joint_head_detached,other T,mse,unit,3,0.4842475693162885,0.03569297534874197,0.4592959673759261,0.5131151008841004
+CITE-seq ablations,joint_head_detached,other T,median_pearson,unit,3,0.018075865558991468,0.003549520598803369,0.015274060449702696,0.02083217919012296
+CITE-seq ablations,joint_human_exposure_matched,ALL,mse,unit,3,0.4075018715312971,0.01229342162140218,0.3976753700031189,0.4168428969414284
+CITE-seq ablations,joint_human_exposure_matched,ALL,median_pearson,unit,3,0.43626596728188266,0.05898608038441438,0.39023280275299677,0.47047436296275563
+CITE-seq ablations,joint_human_exposure_matched,B,mse,unit,3,0.4082637630469565,0.008375858423768385,0.4020198256265195,0.41500158543875876
+CITE-seq ablations,joint_human_exposure_matched,B,median_pearson,unit,3,0.05166606042559643,0.005821462735859022,0.04809969560709311,0.056275211967071956
+CITE-seq ablations,joint_human_exposure_matched,CD4 T,mse,unit,3,0.41255209659824943,0.01603168317664046,0.4029633201694759,0.42516858413139175
+CITE-seq ablations,joint_human_exposure_matched,CD4 T,median_pearson,unit,3,0.04480397652728963,0.008373386050428278,0.0382183879942152,0.04980054167012255
+CITE-seq ablations,joint_human_exposure_matched,CD8 T,mse,unit,3,0.4061804230358185,0.009802085788881648,0.39838932368743585,0.4122853227286777
+CITE-seq ablations,joint_human_exposure_matched,CD8 T,median_pearson,unit,3,0.038068747824292065,0.011550049663050602,0.029879575933886602,0.04741244705567284
+CITE-seq ablations,joint_human_exposure_matched,DC,mse,unit,3,0.4299821142617258,0.027853943644851605,0.4075260541484957,0.4487347009170446
+CITE-seq ablations,joint_human_exposure_matched,DC,median_pearson,unit,3,0.12615385577507696,0.00365879832809194,0.12349083082923458,0.1291095502089267
+CITE-seq ablations,joint_human_exposure_matched,Mono,mse,unit,3,0.4121112934635242,0.0232631659355442,0.39468483381344754,0.4308003277584377
+CITE-seq ablations,joint_human_exposure_matched,Mono,median_pearson,unit,3,0.059649669546084395,0.019097458815777683,0.04534810052757305,0.07499343080512623
+CITE-seq ablations,joint_human_exposure_matched,NK,mse,unit,3,0.39136364659117095,0.0224469022620827,0.3778268990073619,0.4090663574990772
+CITE-seq ablations,joint_human_exposure_matched,NK,median_pearson,unit,3,0.025377555457934034,0.006508385469665787,0.020140738856579833,0.029697069442421314
+CITE-seq ablations,joint_human_exposure_matched,other,mse,unit,3,0.3993440007990492,0.011800364045977313,0.390768887433556,0.4088783232378773
+CITE-seq ablations,joint_human_exposure_matched,other,median_pearson,unit,3,0.14717328716118547,0.001546451779284944,0.1462580524775754,0.14838689840136415
+CITE-seq ablations,joint_human_exposure_matched,other T,mse,unit,3,0.40397405490789207,0.007671364376835162,0.39862523969024466,0.4101777698171125
+CITE-seq ablations,joint_human_exposure_matched,other T,median_pearson,unit,3,0.057524217368903334,0.009134848580494452,0.050526747115670005,0.06479789898017994
+CITE-seq ablations,joint_learned_projection,ALL,mse,unit,3,0.39538600414414843,0.01828000588651633,0.3816511977962883,0.4100583363230163
+CITE-seq ablations,joint_learned_projection,ALL,median_pearson,unit,3,0.44650925339026326,0.05250263434072139,0.4048177762882532,0.47907376200248925
+CITE-seq ablations,joint_learned_projection,B,mse,unit,3,0.4046939036010631,0.006701686223726906,0.3995802383376507,0.4100406100568805
+CITE-seq ablations,joint_learned_projection,B,median_pearson,unit,3,0.051425309052598296,0.00703801113544801,0.046761052666390135,0.05708704099978993
+CITE-seq ablations,joint_learned_projection,CD4 T,mse,unit,3,0.37802002753596753,0.007215189830997566,0.37360104303502123,0.38373228391588077
+CITE-seq ablations,joint_learned_projection,CD4 T,median_pearson,unit,3,0.05437544876040396,0.008693432688521071,0.04747106329290188,0.05977112379606166
+CITE-seq ablations,joint_learned_projection,CD8 T,mse,unit,3,0.3697182950452857,0.005541520750141058,0.3652793012808875,0.3733003681830485
+CITE-seq ablations,joint_learned_projection,CD8 T,median_pearson,unit,3,0.040035481505471,0.012223629507418385,0.0303047526838678,0.049403386622547965
+CITE-seq ablations,joint_learned_projection,DC,mse,unit,3,0.413182904511424,0.02863491592150146,0.3901242682399849,0.4344367105674574
+CITE-seq ablations,joint_learned_projection,DC,median_pearson,unit,3,0.14310610201900623,0.01777041900306639,0.12884523027980566,0.1564652283171415
+CITE-seq ablations,joint_learned_projection,Mono,mse,unit,3,0.4207352113056307,0.036074214745350566,0.39600655701970455,0.449874494494205
+CITE-seq ablations,joint_learned_projection,Mono,median_pearson,unit,3,0.059148519307321824,0.02115150915602515,0.043631891234852366,0.0762179512465555
+CITE-seq ablations,joint_learned_projection,NK,mse,unit,3,0.38353161353041365,0.024312137349651337,0.36947080798757576,0.4024902760494677
+CITE-seq ablations,joint_learned_projection,NK,median_pearson,unit,3,0.027776834443815634,0.00767887762480011,0.021639154720547213,0.03268504682591389
+CITE-seq ablations,joint_learned_projection,other,mse,unit,3,0.37970143602052264,0.010885403018647774,0.37240486087920593,0.38847239642415105
+CITE-seq ablations,joint_learned_projection,other,median_pearson,unit,3,0.1533517438001142,0.007117126618753019,0.14817599123735772,0.15910171149137967
+CITE-seq ablations,joint_learned_projection,other T,mse,unit,3,0.3938959635006973,0.008391996558818476,0.3875852854143539,0.4006299432425294
+CITE-seq ablations,joint_learned_projection,other T,median_pearson,unit,3,0.06518971912909544,0.012355388142251903,0.05527712020623518,0.07448577934472057
+CITE-seq ablations,joint_legacy_random_pair,ALL,mse,unit,3,0.41045395911316435,0.01152645859207138,0.40112941907053545,0.4185935517900535
+CITE-seq ablations,joint_legacy_random_pair,ALL,median_pearson,unit,3,0.42627696520634095,0.058319137567267795,0.38080073881926957,0.4600024640059485
+CITE-seq ablations,joint_legacy_random_pair,B,mse,unit,3,0.4093007484916597,0.0071108105581447235,0.4039384345163679,0.41500128258596214
+CITE-seq ablations,joint_legacy_random_pair,B,median_pearson,unit,3,0.045022181853390665,0.008906118056006137,0.03848997601346327,0.052209697961225064
+CITE-seq ablations,joint_legacy_random_pair,CD4 T,mse,unit,3,0.42008909592515836,0.017074856705524052,0.4100941417966082,0.43344896106365405
+CITE-seq ablations,joint_legacy_random_pair,CD4 T,median_pearson,unit,3,0.0392442256680607,0.009184135241524026,0.03184917974027495,0.04536944752225449
+CITE-seq ablations,joint_legacy_random_pair,CD8 T,mse,unit,3,0.40878011512991397,0.009592131233794758,0.4012371369446294,0.4145006399058426
+CITE-seq ablations,joint_legacy_random_pair,CD8 T,median_pearson,unit,3,0.036970473597725796,0.012551784485966899,0.027817052926247404,0.047107957845758594
+CITE-seq ablations,joint_legacy_random_pair,DC,mse,unit,3,0.4365269306914083,0.03287742401229411,0.40996405770891303,0.4604275285593411
+CITE-seq ablations,joint_legacy_random_pair,DC,median_pearson,unit,3,0.09629408728770887,0.011138684509168455,0.08740727013486495,0.10479295219864591
+CITE-seq ablations,joint_legacy_random_pair,Mono,mse,unit,3,0.4152609633137694,0.018594429366417538,0.4003752396450312,0.4293368734724243
+CITE-seq ablations,joint_legacy_random_pair,Mono,median_pearson,unit,3,0.057349566711562334,0.01510938523772183,0.046511385361701615,0.0695691187536836
+CITE-seq ablations,joint_legacy_random_pair,NK,mse,unit,3,0.38791234985304374,0.02330383269323593,0.37426016751809843,0.4061500022880777
+CITE-seq ablations,joint_legacy_random_pair,NK,median_pearson,unit,3,0.021842747895539066,0.007099628323744902,0.01615756806845591,0.026423766054060542
+CITE-seq ablations,joint_legacy_random_pair,other,mse,unit,3,0.3903321612271524,0.01743653514841314,0.3793162176795747,0.40423534083778834
+CITE-seq ablations,joint_legacy_random_pair,other,median_pearson,unit,3,0.1474207342484531,0.004041187600666169,0.14431986549965217,0.15063561436400819
+CITE-seq ablations,joint_legacy_random_pair,other T,mse,unit,3,0.4125700982597967,0.01474507899685331,0.40346132044575084,0.4242678748485299
+CITE-seq ablations,joint_legacy_random_pair,other T,median_pearson,unit,3,0.05202609950826797,0.009632545658880156,0.045129657417361045,0.059816951738616536
+CITE-seq ablations,joint_mlp,ALL,mse,unit,3,0.4104867722905639,0.011297689545014335,0.40139205166515673,0.4188840657661092
+CITE-seq ablations,joint_mlp,ALL,median_pearson,unit,3,0.4127440577341181,0.05100036587035684,0.3725038582034096,0.44355674065347545
+CITE-seq ablations,joint_mlp,B,mse,unit,3,0.4094078772523928,0.008239739325593506,0.40336159641710334,0.41605713574847736
+CITE-seq ablations,joint_mlp,B,median_pearson,unit,3,0.04329941392863284,0.008641462506326745,0.038079723670074235,0.05011728801301865
+CITE-seq ablations,joint_mlp,CD4 T,mse,unit,3,0.42139761182590424,0.016856921721100062,0.41115181172554865,0.43471818499937875
+CITE-seq ablations,joint_mlp,CD4 T,median_pearson,unit,3,0.0341071154414733,0.006226710810569612,0.029748812002821496,0.039143345735899976
+CITE-seq ablations,joint_mlp,CD8 T,mse,unit,3,0.4142523697921119,0.008086677222193245,0.4078718903710112,0.419137903916583
+CITE-seq ablations,joint_mlp,CD8 T,median_pearson,unit,3,0.03395210335983533,0.008082731605205682,0.027483377518741293,0.040075272232170944
+CITE-seq ablations,joint_mlp,DC,mse,unit,3,0.42837806633629255,0.03289647085712247,0.4018919993230762,0.4528123845213226
+CITE-seq ablations,joint_mlp,DC,median_pearson,unit,3,0.09917298984447272,0.018171751062910912,0.08473544701251046,0.11046980086989314
+CITE-seq ablations,joint_mlp,Mono,mse,unit,3,0.41262935824315283,0.019211517469124823,0.39763700405684554,0.42773201090804785
+CITE-seq ablations,joint_mlp,Mono,median_pearson,unit,3,0.050494580924872266,0.018531241847456296,0.03616907832683124,0.065169705241966
+CITE-seq ablations,joint_mlp,NK,mse,unit,3,0.38691564279031887,0.024712704817217247,0.3724268672827054,0.40626000161116405
+CITE-seq ablations,joint_mlp,NK,median_pearson,unit,3,0.0213767661254211,0.007355317405332536,0.015456889198187567,0.026267286212862267
+CITE-seq ablations,joint_mlp,other,mse,unit,3,0.38674785898599245,0.01718566623562827,0.3765811149784851,0.40023317289583027
+CITE-seq ablations,joint_mlp,other,median_pearson,unit,3,0.14849629681868773,0.007841039472713284,0.14250216140642732,0.15474633641656269
+CITE-seq ablations,joint_mlp,other T,mse,unit,3,0.41739937575489633,0.016065621264302186,0.40812098402031033,0.4299223970228229
+CITE-seq ablations,joint_mlp,other T,median_pearson,unit,3,0.04731375513076453,0.007894052113932407,0.042749726697975186,0.053469000588959786
+CITE-seq ablations,joint_mouse_labels_swapped,ALL,mse,unit,3,0.41363166175073096,0.011881236766214394,0.4040213773404026,0.4219642660907647
+CITE-seq ablations,joint_mouse_labels_swapped,ALL,median_pearson,unit,3,0.40873248760812203,0.049490900964428035,0.36945387949598874,0.43935777350587113
+CITE-seq ablations,joint_mouse_labels_swapped,B,mse,unit,3,0.4103452814410307,0.008109545699967751,0.40421661149566285,0.4168414452905944
+CITE-seq ablations,joint_mouse_labels_swapped,B,median_pearson,unit,3,0.03692631637564076,0.0068754624464848774,0.03217611745352685,0.04248346073229038
+CITE-seq ablations,joint_mouse_labels_swapped,CD4 T,mse,unit,3,0.42538527266809806,0.017167690801512626,0.41507741215228594,0.4389093081234023
+CITE-seq ablations,joint_mouse_labels_swapped,CD4 T,median_pearson,unit,3,0.03660381114353836,0.006321198929511529,0.03174860646973392,0.04162969207227352
+CITE-seq ablations,joint_mouse_labels_swapped,CD8 T,mse,unit,3,0.41290327129397714,0.008975940199590032,0.4058358063890842,0.4182825541630986
+CITE-seq ablations,joint_mouse_labels_swapped,CD8 T,median_pearson,unit,3,0.035845818297577096,0.011996219801224915,0.027344214788995437,0.04555047509874979
+CITE-seq ablations,joint_mouse_labels_swapped,DC,mse,unit,3,0.4394626816889892,0.038881176273315735,0.4083166431025823,0.46884601338034754
+CITE-seq ablations,joint_mouse_labels_swapped,DC,median_pearson,unit,3,0.0945205692282386,0.02167850720458756,0.07749758442940223,0.10737958997172527
+CITE-seq ablations,joint_mouse_labels_swapped,Mono,mse,unit,3,0.4158138965112379,0.01978764940984304,0.39991610917523274,0.4306339617779789
+CITE-seq ablations,joint_mouse_labels_swapped,Mono,median_pearson,unit,3,0.0518968413084282,0.014337217893473414,0.04086239935894439,0.06328269432813427
+CITE-seq ablations,joint_mouse_labels_swapped,NK,mse,unit,3,0.394727208280182,0.023979664070260233,0.3806360996103779,0.41350948987473246
+CITE-seq ablations,joint_mouse_labels_swapped,NK,median_pearson,unit,3,0.019730520714212232,0.006641044352662192,0.014358075135169863,0.024437375652856606
+CITE-seq ablations,joint_mouse_labels_swapped,other,mse,unit,3,0.38735190355440685,0.01715104086120532,0.37699022941080673,0.4008842482397864
+CITE-seq ablations,joint_mouse_labels_swapped,other,median_pearson,unit,3,0.14973690543837187,0.00505372103220686,0.1457251153463608,0.1536290048839258
+CITE-seq ablations,joint_mouse_labels_swapped,other T,mse,unit,3,0.41645699562061395,0.01609141531349313,0.4065345710744926,0.4292173725988028
+CITE-seq ablations,joint_mouse_labels_swapped,other T,median_pearson,unit,3,0.04549223653048003,0.009275482287950042,0.03850716524234439,0.052931633451526336
+CITE-seq ablations,joint_no_blood_expression,ALL,mse,unit,3,0.4074716415101041,0.012011538995738917,0.39780341502434263,0.41640406819448494
+CITE-seq ablations,joint_no_blood_expression,ALL,median_pearson,unit,3,0.42289906180566333,0.058614550673049014,0.3764710428044356,0.4588711476461197
+CITE-seq ablations,joint_no_blood_expression,B,mse,unit,3,0.40901411379066605,0.007650655817617113,0.4031369705385129,0.4150965496110508
+CITE-seq ablations,joint_no_blood_expression,B,median_pearson,unit,3,0.04590566853425097,0.01352653496376991,0.03668607505615236,0.056825997485664394
+CITE-seq ablations,joint_no_blood_expression,CD4 T,mse,unit,3,0.40389656268304125,0.014547571868096005,0.39458257946230113,0.4155282055634805
+CITE-seq ablations,joint_no_blood_expression,CD4 T,median_pearson,unit,3,0.040069130200489,0.006193935957009229,0.03529805582514525,0.044985523771797105
+CITE-seq ablations,joint_no_blood_expression,CD8 T,mse,unit,3,0.40843037715447794,0.009860223541594944,0.40049390398947116,0.41498945218294725
+CITE-seq ablations,joint_no_blood_expression,CD8 T,median_pearson,unit,3,0.036266585972445864,0.009522019162432695,0.028895870853133162,0.04380031128643409
+CITE-seq ablations,joint_no_blood_expression,DC,mse,unit,3,0.4312366713281898,0.032341976227940626,0.4051349478912363,0.4549534481689555
+CITE-seq ablations,joint_no_blood_expression,DC,median_pearson,unit,3,0.10257622052854258,0.008613125281870112,0.09578327695338867,0.10777107045401842
+CITE-seq ablations,joint_no_blood_expression,Mono,mse,unit,3,0.4191242703569254,0.01863264823366534,0.40455208804314247,0.4337426867363752
+CITE-seq ablations,joint_no_blood_expression,Mono,median_pearson,unit,3,0.0499736505600682,0.01513788484613325,0.03791286347437891,0.06155636196064465
+CITE-seq ablations,joint_no_blood_expression,NK,mse,unit,3,0.38760182986013764,0.024103358267371203,0.37341983089683617,0.4064876088988967
+CITE-seq ablations,joint_no_blood_expression,NK,median_pearson,unit,3,0.023085528676879668,0.006669740468305816,0.017858161039343304,0.027013770087206613
+CITE-seq ablations,joint_no_blood_expression,other,mse,unit,3,0.39011851753596033,0.015213279435163507,0.38103553198577295,0.4020853219559372
+CITE-seq ablations,joint_no_blood_expression,other,median_pearson,unit,3,0.14858406816174952,0.004333579115660888,0.14539087565053427,0.15207877972079367
+CITE-seq ablations,joint_no_blood_expression,other T,mse,unit,3,0.4067653410158874,0.011251336145684635,0.39924100211854757,0.4158283160256577
+CITE-seq ablations,joint_no_blood_expression,other T,median_pearson,unit,3,0.05171234044218037,0.00907288914302621,0.04537947301719607,0.05904979827735182
+CITE-seq ablations,joint_no_disease_condition,ALL,mse,unit,3,0.4114142592685918,0.012060474075109181,0.40169446640370765,0.42033099838964905
+CITE-seq ablations,joint_no_disease_condition,ALL,median_pearson,unit,3,0.4172148810063175,0.05398262696007423,0.3748959626385683,0.4490374668670647
+CITE-seq ablations,joint_no_disease_condition,B,mse,unit,3,0.4080862815026194,0.007508278828011551,0.4025500195344821,0.41414041599380735
+CITE-seq ablations,joint_no_disease_condition,B,median_pearson,unit,3,0.042926162040433063,0.011618113787958283,0.03590343281878771,0.05209420914307755
+CITE-seq ablations,joint_no_disease_condition,CD4 T,mse,unit,3,0.42281423297910287,0.017424102886258,0.41235507156178797,0.4365393582462621
+CITE-seq ablations,joint_no_disease_condition,CD4 T,median_pearson,unit,3,0.03554621153574597,0.007648795826716322,0.029412415070840563,0.04130882798392569
+CITE-seq ablations,joint_no_disease_condition,CD8 T,mse,unit,3,0.4112899787724018,0.009221936993151558,0.4040542038468023,0.416744033099773
+CITE-seq ablations,joint_no_disease_condition,CD8 T,median_pearson,unit,3,0.0333177905122098,0.009756497088237613,0.025451338779012872,0.04051423366364795
+CITE-seq ablations,joint_no_disease_condition,DC,mse,unit,3,0.4336181285990668,0.03386101098652125,0.4063223471310699,0.45862195005396467
+CITE-seq ablations,joint_no_disease_condition,DC,median_pearson,unit,3,0.09236597769622784,0.014145781228684868,0.08096909493574447,0.10184088342259298
+CITE-seq ablations,joint_no_disease_condition,Mono,mse,unit,3,0.4158154985080251,0.019907461327428325,0.4003645841018408,0.4315354924582477
+CITE-seq ablations,joint_no_disease_condition,Mono,median_pearson,unit,3,0.05332466107054971,0.02115022443476213,0.03782707877413553,0.07039598980957605
+CITE-seq ablations,joint_no_disease_condition,NK,mse,unit,3,0.3869654408467578,0.0249353600936172,0.3723330422091143,0.40648887497871844
+CITE-seq ablations,joint_no_disease_condition,NK,median_pearson,unit,3,0.023176024285910632,0.00599332050436722,0.018424966774676876,0.02686644804530933
+CITE-seq ablations,joint_no_disease_condition,other,mse,unit,3,0.3888274847552003,0.016684501293568785,0.3791305995684871,0.40185605357234766
+CITE-seq ablations,joint_no_disease_condition,other,median_pearson,unit,3,0.14422675581085806,0.006103827209881412,0.13981376704513465,0.14916073079079603
+CITE-seq ablations,joint_no_disease_condition,other T,mse,unit,3,0.4175974404816294,0.01822272654598786,0.40582144912332296,0.432193853727187
+CITE-seq ablations,joint_no_disease_condition,other T,median_pearson,unit,3,0.04955784972549054,0.0052605931534494355,0.04540180943807409,0.0536381777141935
+CITE-seq ablations,joint_no_reconstruction,ALL,mse,unit,3,0.41557011842018077,0.01099860030470396,0.40677467604289713,0.4239184095191636
+CITE-seq ablations,joint_no_reconstruction,ALL,median_pearson,unit,3,0.4066519573200354,0.04900563998473295,0.3672926014222377,0.4388039491380622
+CITE-seq ablations,joint_no_reconstruction,B,mse,unit,3,0.4119463113269635,0.00787664925026189,0.406110699622271,0.41829159261680965
+CITE-seq ablations,joint_no_reconstruction,B,median_pearson,unit,3,0.040575476262811896,0.00872289241623175,0.03529096261332766,0.047462763145920704
+CITE-seq ablations,joint_no_reconstruction,CD4 T,mse,unit,3,0.42503643421167947,0.016206085958167016,0.4153749281765028,0.43777924588426853
+CITE-seq ablations,joint_no_reconstruction,CD4 T,median_pearson,unit,3,0.030658169683724697,0.006888009621688891,0.025366612688360747,0.03613412629392343
+CITE-seq ablations,joint_no_reconstruction,CD8 T,mse,unit,3,0.4150459652467231,0.007706992565240028,0.40894978886381506,0.41974899940929994
+CITE-seq ablations,joint_no_reconstruction,CD8 T,median_pearson,unit,3,0.028267870428341304,0.00787162516995633,0.021974745068446495,0.034246579325067604
+CITE-seq ablations,joint_no_reconstruction,DC,mse,unit,3,0.43859472200052724,0.033256288337318585,0.4117479214949223,0.4629364937732351
+CITE-seq ablations,joint_no_reconstruction,DC,median_pearson,unit,3,0.09297521843498867,0.012092499355447879,0.08320039818350182,0.10134207109117864
+CITE-seq ablations,joint_no_reconstruction,Mono,mse,unit,3,0.4218606748063827,0.018525983067658656,0.4080868011096581,0.4367732244183398
+CITE-seq ablations,joint_no_reconstruction,Mono,median_pearson,unit,3,0.04951458286924687,0.016643579624763722,0.03635841964247357,0.062414421827665205
+CITE-seq ablations,joint_no_reconstruction,NK,mse,unit,3,0.3907797516246016,0.023766116413725724,0.37679859009831923,0.40940041644276953
+CITE-seq ablations,joint_no_reconstruction,NK,median_pearson,unit,3,0.02158375298368953,0.0070226386812616715,0.015993693794073355,0.025986069391823647
+CITE-seq ablations,joint_no_reconstruction,other,mse,unit,3,0.3865018856179501,0.01370657470884964,0.3785136451844924,0.39721332450530356
+CITE-seq ablations,joint_no_reconstruction,other,median_pearson,unit,3,0.13875887255993788,0.008627721386668532,0.1318621842508339,0.14531390483606105
+CITE-seq ablations,joint_no_reconstruction,other T,mse,unit,3,0.4219407051457979,0.01945594762437752,0.41065417488959305,0.4371254932825519
+CITE-seq ablations,joint_no_reconstruction,other T,median_pearson,unit,3,0.04526283451479767,0.003138278984645264,0.042781525224191264,0.04769437569717817
+CITE-seq ablations,joint_no_species_condition,ALL,mse,unit,3,0.4130729111798462,0.011882101063521224,0.4034998407254794,0.4218713195617532
+CITE-seq ablations,joint_no_species_condition,ALL,median_pearson,unit,3,0.41443393534621403,0.04831362030962,0.3761072715645965,0.44427247923069824
+CITE-seq ablations,joint_no_species_condition,B,mse,unit,3,0.41033633318286206,0.007898912684196043,0.4045463426648417,0.4167115685607617
+CITE-seq ablations,joint_no_species_condition,B,median_pearson,unit,3,0.03868259543328507,0.00899962224786473,0.032869999139233136,0.04589055317224793
+CITE-seq ablations,joint_no_species_condition,CD4 T,mse,unit,3,0.42400391582244384,0.016888126917351327,0.4138772827512141,0.43730317193188795
+CITE-seq ablations,joint_no_species_condition,CD4 T,median_pearson,unit,3,0.03493189518179027,0.005956895181706808,0.031027954111536794,0.03971534810981967
+CITE-seq ablations,joint_no_species_condition,CD8 T,mse,unit,3,0.413003905720654,0.007736611948626552,0.4069475411293318,0.41754082582996316
+CITE-seq ablations,joint_no_species_condition,CD8 T,median_pearson,unit,3,0.0347687453301371,0.009395682501410029,0.027171820777719208,0.04129883983418881
+CITE-seq ablations,joint_no_species_condition,DC,mse,unit,3,0.43824558661851504,0.0365654423797212,0.4088255526886011,0.4654833410096
+CITE-seq ablations,joint_no_species_condition,DC,median_pearson,unit,3,0.09378683628522026,0.019152416381917146,0.07829302257233697,0.1073677938446917
+CITE-seq ablations,joint_no_species_condition,Mono,mse,unit,3,0.41800233224473354,0.01955084067819653,0.40261740428977644,0.43324186883068505
+CITE-seq ablations,joint_no_species_condition,Mono,median_pearson,unit,3,0.05206263210673987,0.01914875169411474,0.03734879321466317,0.06728393689818966
+CITE-seq ablations,joint_no_species_condition,NK,mse,unit,3,0.38710488024766426,0.02510409072606703,0.3723945129033555,0.40675271700990073
+CITE-seq ablations,joint_no_species_condition,NK,median_pearson,unit,3,0.0224303926267224,0.005819994091154806,0.01772300142446389,0.026507018900800386
+CITE-seq ablations,joint_no_species_condition,other,mse,unit,3,0.38861585734412074,0.017993511570572742,0.3780397437834402,0.4027103903614694
+CITE-seq ablations,joint_no_species_condition,other,median_pearson,unit,3,0.1456028251006896,0.004411934200607578,0.14214512991156708,0.1490571477955676
+CITE-seq ablations,joint_no_species_condition,other T,mse,unit,3,0.41845109868085095,0.017338672104364114,0.4074209645983674,0.4322963858134157
+CITE-seq ablations,joint_no_species_condition,other T,median_pearson,unit,3,0.046840540650515766,0.005934716622285188,0.04207781534783644,0.050716066155299694
+CITE-seq ablations,joint_protein_shuffled,ALL,mse,unit,3,0.41727407222303253,0.0141643226288509,0.4058174358824977,0.42719800350134307
+CITE-seq ablations,joint_protein_shuffled,ALL,median_pearson,unit,3,0.40107460522239125,0.042116545546539236,0.3679179818439851,0.42630029286688553
+CITE-seq ablations,joint_protein_shuffled,B,mse,unit,3,0.4102440011864971,0.008745943749627094,0.4036493519542827,0.4172556451693665
+CITE-seq ablations,joint_protein_shuffled,B,median_pearson,unit,3,0.029603793431645403,0.012789286286479037,0.019476649041074455,0.03949172841266901
+CITE-seq ablations,joint_protein_shuffled,CD4 T,mse,unit,3,0.4270183631119185,0.017779494206204397,0.41582813209665576,0.44118342132479443
+CITE-seq ablations,joint_protein_shuffled,CD4 T,median_pearson,unit,3,0.024237270706905834,0.0077899114605759125,0.018859519678117987,0.03053317730876247
+CITE-seq ablations,joint_protein_shuffled,CD8 T,mse,unit,3,0.4128782325867741,0.010754429665689328,0.40445431165142165,0.4191989844615039
+CITE-seq ablations,joint_protein_shuffled,CD8 T,median_pearson,unit,3,0.026563704652790097,0.008985609585056823,0.020654688077416022,0.03378335027064234
+CITE-seq ablations,joint_protein_shuffled,DC,mse,unit,3,0.4347054442568194,0.037824470447205424,0.40417458391194006,0.46241473030365465
+CITE-seq ablations,joint_protein_shuffled,DC,median_pearson,unit,3,0.08494075125958983,0.015365101285110443,0.07294832745431006,0.09385526454034634
+CITE-seq ablations,joint_protein_shuffled,Mono,mse,unit,3,0.427348628074729,0.022997202040134914,0.40880015055327457,0.4442786074864367
+CITE-seq ablations,joint_protein_shuffled,Mono,median_pearson,unit,3,0.0341233210398684,0.010653460781313602,0.026249322464599146,0.042709701066678145
+CITE-seq ablations,joint_protein_shuffled,NK,mse,unit,3,0.392365079068224,0.02561537934675903,0.3773812431534419,0.4124034632823341
+CITE-seq ablations,joint_protein_shuffled,NK,median_pearson,unit,3,0.020555252791936467,0.00597269506129454,0.015754105208653474,0.025020029052337762
+CITE-seq ablations,joint_protein_shuffled,other,mse,unit,3,0.3911814618123961,0.02007197487604094,0.3766168527316213,0.4074013299114691
+CITE-seq ablations,joint_protein_shuffled,other,median_pearson,unit,3,0.1382795216490081,0.005893860196188827,0.13355293715560396,0.1427196259217413
+CITE-seq ablations,joint_protein_shuffled,other T,mse,unit,3,0.420399409081299,0.023306648518636144,0.40418341295194943,0.4392451965485677
+CITE-seq ablations,joint_protein_shuffled,other T,median_pearson,unit,3,0.03450839563472746,0.0038260471537895856,0.031669816540435984,0.03758966676880903
+CITE-seq ablations,joint_protein_weight_01,ALL,mse,unit,3,0.4426045286402638,0.012925645815995503,0.4323640414480386,0.4505441630392202
+CITE-seq ablations,joint_protein_weight_01,ALL,median_pearson,unit,3,0.367583377110992,0.03769409380513732,0.33713456889628896,0.3934326921490559
+CITE-seq ablations,joint_protein_weight_01,B,mse,unit,3,0.42335034498856183,0.0089932754350778,0.41757565608048536,0.4305451416055716
+CITE-seq ablations,joint_protein_weight_01,B,median_pearson,unit,3,0.028774000221173563,0.009745857594137852,0.021375163719109466,0.03656701934963121
+CITE-seq ablations,joint_protein_weight_01,CD4 T,mse,unit,3,0.4428308616347965,0.01975373660849831,0.4313135335745755,0.45826982823089646
+CITE-seq ablations,joint_protein_weight_01,CD4 T,median_pearson,unit,3,0.017644686684357667,0.007216071336680178,0.01265872947963176,0.023477165914109678
+CITE-seq ablations,joint_protein_weight_01,CD8 T,mse,unit,3,0.42183558900641005,0.006856109497122811,0.41644042380059887,0.42593515788598557
+CITE-seq ablations,joint_protein_weight_01,CD8 T,median_pearson,unit,3,0.024291907044461564,0.00821055910329467,0.017776686474575656,0.030619264179974542
+CITE-seq ablations,joint_protein_weight_01,DC,mse,unit,3,0.4776254810304159,0.05409314086797642,0.4343742720599818,0.5186984891349095
+CITE-seq ablations,joint_protein_weight_01,DC,median_pearson,unit,3,0.07311614570160196,0.023969297373670533,0.054568074872725185,0.09208459811354089
+CITE-seq ablations,joint_protein_weight_01,Mono,mse,unit,3,0.4490981787010761,0.021393887313689557,0.4319928284482254,0.46534382218073694
+CITE-seq ablations,joint_protein_weight_01,Mono,median_pearson,unit,3,0.052689750581647966,0.014514959861848111,0.04130361060662761,0.06404336483713098
+CITE-seq ablations,joint_protein_weight_01,NK,mse,unit,3,0.4674626660167373,0.023526314242268885,0.45126301180294137,0.4864733045973393
+CITE-seq ablations,joint_protein_weight_01,NK,median_pearson,unit,3,0.0125805043266263,0.006249561442091197,0.007775650554954732,0.017546646603914143
+CITE-seq ablations,joint_protein_weight_01,other,mse,unit,3,0.40131629289438325,0.01713477140511459,0.3893256015260704,0.41517497453217705
+CITE-seq ablations,joint_protein_weight_01,other,median_pearson,unit,3,0.1360859968844691,0.014172161508288253,0.1251290515783581,0.14730826877191444
+CITE-seq ablations,joint_protein_weight_01,other T,mse,unit,3,0.4382287667055304,0.02792952544370889,0.4204293167473571,0.4605392879415635
+CITE-seq ablations,joint_protein_weight_01,other T,median_pearson,unit,3,0.02146822989310197,0.009510119647289891,0.013778158713024426,0.028088030489517208
+CITE-seq ablations,joint_random_projection,ALL,mse,unit,3,0.40873389092407053,0.015594511735067478,0.39636274988519116,0.4207568372278252
+CITE-seq ablations,joint_random_projection,ALL,median_pearson,unit,3,0.4262912375825579,0.052575861293218104,0.3846717798721687,0.45847644011220573
+CITE-seq ablations,joint_random_projection,B,mse,unit,3,0.41358797686795395,0.005896330379296653,0.40907493532091993,0.41828495875233784
+CITE-seq ablations,joint_random_projection,B,median_pearson,unit,3,0.037578059602480236,0.010873003516717642,0.030647920008280292,0.046263779132270144
+CITE-seq ablations,joint_random_projection,CD4 T,mse,unit,3,0.4109422471152529,0.012852216969030906,0.4026767386378543,0.42122741408335657
+CITE-seq ablations,joint_random_projection,CD4 T,median_pearson,unit,3,0.041471226548758795,0.006839798284179091,0.03593872928019016,0.04626941376917646
+CITE-seq ablations,joint_random_projection,CD8 T,mse,unit,3,0.4008177661813706,0.008002995823151678,0.3943867354379368,0.40608504164708953
+CITE-seq ablations,joint_random_projection,CD8 T,median_pearson,unit,3,0.032189511306212504,0.007444576620012248,0.026335104901347915,0.03799684752457476
+CITE-seq ablations,joint_random_projection,DC,mse,unit,3,0.42434825232651613,0.029712778174915216,0.4003189038712575,0.44567174736099935
+CITE-seq ablations,joint_random_projection,DC,median_pearson,unit,3,0.12680192126461018,0.009110982047456237,0.11946258904976181,0.13289743795875447
+CITE-seq ablations,joint_random_projection,Mono,mse,unit,3,0.41598044395158507,0.030976491652803088,0.392583560367902,0.4407993173714549
+CITE-seq ablations,joint_random_projection,Mono,median_pearson,unit,3,0.059760657048298034,0.018284705592440782,0.045963883089481045,0.07441594451568533
+CITE-seq ablations,joint_random_projection,NK,mse,unit,3,0.394396509248985,0.022616541382361313,0.3813008715645299,0.4120388215557405
+CITE-seq ablations,joint_random_projection,NK,median_pearson,unit,3,0.021883903325827833,0.007862682169860205,0.015552685189145052,0.027721129931029133
+CITE-seq ablations,joint_random_projection,other,mse,unit,3,0.395587607896665,0.016957526460629663,0.3849169752615992,0.4090971735610981
+CITE-seq ablations,joint_random_projection,other,median_pearson,unit,3,0.14896287895461138,0.010923861650533004,0.14154551079143787,0.15777851206672386
+CITE-seq ablations,joint_random_projection,other T,mse,unit,3,0.4017617726765041,0.011370350601399187,0.3935451327163415,0.4109532424110165
+CITE-seq ablations,joint_random_projection,other T,median_pearson,unit,3,0.056484703354443166,0.009596504196426003,0.04989610548032727,0.06423740623797479
+CITE-seq ablations,joint_shuffled_esm,ALL,mse,unit,3,0.41009505483366193,0.013877743469997124,0.3992248540422657,0.4209666514719304
+CITE-seq ablations,joint_shuffled_esm,ALL,median_pearson,unit,3,0.4114717980429749,0.04887613877286008,0.3727118115689401,0.44161531899950884
+CITE-seq ablations,joint_shuffled_esm,B,mse,unit,3,0.41171947359994404,0.007854819416958262,0.40609046865110504,0.4180722447428186
+CITE-seq ablations,joint_shuffled_esm,B,median_pearson,unit,3,0.04238653935426637,0.011345622610380688,0.034691383696778724,0.05154142214525652
+CITE-seq ablations,joint_shuffled_esm,CD4 T,mse,unit,3,0.414100236431252,0.015433759007025838,0.4043881263007365,0.4263959490128659
+CITE-seq ablations,joint_shuffled_esm,CD4 T,median_pearson,unit,3,0.03696555579882303,0.005688397550467829,0.03260385781727463,0.04149260061687689
+CITE-seq ablations,joint_shuffled_esm,CD8 T,mse,unit,3,0.41189523727544364,0.00986992077329054,0.404069112115983,0.41797918175746285
+CITE-seq ablations,joint_shuffled_esm,CD8 T,median_pearson,unit,3,0.029553838790207797,0.007302751321886251,0.02444106586437856,0.03546043460809164
+CITE-seq ablations,joint_shuffled_esm,DC,mse,unit,3,0.4218022509234114,0.028461108498243785,0.39879354775739123,0.44152863186318425
+CITE-seq ablations,joint_shuffled_esm,DC,median_pearson,unit,3,0.11761254923139201,0.012820510490007991,0.10733889353169446,0.1259166421917986
+CITE-seq ablations,joint_shuffled_esm,Mono,mse,unit,3,0.4177112577183704,0.02557375467567822,0.399574433368287,0.4383997545073119
+CITE-seq ablations,joint_shuffled_esm,Mono,median_pearson,unit,3,0.053245620240534565,0.01852316463925901,0.038833258422550705,0.06784392931178479
+CITE-seq ablations,joint_shuffled_esm,NK,mse,unit,3,0.3867986463453798,0.024775085785700795,0.37202217692309725,0.40628147732377756
+CITE-seq ablations,joint_shuffled_esm,NK,median_pearson,unit,3,0.021616240383842633,0.005497133142967562,0.017222488888732495,0.02512962651489719
+CITE-seq ablations,joint_shuffled_esm,other,mse,unit,3,0.392042547996555,0.014018905566227695,0.3820949479316672,0.40338343536436916
+CITE-seq ablations,joint_shuffled_esm,other,median_pearson,unit,3,0.15435424362949446,0.005869558037121816,0.15014811279258247,0.15910139607568916
+CITE-seq ablations,joint_shuffled_esm,other T,mse,unit,3,0.41109478269104976,0.014487485914037196,0.4014941223339909,0.4227491494018717
+CITE-seq ablations,joint_shuffled_esm,other T,median_pearson,unit,3,0.04870808074915497,0.008703636866425401,0.04365878672274117,0.05550110614908851

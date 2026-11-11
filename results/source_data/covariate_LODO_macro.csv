@@ -1,0 +1,16 @@
+excluded_donor,model,mse,n_types
+GSE157827:AD10,full_model_unscaled,0.012343698404301676,8
+GSE157827:AD10,no_blood_model_unscaled,0.013372967614572968,8
+GSE157827:AD10,validation_optimized_brain_only,0.011602326919187167,8
+GSE157827:AD4,full_model_unscaled,0.00897547468865819,8
+GSE157827:AD4,no_blood_model_unscaled,0.009525633040228697,8
+GSE157827:AD4,validation_optimized_brain_only,0.009807013198509311,8
+GSE157827:NC18,full_model_unscaled,0.011191628088802386,8
+GSE157827:NC18,no_blood_model_unscaled,0.0120431650158482,8
+GSE157827:NC18,validation_optimized_brain_only,0.011154132178566043,8
+GSE157827:NC7,full_model_unscaled,0.008684716781236244,8
+GSE157827:NC7,no_blood_model_unscaled,0.009412607416032233,8
+GSE157827:NC7,validation_optimized_brain_only,0.0088123797162092,8
+all_test_donors,full_model_unscaled,0.005563516797436475,8
+all_test_donors,no_blood_model_unscaled,0.0063532305783573755,8
+all_test_donors,validation_optimized_brain_only,0.0056086003098047826,8

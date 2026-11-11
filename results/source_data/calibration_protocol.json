@@ -1,0 +1,42 @@
+{
+  "created": "2026-11-10",
+  "scope": "All 25790 coordinates, all original training data available, all observable human validation routes and four original validation donors. No feature/cell-type exclusion. 1024 source/target evaluation cap unchanged.",
+  "sources": [
+    "world_model",
+    "cellot",
+    "scgen",
+    "linear_latent_transport",
+    "condition_marginal",
+    "condition_mean",
+    "condition_gaussian",
+    "condition_only_world"
+  ],
+  "calibration": {
+    "location_weight": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "scalar_spread": [
+      0.5,
+      0.75,
+      1.0,
+      1.5,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "diagonal_match_fraction": [
+      0.5,
+      1.0
+    ],
+    "diagonal_gain_bounds": [
+      0.1,
+      10.0
+    ],
+    "description": "Predicted means blend toward donor-balanced training target means; centered predicted cells receive either a common scalar or a blend toward per-coordinate training target SD. Gain uses original predicted variance and training target variance, never validation/test target variance. Same candidate family for all nonconstant transport methods and empirical marginal baseline. Condition mean remains fixed; diagonal Gaussian uses the common scalar grid, since its mean and per-gene SD are already the training moments."
+  },
+  "selection": "One global candidate per method minimizes validation donor-macro energy distance: equal routes inside each donor, equal donors. No route-specific or test-selected calibration parameters. MMD-squared and mean-expression MSE always retained as secondary metrics.",
+  "test_policy": "This stage does not access test target expressions. A later confirmation requires saved validation selection and evaluates only selected plus native candidates for every method. The existing benchmark test set has previously been examined and is not called new blind validation.",
+  "controls": "All external models, native controls, matched calibrated controls, empirical target marginal, target mean, diagonal target Gaussian, and world-model source-expression ablation remain in reporting."
+}

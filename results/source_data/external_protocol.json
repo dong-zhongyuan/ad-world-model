@@ -1,0 +1,91 @@
+{
+  "created": "2026-11-10",
+  "seed": 42,
+  "feature_policy": "All 25790 coordinates, original order and preprocessing; original five RNA datasets and training CITE RNA included. No held-out cell used in representation training.",
+  "models": {
+    "scgen": {
+      "source": "https://github.com/theislab/scgen",
+      "commit": "d79e1f04233c30f9a4eb5b8d57718127909807d7",
+      "module": "official SCGENVAE",
+      "hidden": 800,
+      "layers": 2,
+      "latent": 100,
+      "dropout": 0.2,
+      "kl_weight": 5e-05,
+      "lr": 0.001,
+      "weight_decay": 1e-06,
+      "adaptation": "Tissue/celltype/condition-specific training latent centroid shift; donor-balanced source and target arithmetic; target-specific shift learned only from training populations."
+    },
+    "cellot": {
+      "source": "https://github.com/bunnech/cellot",
+      "commit": "522d2b953da8ad244fcf36f64521487fdf763788",
+      "representation": "Official CellOT repository AutoEncoder",
+      "ae_hidden": [
+        512,
+        512
+      ],
+      "latent": 50,
+      "lr": 0.001,
+      "weight_decay": 1e-05,
+      "icnn_hidden": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "icnn_lr": 0.0001,
+      "betas": [
+        0.5,
+        0.9
+      ],
+      "g_fnorm_penalty": 1.0,
+      "inner_steps": 10,
+      "max_outer_steps": 10000,
+      "validation_every": 1000,
+      "patience": 4,
+      "min_outer_steps": 4000,
+      "adaptation": "Independent official-architecture ICNN pair for each observable human route and mouse CTRL Mono-to-Micro, evaluated in parallel with numerical equivalence checks."
+    }
+  },
+  "representation_training": {
+    "batch_size": 1024,
+    "precision": "FP32",
+    "max_steps": 20000,
+    "minimum_steps": 5000,
+    "validation_every": 1000,
+    "early_stop_patience": 5,
+    "selection": "Validation reconstruction MSE averaged over held-out human-brain and CITE donors; fixed seeded cell sample up to 256 per donor; no test access",
+    "sampling": "Uniform over all training cells; all training cells eligible",
+    "loss": "Unchanged official reconstruction objectives on original full-coordinate input matrix"
+  },
+  "cellot_selection": "Validation latent MMD plus 0.1 mean-MSE using training-only frozen scale; route-wise best validation checkpoint. Mouse CTRL Mono-to-Micro uses internal 20 percent unit-balanced training-cell holdout (no external LPS targets), clearly marked internal validation.",
+  "evaluation": {
+    "human": "Original locked four test brain donors; all observable routes; identical original seeded source cells and target cells (1024 cap); same assay masks/scales; unchanged frozen world model using corrected prescribed latent-noise inference.",
+    "lps": "Original eight animal inputs, 128 fixed source cells each, 11330 frozen response coordinates, same reciprocal train4/test4 processing folds; alpha1 gene-wise source-only, model-only and source-plus-model ridge fitted separately within training fold. Direct predictions also reported.",
+    "controls": [
+      "condition_mean",
+      "condition_marginal",
+      "source_only_ridge",
+      "zero_response",
+      "linear_latent_transport"
+    ],
+    "primary_metrics": [
+      "donor-macro mean-expression MSE",
+      "donor-macro energy distance",
+      "LPS mean animal-level relative MSE reduction",
+      "LPS MSE relative to strongest non-world combined baseline",
+      "all-test-sample win counts"
+    ],
+    "secondary_metrics": [
+      "MMD",
+      "mean expression Pearson",
+      "LPS delta Pearson",
+      "Top100 overlap",
+      "direction accuracy on observed top100",
+      "response calibration slope",
+      "disease-contrast MSE"
+    ],
+    "aggregation": "Human: equal routes within each donor, then equal donors. LPS: equal animals; response genes are not independent replication. No post-test metric or subset selection; all results retained.",
+    "test_policy": "Existing tests are previously examined benchmarks, not new blind validation. No test-based training, hyperparameter or checkpoint selection. No claim of independent peripheral blood collection in GSE245309."
+  }
+}

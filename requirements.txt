@@ -17,6 +17,8 @@ matplotlib>=3.9,<4
 umap-learn>=0.5.6,<1
 anndata>=0.10,<1
 scanpy>=1.10,<2
+igraph>=0.11,<2
+leidenalg>=0.10,<1
 h5py>=3.10,<4
 multixrank==0.3
 vina>=1.2.5,<2

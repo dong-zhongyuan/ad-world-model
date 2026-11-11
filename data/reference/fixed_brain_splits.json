@@ -1,0 +1,23 @@
+{
+  "GSE157827:AD1": "train",
+  "GSE157827:AD2": "val",
+  "GSE157827:AD4": "test",
+  "GSE157827:AD5": "train",
+  "GSE157827:AD6": "train",
+  "GSE157827:AD8": "train",
+  "GSE157827:AD9": "train",
+  "GSE157827:AD10": "test",
+  "GSE157827:AD13": "train",
+  "GSE157827:AD19": "train",
+  "GSE157827:AD20": "val",
+  "GSE157827:AD21": "train",
+  "GSE157827:NC3": "train",
+  "GSE157827:NC7": "test",
+  "GSE157827:NC11": "train",
+  "GSE157827:NC12": "val",
+  "GSE157827:NC14": "train",
+  "GSE157827:NC15": "val",
+  "GSE157827:NC16": "train",
+  "GSE157827:NC17": "train",
+  "GSE157827:NC18": "test"
+}
